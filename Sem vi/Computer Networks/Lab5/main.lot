@@ -1,0 +1,44 @@
+\subsection *{Activity A}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {1}{\ignorespaces IP address and subnet masks for the PCs in the network\relax }}{3}{table.caption.62}%
+\contentsline {table}{\numberline {2}{\ignorespaces IP address and subnet masks for the gigabitethernet interfaces on the routers\relax }}{3}{table.caption.64}%
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {3}{\ignorespaces Observation for ping tests from PC2 to other PCs and router interfaces\relax }}{7}{table.caption.66}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {4}{\ignorespaces Observation for ping tests from PC4 to other PCs and router interfaces\relax }}{10}{table.caption.68}%
+\subsubsection *{Sub activity 4}
+\contentsline {table}{\numberline {5}{\ignorespaces Observation for ping tests from PC6 to other PCs and router interfaces\relax }}{13}{table.caption.70}%
+\subsubsection *{Sub activity 6}
+\contentsline {table}{\numberline {6}{\ignorespaces Observation for ping tests from PC2 or PC4 or PC6 to other PCs and router interfaces\relax }}{23}{table.caption.73}%
+\subsection *{Activity B}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {7}{\ignorespaces Configuration parameters for routers\relax }}{24}{table.caption.78}%
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {8}{\ignorespaces IP address and subnet masks for the gigabitethernet interfaces on the routers\relax }}{25}{table.caption.81}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {9}{\ignorespaces IP address and subnet masks for the PCs and servers in the network\relax }}{25}{table.caption.84}%
+\subsubsection *{Sub activity 6}
+\contentsline {table}{\numberline {10}{\ignorespaces Observation for ping tests from PC0 to other PCs, servers and router interfaces\relax }}{33}{table.caption.87}%
+\subsubsection *{Sub activity 7}
+\contentsline {table}{\numberline {11}{\ignorespaces Observation for ping tests from PC1 to other PCs, servers and router interfaces\relax }}{38}{table.caption.89}%
+\subsubsection *{Sub activity 8}
+\contentsline {table}{\numberline {12}{\ignorespaces Observation for ping tests from PC2 to other PCs, servers and router interfaces\relax }}{44}{table.caption.91}%
+\subsubsection *{Sub activity 9}
+\contentsline {table}{\numberline {13}{\ignorespaces Observation for ping tests from PC3 to other PCs, servers and router interfaces\relax }}{49}{table.caption.93}%
+\subsubsection *{Sub activity 10}
+\contentsline {table}{\numberline {14}{\ignorespaces Observation for ping tests from Router 0 to other PCs, servers and router interfaces\relax }}{52}{table.caption.95}%
+\subsubsection *{Sub activity 11}
+\contentsline {table}{\numberline {15}{\ignorespaces Observation for ping tests from Router 1 to other PCs, servers and router interfaces\relax }}{55}{table.caption.97}%
+\subsubsection *{Sub activity 12}
+\contentsline {table}{\numberline {16}{\ignorespaces Observation for ping tests from Router 2 to other PCs, servers and router interfaces\relax }}{58}{table.caption.99}%
+\subsubsection *{Sub activity 13}
+\contentsline {table}{\numberline {17}{\ignorespaces Observation for ping tests from Router 3 to other PCs, servers and router interfaces\relax }}{61}{table.caption.101}%
+\subsubsection *{Sub activity 17}
+\contentsline {table}{\numberline {18}{\ignorespaces Observation for ping tests from PC0, PC1, PC2 and PC3 to other PCs, servers and router interfaces\relax }}{80}{table.caption.106}%
+\contentsline {table}{\numberline {19}{\ignorespaces Observation for ping tests from Router 0 to other PCs, servers and router interfaces\relax }}{80}{table.caption.107}%
+\contentsline {table}{\numberline {20}{\ignorespaces Observation for ping tests from Router 1 to other PCs, servers and router interfaces\relax }}{81}{table.caption.108}%
+\contentsline {table}{\numberline {21}{\ignorespaces Observation for ping tests from Router 2 to other PCs, servers and router interfaces\relax }}{81}{table.caption.109}%
+\contentsline {table}{\numberline {22}{\ignorespaces Observation for ping tests from Router 3 to other PCs, servers and router interfaces\relax }}{82}{table.caption.110}%
+\subsection *{Activity C}
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {23}{\ignorespaces Observation for ping tests from PC0, PC1, PC2 and PC3 to other PCs, servers and router interfaces\relax }}{86}{table.caption.115}%

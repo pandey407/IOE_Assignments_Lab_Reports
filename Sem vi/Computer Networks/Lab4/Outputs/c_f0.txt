@@ -1,0 +1,11 @@
+C:\>telnet 200.200.20.1
+Trying 200.200.20.1 ...Open
+
+User Access Verification
+
+Password: 
+Ashlesh>enable
+Password: 
+Ashlesh#config terminal
+Ashlesh(config)#ip route 200.200.20.96 255.255.255.224 200.200.20.66
+Ashlesh(config)#exit

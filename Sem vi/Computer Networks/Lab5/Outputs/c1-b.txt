@@ -1,0 +1,9 @@
+Pandey_1>enable
+Password: 
+Pandey_1#configure terminal
+
+Pandey_1(config)#no ip route 202.60.5.0 255.255.255.0 202.60.3.2
+Pandey_1(config)#no ip route 202.60.4.0 255.255.255.0 202.60.3.2
+Pandey_1(config)#no ip route 202.60.6.0 255.255.255.0 202.60.3.2
+Pandey_1(config)#ip route 0.0.0.0 0.0.0.0 202.60.3.2
+Pandey_1(config)#

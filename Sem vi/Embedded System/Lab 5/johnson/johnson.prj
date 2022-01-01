@@ -1,0 +1,2 @@
+vhdl work "../Codes/dff_be.vhd"
+vhdl work "../Codes/john_st.vhd"

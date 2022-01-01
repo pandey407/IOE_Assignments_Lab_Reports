@@ -1,0 +1,23 @@
+Running: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/johnson_tb_isim_beh.exe -prj P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/johnson_tb_beh.prj work.johnson_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/../Codes/dff_be.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/../Codes/john_st.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/../Codes/john_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture struc of entity dff [dff_default]
+Compiling architecture structural of entity johnson [johnson_default]
+Compiling architecture behavior of entity johnson_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/johnson/johnson_tb_isim_beh.exe
+Fuse Memory Usage: 34048 KB
+Fuse CPU Usage: 405 ms

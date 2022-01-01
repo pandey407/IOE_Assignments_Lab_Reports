@@ -1,0 +1,9 @@
+Router Modes              Displayed as             Command
+User EXEC                 Router>                  disable (from Privileged
+(default mode)                                     EXEC mode)
+Privileged EXEC           Router#                  enable (from User EXEC mode)
+Global configuration      Router(config)#          configure terminal (from 
+                                                   Privileged EXEC)
+Specific configuration    Router(config-...)#      interface interface_name 
+                                                   interface_number
+                                                   line line_name line_number

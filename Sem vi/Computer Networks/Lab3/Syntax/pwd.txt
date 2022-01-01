@@ -1,0 +1,11 @@
+Ashlesh(config)# line console 0
+Ashlesh(config-line)# password cnlab1
+Ashlesh(config-line)# login
+
+Ashlesh(config)# enable password cnlab1
+
+Ashlesh(config)# line vty 0 4
+Ashlesh(config-line)# password cnlab1
+Ashlesh(config-line)# login
+
+Ashlesh(config)# service password-encryption

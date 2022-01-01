@@ -1,0 +1,6 @@
+
+Tracing route to 192.168.1.1 over a maximum of 30 hops
+
+  1     7 ms     3 ms     2 ms  192.168.1.1 
+
+Trace complete.

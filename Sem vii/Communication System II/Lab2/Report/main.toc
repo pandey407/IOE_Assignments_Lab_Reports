@@ -1,0 +1,12 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.3}%
+\contentsline {section}{\bfseries {Listings}}{iii}{section*.5}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Time Division Multiplexing (TDM)}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Sampling and signal reconstruction using samples}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Delta modulation}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Exercises}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}{Time division multiplexing of two signals and recovery of signals}}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}{Reconstruction of a signal from its samples}}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}{Delta modulation and bit sequence for delta modulation transmission}}{7}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{9}{section.4}%

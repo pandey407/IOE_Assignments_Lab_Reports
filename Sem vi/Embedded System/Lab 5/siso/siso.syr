@@ -1,0 +1,351 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: siso.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "siso.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "siso"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : siso
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\nand_3.vhd" into library work
+Parsing entity <nand_3>.
+Parsing architecture <dataflow> of entity <nand_3>.
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\nand_2.vhd" into library work
+Parsing entity <nand_2>.
+Parsing architecture <DATAFLOW> of entity <nand_2>.
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\dff.vhd" into library work
+Parsing entity <dff>.
+Parsing architecture <structural> of entity <dff>.
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\siso_st.vhd" into library work
+Parsing entity <siso>.
+Parsing architecture <structural> of entity <siso>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <siso> (architecture <structural>) from library <work>.
+
+Elaborating entity <dff> (architecture <structural>) from library <work>.
+
+Elaborating entity <nand_2> (architecture <DATAFLOW>) from library <work>.
+
+Elaborating entity <nand_3> (architecture <dataflow>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <siso>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\siso_st.vhd".
+INFO:Xst:3210 - "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\siso_st.vhd" line 29: Output port <QBAR> of the instance <D1> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\siso_st.vhd" line 30: Output port <QBAR> of the instance <D2> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\siso_st.vhd" line 31: Output port <QBAR> of the instance <D3> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <siso> synthesized.
+
+Synthesizing Unit <dff>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\dff.vhd".
+    Summary:
+	no macro.
+Unit <dff> synthesized.
+
+Synthesizing Unit <nand_2>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\nand_2.vhd".
+    Summary:
+	no macro.
+Unit <nand_2> synthesized.
+
+Synthesizing Unit <nand_3>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\nand_3.vhd".
+    Summary:
+	no macro.
+Unit <nand_3> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinx\14.5\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinx\14.5\ISE_DS\ISE\.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D3/O5/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D3/O3/a_c_AND_2_o.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D2/O3/a_c_AND_2_o.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D3/O2/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D1/O3/a_c_AND_2_o.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D4/O3/a_c_AND_2_o.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D2/O5/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D4/O2/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D4/O5/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D1/O2/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D2/O2/n0000.
+WARNING:Xst:2170 - Unit siso : the following signal(s) form a combinatorial loop: D1/O5/n0000.
+
+Optimizing unit <siso> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block siso, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : siso.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 16
+#      INV                         : 3
+#      LUT2                        : 1
+#      LUT3                        : 4
+#      LUT4                        : 8
+# IO Buffers                       : 7
+#      IBUF                        : 2
+#      OBUF                        : 5
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   16  out of  63400     0%  
+    Number used as Logic:                16  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     16
+   Number with an unused Flip Flop:      16  out of     16   100%  
+   Number with an unused LUT:             0  out of     16     0%  
+   Number of fully used LUT-FF pairs:     0  out of     16     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           7
+ Number of bonded IOBs:                   7  out of    210     3%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 8.613ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 562 / 5
+-------------------------------------------------------------------------
+Delay:               8.613ns (Levels of Logic = 15)
+  Source:            CLOCK (PAD)
+  Destination:       Dout (PAD)
+
+  Data Path: CLOCK to Dout
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             8   0.001   0.655  CLOCK_IBUF (CLOCK_IBUF)
+     LUT4:I0->O            3   0.097   0.583  D1/O3/a_c_AND_2_o1 (D1/O3/a_c_AND_2_o)
+     LUT4:I1->O            3   0.097   0.583  D1/O2/n00001 (D1/O2/n0000)
+     LUT3:I0->O            4   0.097   0.456  D1/O5/n00001 (D1/O5/n0000)
+     LUT4:I2->O            3   0.097   0.451  D2/O3/a_c_AND_2_o1 (D2/O3/a_c_AND_2_o)
+     LUT4:I2->O            3   0.097   0.583  D2/O2/n00001 (D2/O2/n0000)
+     LUT3:I0->O            4   0.097   0.456  D2/O5/n00001 (D2/O5/n0000)
+     LUT4:I2->O            3   0.097   0.451  D3/O3/a_c_AND_2_o1 (D3/O3/a_c_AND_2_o)
+     LUT4:I2->O            3   0.097   0.583  D3/O2/n00001 (D3/O2/n0000)
+     LUT3:I0->O            4   0.097   0.588  D3/O5/n00001 (D3/O5/n0000)
+     LUT4:I1->O            4   0.097   0.588  D4/O2/n00001 (D4/O2/n0000)
+     LUT4:I1->O            3   0.097   0.583  D4/O3/a_c_AND_2_o1 (D4/O3/a_c_AND_2_o)
+     LUT3:I0->O            3   0.097   0.451  D4/O6/o1 (QTBAR_OBUF)
+     LUT2:I0->O            1   0.097   0.339  D4/O5/o1 (Dout_OBUF)
+     OBUF:I->O                 0.000          Dout_OBUF (Dout)
+    ----------------------------------------
+    Total                      8.613ns (1.262ns logic, 7.351ns route)
+                                       (14.7% logic, 85.3% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 57.00 secs
+Total CPU time to Xst completion: 56.73 secs
+ 
+--> 
+
+Total memory usage is 5078240 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   13 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

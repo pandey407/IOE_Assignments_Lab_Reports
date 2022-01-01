@@ -1,0 +1,50 @@
+\contentsline {table}{\numberline {1}{\ignorespaces Default subnet masks for IP classes\relax }}{3}%
+\contentsline {table}{\numberline {2}{\ignorespaces IP address class identifiers\relax }}{3}%
+\contentsline {table}{\numberline {3}{\ignorespaces Subnetting using custom subnet mask\relax }}{3}%
+\subsection *{Activity A}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {4}{\ignorespaces IP address and subnet masks for the PCs in the network\relax }}{5}%
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {5}{\ignorespaces Observation for ping tests from PC0 to other PCs\relax }}{7}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {6}{\ignorespaces Observation for ping tests from PC3 to other PCs\relax }}{8}%
+\subsubsection *{Sub activity 4}
+\contentsline {table}{\numberline {7}{\ignorespaces Observation for ping tests from PC0 to other PCs\relax }}{9}%
+\subsubsection *{Sub activity 5}
+\contentsline {table}{\numberline {8}{\ignorespaces Observation for ping tests from PC3 to other PCs\relax }}{10}%
+\subsection *{Activity B}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {9}{\ignorespaces IP address and subnet masks for the gigabitethernet interfaces on Router0\relax }}{10}%
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {10}{\ignorespaces Observation for ping tests from PC0 to other PCs\relax }}{11}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {11}{\ignorespaces Observation for ping tests from PC3 to other PCs\relax }}{12}%
+\subsubsection *{Sub activity 4}
+\contentsline {table}{\numberline {12}{\ignorespaces Observation for ping tests from PC0 to other PCs\relax }}{13}%
+\subsubsection *{Sub activity 5}
+\contentsline {table}{\numberline {13}{\ignorespaces Observation for ping tests from PC3 to other PCs\relax }}{14}%
+\subsection *{Activity C}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {14}{\ignorespaces IP address and subnet masks for the PCs added in the network\relax }}{15}%
+\subsubsection *{Sub activity 2}
+\contentsline {table}{\numberline {15}{\ignorespaces IP address and subnet masks for the gigabitethernet interfaces on Router0 and Router1\relax }}{16}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {16}{\ignorespaces Configuration parameters for Router0 and Router1\relax }}{16}%
+\subsubsection *{Sub activity 5}
+\contentsline {table}{\numberline {17}{\ignorespaces Observation for ping tests from PC0 to other PCs and router interfaces\relax }}{21}%
+\subsubsection *{Sub activity 6}
+\contentsline {table}{\numberline {18}{\ignorespaces Observation for ping tests from PC3 to other PCs and router interfaces\relax }}{24}%
+\subsubsection *{Sub activity 7}
+\contentsline {table}{\numberline {19}{\ignorespaces Observation for ping tests from PC6 to other PCs and router interfaces\relax }}{27}%
+\subsubsection *{Sub activity 8}
+\contentsline {table}{\numberline {20}{\ignorespaces Observation for ping tests from Router0 to PCs and Router1 interfaces\relax }}{29}%
+\subsubsection *{Sub activity 9}
+\contentsline {table}{\numberline {21}{\ignorespaces Observation for ping tests from Router1 to PCs and Router0 interfaces\relax }}{30}%
+\subsubsection *{Sub activity 10}
+\contentsline {table}{\numberline {22}{\ignorespaces Calculating network identifier for network 3\relax }}{31}%
+\subsubsection *{Sub activity 12}
+\contentsline {table}{\numberline {23}{\ignorespaces Observation for ping tests from PC0 to other PCs and router interfaces\relax }}{34}%
+\contentsline {table}{\numberline {24}{\ignorespaces Observation for ping tests from PC3 to other PCs and router interfaces\relax }}{35}%
+\contentsline {table}{\numberline {25}{\ignorespaces Observation for ping tests from PC6 to other PCs and router interfaces\relax }}{37}%
+\contentsline {table}{\numberline {26}{\ignorespaces Observation for ping tests from Router0 to PCs and Router1 interfaces\relax }}{38}%
+\contentsline {table}{\numberline {27}{\ignorespaces Observation for ping tests from Router1 to PCs and Router0 interfaces\relax }}{39}%

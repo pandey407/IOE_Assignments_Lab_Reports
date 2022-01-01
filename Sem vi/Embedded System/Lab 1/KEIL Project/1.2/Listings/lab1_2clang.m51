@@ -1,0 +1,103 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    10/06/2020  20:21:56  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab_1_b.obj TO .\Objects\lab1_2clang PRINT (.\Listings\lab1_2clang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab_1_b.obj (LAB_1_B)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\lab1_2clang (LAB_1_B)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0001H     UNIT         _DATA_GROUP_
+            IDATA   0009H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0021H     UNIT         ?PR?MAIN?LAB_1_B
+            CODE    0821H     0020H     UNIT         ?PR?_DELAY?LAB_1_B
+            CODE    0841H     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab1_2clang (LAB_1_B)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?LAB_1_B
+
+?PR?MAIN?LAB_1_B               0008H    0001H
+  +--> ?PR?_DELAY?LAB_1_B
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab1_2clang (LAB_1_B)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB_1_B
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  C:0821H         PUBLIC        _delay
+  C:0800H         PUBLIC        main
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        time
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/06/2020  20:21:56  PAGE 2
+
+
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:0821H         LINE#         3
+  C:0821H         LINE#         4
+  C:0821H         LINE#         6
+  C:082BH         LINE#         7
+  C:0840H         LINE#         8
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0001H         SYMBOL        value
+  D:0008H         SYMBOL        reversevalue
+  D:0007H         SYMBOL        a
+  D:0006H         SYMBOL        b
+  -------         ENDDO         
+  C:0800H         LINE#         10
+  C:0800H         LINE#         11
+  C:0800H         LINE#         12
+  C:0802H         LINE#         15
+  C:0807H         LINE#         16
+  C:080AH         LINE#         17
+  C:0810H         LINE#         19
+  C:0810H         LINE#         20
+  C:0810H         LINE#         21
+  C:0812H         LINE#         22
+  C:0819H         LINE#         23
+  C:081CH         LINE#         24
+  C:081FH         LINE#         25
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_1_B
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0041H BYTE ( 3%) *
+******************************************************************************
+
+Program Size: data=10.0 xdata=0 code=80
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

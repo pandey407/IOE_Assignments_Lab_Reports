@@ -1,0 +1,85 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-QLRVLCUC
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : domain.name
+
+Unknown adapter VPN - VPN Client:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VPN Client Adapter - VPN
+   Physical Address. . . . . . . . . : 5E-58-40-0A-AB-E1
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter Ethernet 3:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : TAP-NordVPN Windows Adapter V9
+   Physical Address. . . . . . . . . : 00-FF-80-4F-8A-C2
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Ethernet adapter VirtualBox Host-Only Network #2:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter #2
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-06
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::d94a:5427:b7ca:594a%6(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.56.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 772407335
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-A2-DC-F7-00-E1-8C-85-84-D2
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter VirtualBox Host-Only Network #3:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter #3
+   Physical Address. . . . . . . . . : 0A-00-27-00-00-0D
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::c8fa:6525:b46c:39db%13(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.99.1(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
+   DHCPv6 IAID . . . . . . . . . . . : 906625063
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-26-A2-DC-F7-00-E1-8C-85-84-D2
+   DNS Servers . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : domain.name
+   Description . . . . . . . . . . . : Intel(R) Dual Band Wireless-AC 7265
+   Physical Address. . . . . . . . . : 6E-76-04-C6-70-57
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::509d:f9df:2bd5:9ab%9(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.1.19(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Saturday, October 31, 2020 11:03:18 AM
+   Lease Expires . . . . . . . . . . : Sunday, November 1, 2020 11:03:16 AM
+   Default Gateway . . . . . . . . . : fe80::1%9
+                                       192.168.1.1
+   DHCP Server . . . . . . . . . . . : 192.168.1.1
+   DHCPv6 IAID . . . . . . . . . . . : 158234116
+   DHCPv6 Client DUID. . . . . . . . : 00-03-00-01-6E-76-04-C6-70-57
+   DNS Servers . . . . . . . . . . . : 8.8.8.8
+                                       8.8.4.4
+                                       fe80::1%9
+   NetBIOS over Tcpip. . . . . . . . : Enabled

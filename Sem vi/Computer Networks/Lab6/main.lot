@@ -1,0 +1,17 @@
+\subsection *{Activity A}
+\subsubsection *{Sub activity 1}
+\contentsline {table}{\numberline {1}{\ignorespaces IP address for the PCs in the network\relax }}{3}{table.caption.33}%
+\subsubsection *{Sub activity 3}
+\contentsline {table}{\numberline {2}{\ignorespaces Possible /26 networks for 202.22.22.*\relax }}{7}{table.caption.36}%
+\subsubsection *{Sub activity 4}
+\contentsline {table}{\numberline {3}{\ignorespaces Possible /27 networks for 202.22.22.*\relax }}{10}{table.caption.38}%
+\subsubsection *{Sub activity 5}
+\contentsline {table}{\numberline {4}{\ignorespaces Possible /28 networks for 202.22.22.*\relax }}{12}{table.caption.40}%
+\subsection *{Activity B}
+\contentsline {table}{\numberline {5}{\ignorespaces IP address for the gigabitethernet interfaces of the router in the network\relax }}{12}{table.caption.42}%
+\subsection *{Activity C}
+\contentsline {table}{\numberline {6}{\ignorespaces IP address for the PCs in the network\relax }}{15}{table.caption.44}%
+\subsection *{Activity D}
+\contentsline {table}{\numberline {7}{\ignorespaces Subnet division as required by activity D\relax }}{25}{table.caption.51}%
+\subsection *{Activity E}
+\contentsline {table}{\numberline {8}{\ignorespaces Subnet division as required by activity E\relax }}{26}{table.caption.55}%

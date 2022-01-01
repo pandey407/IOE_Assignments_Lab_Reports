@@ -1,0 +1,17 @@
+\contentsline {section}{\bfseries {List of figures}}{ii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Exercises}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}{Problem 1}}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}{Lowpass Derivation}}{1}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}{Bandpass Derivation}}{4}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.3}{Bandstop Derivation}}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.4}{Allpass Derivation}}{6}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.5}{Highpass Derivation}}{7}{subsubsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.2}{Problem 2}}{9}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}{Lowpass Design}}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}{Bandpass Design}}{11}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}{Highpass Design}}{13}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}{Bandstop Design}}{14}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}{Allpass Design}}{16}{subsubsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.3}{Problem 3}}{18}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Discussion and Conclusion}{21}{section.3}%

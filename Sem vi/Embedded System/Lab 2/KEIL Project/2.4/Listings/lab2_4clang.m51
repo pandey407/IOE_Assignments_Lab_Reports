@@ -1,0 +1,132 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/03/2020  10:01:49  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab_2_d.obj TO .\Objects\lab2_4clang PRINT (.\Listings\lab2_4clang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab_2_d.obj (LAB_2_D)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?UIDIV)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  .\Objects\lab2_4clang (LAB_2_D)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     000AH     UNIT         ?DT?LAB_2_D
+            DATA    0012H     0004H     UNIT         _DATA_GROUP_
+            IDATA   0016H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     008CH     UNIT         ?C_C51STARTUP
+            CODE    088CH     0055H     UNIT         ?C?LIB_CODE
+            CODE    08E1H     0043H     UNIT         ?PR?_DISPLAY?LAB_2_D
+            CODE    0924H     0028H     UNIT         ?PR?_DELAY?LAB_2_D
+            CODE    094CH     001FH     UNIT         ?PR?MAIN?LAB_2_D
+            CODE    096BH     000DH     UNIT         ?C_INITSEG
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab2_4clang (LAB_2_D)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?LAB_2_D
+  +--> ?C_INITSEG
+
+?PR?MAIN?LAB_2_D               -----    -----
+  +--> ?PR?_DISPLAY?LAB_2_D
+
+?PR?_DISPLAY?LAB_2_D           0012H    0004H
+  +--> ?PR?_DELAY?LAB_2_D
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab2_4clang (LAB_2_D)
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/03/2020  10:01:49  PAGE 2
+
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB_2_D
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:00A0H         PUBLIC        P2
+  C:092CH         PUBLIC        _delay
+  D:0008H         PUBLIC        led_pattern
+  C:094CH         PUBLIC        main
+  C:08E1H         PUBLIC        _display
+  -------         PROC          L?0022
+  -------         ENDPROC       L?0022
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        time
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:092CH         LINE#         5
+  C:092CH         LINE#         6
+  C:092CH         LINE#         8
+  C:0936H         LINE#         9
+  C:094BH         LINE#         10
+  -------         ENDPROC       _DELAY
+  -------         PROC          _DISPLAY
+  D:0012H         SYMBOL        i
+  -------         DO            
+  D:0014H         SYMBOL        j
+  -------         ENDDO         
+  C:08E1H         LINE#         12
+  C:08E5H         LINE#         13
+  C:08E5H         LINE#         15
+  C:08EAH         LINE#         16
+  C:08EAH         LINE#         17
+  C:08EDH         LINE#         18
+  C:08FBH         LINE#         19
+  C:08FEH         LINE#         21
+  C:0901H         LINE#         22
+  C:090FH         LINE#         23
+  C:0912H         LINE#         24
+  C:0923H         LINE#         25
+  -------         ENDPROC       _DISPLAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0082H         SYMBOL        i
+  -------         ENDDO         
+  C:094CH         LINE#         27
+  C:094CH         LINE#         28
+  C:094CH         LINE#         30
+  C:094CH         LINE#         31
+  C:094FH         LINE#         32
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_2_D
+
+  -------         MODULE        ?C?UIDIV
+  C:088CH         PUBLIC        ?C?UIDIV
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/03/2020  10:01:49  PAGE 3
+
+
+  -------         ENDMOD        ?C?UIDIV
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 0096H BYTE ( 7%) *
+******************************************************************************
+
+Program Size: data=23.0 xdata=0 code=379
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

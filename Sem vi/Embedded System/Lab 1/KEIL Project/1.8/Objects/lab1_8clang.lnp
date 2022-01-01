@@ -1,0 +1,3 @@
+".\Objects\lab_1_h.obj" 
+TO ".\Objects\lab1_8clang" 
+PRINT(".\Listings\lab1_8clang.m51")

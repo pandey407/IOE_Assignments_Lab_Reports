@@ -1,0 +1,59 @@
+C51 COMPILER V9.60.0.0   LAB_2_B                                                           11/03/2020 09:46:12 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LAB_2_B
+OBJECT MODULE PLACED IN .\Objects\lab_2_b.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\..\Codes\C\lab_2_b.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRIN
+                    -T(.\Listings\lab_2_b.lst) TABS(2) OBJECT(.\Objects\lab_2_b.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          unsigned char led_pattern[10] = { 0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f};
+   3          
+   4          void delay(int time)
+   5          {
+   6   1        unsigned int i,j;
+   7   1        for (i=0;i<time;i++)
+   8   1          for (j=0;j<125;j++);
+   9   1      }
+  10          
+  11          void display(unsigned int i)
+  12          {
+  13   1        unsigned int j, led[2];
+  14   1        led[0] = i / 10;
+  15   1        led[1] = i % 10;
+  16   1        for(j=0; j<10; j++)  // change limit of j for different delay
+  17   1          for(i=0;i<2;i++)
+  18   1          {
+  19   2            P2 = 0x1 * (i + 1);
+  20   2            P0 = led_pattern[led[i]];
+  21   2            delay(40);
+  22   2          }
+  23   1      }
+  24          
+  25          void main(void)
+  26          {
+  27   1        unsigned int i;
+  28   1        while(1)
+  29   1        {
+  30   2          for(i=0; i<20; i++)
+  31   2            display(i);
+  32   2          for(i=20; i>0; i--)
+  33   2            display(i);
+  34   2        }
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    191    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     10       8
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

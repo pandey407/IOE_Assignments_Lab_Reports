@@ -1,0 +1,14 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Cascade of biquad circuits\relax }}{2}{figure.caption.5}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sallen-Key lowpass filter\relax }}{4}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces $R_1=R_x||R_y$ equivalence circuit\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sallen-Key gain reduction circuit\relax }}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {5}{\ignorespaces $R_1'=R_x'||R_y'$ equivalence circuit\relax }}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Fourth order butterworth normalized lowpass filter using Sallen-Key circuit\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Fourth order butterworth lowpass filter at half power frequency $3.1831$ KHz\relax }}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Proteus circuit for fourth order lowpass filter designed in Problem 4\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Observation for lowpass filter designed in Problem 4\relax }}{12}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Fourth order butterworth normalized highpass filter using RC-CR transformation\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Fourth order butterworth highpass filter at half power frequency $4.775$ KHz\relax }}{15}{figure.caption.21}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Proteus circuit for fourth order highpass filter designed in Problem 6\relax }}{16}{figure.caption.22}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Observation for highpass filter designed in Problem 6\relax }}{16}{figure.caption.23}%
+\contentsfinish 

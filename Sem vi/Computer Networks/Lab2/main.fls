@@ -1,0 +1,276 @@
+PWD p:\LaTex Files\Computer Network\Lab2
+INPUT C:\Users\hp\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT p:\LaTex Files\Computer Network\Lab2\main.tex
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.log
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\lab_sheet.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\lab_sheet.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstmisc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstmisc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\multicol.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\multicol.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xcolor\xcolor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xcolor\xcolor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\color.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\color.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\subcaption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\subcaption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\mdframed.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\mdframed.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3kernel\expl3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3kernel\expl3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-abspage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-abspage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\iftex\iftex.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\iftex\iftex.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\auxhook\auxhook.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\auxhook\auxhook.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\needspace\needspace.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\needspace\needspace.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\xkeyval\xkeyval.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\xkeyval\xkvutils.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\trimclip.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\trimclip.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\collectbox\collectbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\collectbox\collectbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT p:\LaTex Files\Computer Network\Lab2\main.aux
+INPUT p:\LaTex Files\Computer Network\Lab2\main.aux
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.aux
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr17.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.pdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr9.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmti12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT p:\LaTex Files\Computer Network\Lab2\main.toc
+INPUT p:\LaTex Files\Computer Network\Lab2\main.toc
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.toc
+INPUT p:\LaTex Files\Computer Network\Lab2\main.lol
+INPUT p:\LaTex Files\Computer Network\Lab2\main.lol
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.lol
+INPUT p:\LaTex Files\Computer Network\Lab2\main.lof
+INPUT p:\LaTex Files\Computer Network\Lab2\main.lof
+OUTPUT p:\LaTex Files\Computer Network\Lab2\main.lof
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmti10.tfm
+INPUT Cmdhelp\ipconfighelp.txt
+INPUT Cmdhelp\ipconfighelp.txt
+INPUT Cmdhelp\ipconfighelp.txt
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\omscmr.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\omscmr.fd
+INPUT Cmdhelp\pinghelp.txt
+INPUT Cmdhelp\pinghelp.txt
+INPUT Cmdhelp\pinghelp.txt
+INPUT Cmdhelp\getmachelp.txt
+INPUT Cmdhelp\getmachelp.txt
+INPUT Cmdhelp\getmachelp.txt
+INPUT Cmdhelp\tracerthelp.txt
+INPUT Cmdhelp\tracerthelp.txt
+INPUT Cmdhelp\tracerthelp.txt
+INPUT Cmdhelp\arphelp.txt
+INPUT Cmdhelp\arphelp.txt
+INPUT Cmdhelp\arphelp.txt
+INPUT Cmdhelp\hostnamehelp.txt
+INPUT Cmdhelp\hostnamehelp.txt
+INPUT Cmdhelp\hostnamehelp.txt
+INPUT Cmdhelp\netstathelp.txt
+INPUT Cmdhelp\netstathelp.txt
+INPUT Cmdhelp\netstathelp.txt
+INPUT Cmdhelp\routehelp.txt
+INPUT Cmdhelp\routehelp.txt
+INPUT Cmdhelp\routehelp.txt
+INPUT Outputs\ipa.txt
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmtt10.tfm
+INPUT Outputs\ipa.txt
+INPUT Outputs\ipa.txt
+INPUT Outputs\ipb.txt
+INPUT Outputs\ipb.txt
+INPUT Outputs\ipb.txt
+INPUT Outputs\pinga.txt
+INPUT Outputs\pinga.txt
+INPUT Outputs\pinga.txt
+INPUT Outputs\pingb.txt
+INPUT Outputs\pingb.txt
+INPUT Outputs\pingb.txt
+INPUT Outputs\pingc.txt
+INPUT Outputs\pingc.txt
+INPUT Outputs\pingc.txt
+INPUT Outputs\pingd.txt
+INPUT Outputs\pingd.txt
+INPUT Outputs\pingd.txt
+INPUT Outputs\gmac.txt
+INPUT Outputs\gmac.txt
+INPUT Outputs\gmac.txt
+INPUT Outputs\tracerta.txt
+INPUT Outputs\tracerta.txt
+INPUT Outputs\tracerta.txt
+INPUT Outputs\tracertb.txt
+INPUT Outputs\tracertb.txt
+INPUT Outputs\tracertb.txt
+INPUT Outputs\tracertc.txt
+INPUT Outputs\tracertc.txt
+INPUT Outputs\tracertc.txt
+INPUT Outputs\tracertd.txt
+INPUT Outputs\tracertd.txt
+INPUT Outputs\tracertd.txt
+INPUT Outputs\arpa.txt
+INPUT Outputs\arpa.txt
+INPUT Outputs\arpa.txt
+INPUT Outputs\arpb.txt
+INPUT Outputs\arpb.txt
+INPUT Outputs\arpb.txt
+INPUT Outputs\hname.txt
+INPUT Outputs\hname.txt
+INPUT Outputs\hname.txt
+INPUT Outputs\netstata.txt
+INPUT Outputs\netstata.txt
+INPUT Outputs\netstata.txt
+INPUT Outputs\netstatb.txt
+INPUT Outputs\netstatb.txt
+INPUT Outputs\netstatb.txt
+INPUT Outputs\netstatc.txt
+INPUT Outputs\netstatc.txt
+INPUT Outputs\netstatc.txt
+INPUT Outputs\routea.txt
+INPUT Outputs\routea.txt
+INPUT Outputs\routea.txt
+INPUT Outputs\routeb.txt
+INPUT Outputs\routeb.txt
+INPUT Outputs\routeb.txt
+INPUT Outputs\routec.txt
+INPUT Outputs\routec.txt
+INPUT Outputs\routec.txt
+INPUT Outputs\publicipa.txt
+INPUT Outputs\publicipa.txt
+INPUT Outputs\publicipa.txt
+INPUT Outputs\publicipb.txt
+INPUT Outputs\publicipb.txt
+INPUT Outputs\publicipb.txt
+INPUT Figures\publicip.png
+INPUT .\Figures\publicip.png
+INPUT .\Figures\publicip.png
+INPUT .\Figures\publicip.png
+INPUT .\Figures\publicip.png
+INPUT p:\LaTex Files\Computer Network\Lab2\main.aux
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmtt10.pfb

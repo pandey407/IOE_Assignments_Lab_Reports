@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{refman}{online}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available:}
+      \field{title}{VHDL Reference Manual}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ics.uci.edu/~jmoorkan/vhdlref/Synario%20VHDL%20Manual.pdf
+      \endverb
+    \endentry
+    \entry{sharma}{online}{}
+      \name{author}{1}{}{%
+        {{hash=45122ec44c8c06cdbf4183f8cb938bba}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {Microelectronics Group, EE Department IIT Bombay, Mumbai}%
+      }
+      \strng{namehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{fullhash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{bibnamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authorbibnamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authornamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authorfullhash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available:}
+      \field{title}{An Introduction to VHDL}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ee.iitb.ac.in/~smdp/DKStutorials/vhdl-overview.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ee.iitb.ac.in/~smdp/DKStutorials/vhdl-overview.pdf
+      \endverb
+    \endentry
+    \entry{xilnx}{online}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available:}
+      \field{title}{ISE In-Depth Tutorial}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.xilinx.com/support/documentation/sw_manuals/xilinx13_3/ise_tutorial_ug695.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.xilinx.com/support/documentation/sw_manuals/xilinx13_3/ise_tutorial_ug695.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

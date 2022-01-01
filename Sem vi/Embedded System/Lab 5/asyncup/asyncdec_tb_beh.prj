@@ -1,0 +1,3 @@
+vhdl work "../Codes/ttf_be.vhd"
+vhdl work "../Codes/asyncdec_st.vhd"
+vhdl work "../Codes/asyncdec_tb.vhd"

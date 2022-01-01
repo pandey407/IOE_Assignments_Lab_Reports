@@ -1,0 +1,976 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.26)  13 NOV 2020 23:44
+entering extended mode
+**"p:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 3/Report/main.tex"
+("p:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 3/Report/main.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> ("D:\LaTeX installed\MikTex\tex/latex/labDecorator\lab_sheet.cls" ("D:\LaTeX installed\MikTex\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\LaTeX installed\MikTex\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+Document Class: lab_sheet 2020/09/24 My custom Lab Sheet class
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) ("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\extramarks.sty"
+Package: extramarks 2019/01/31 v3.10 Extra marks for LaTeX
+\@temptokenb=\toks15
+) ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrextend.sty"
+Package: scrextend 2020/07/22 v3.31 KOMA-Script package (extend other classes with features of KOMA-Script classes)
+ ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrkbase.sty"
+Package: scrkbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrbase.sty"
+Package: scrbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrlfile.sty"
+Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+)))) ("D:\LaTeX installed\MikTex\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count175
+\float@exts=\toks17
+\float@box=\box45
+\@float@everytoks=\toks18
+\@floatcapt=\box46
+) ("D:\LaTeX installed\MikTex\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("D:\LaTeX installed\MikTex\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) ("D:\LaTeX installed\MikTex\tex/latex/listings\listings.sty"
+\lst@mode=\count176
+\lst@gtempboxa=\box47
+\lst@token=\toks19
+\lst@length=\count177
+\lst@currlwidth=\dimen137
+\lst@column=\count178
+\lst@pos=\count179
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count180
+\lst@lineno=\count181
+\lst@maxwidth=\dimen140
+ ("D:\LaTeX installed\MikTex\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count182
+\lst@skipnumbers=\count183
+\lst@framebox=\box48
+) ("D:\LaTeX installed\MikTex\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("D:\LaTeX installed\MikTex\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count184
+\mult@box=\box49
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count185
+\c@collectmore=\count186
+\doublecol@number=\count187
+\multicoltolerance=\count188
+\multicolpretolerance=\count189
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count190
+\c@columnbadness=\count191
+\c@finalcolumnbadness=\count192
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count193
+) ("D:\LaTeX installed\MikTex\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) ("D:\LaTeX installed\MikTex\tex/latex/caption\caption.sty"
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+ ("D:\LaTeX installed\MikTex\tex/latex/caption\caption3.sty"
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen150
+\captionmargin@=\dimen151
+\captionwidth=\dimen152
+\caption@tempdima=\dimen153
+\caption@indent=\dimen154
+\caption@parindent=\dimen155
+\caption@hangindent=\dimen156
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+) ("D:\LaTeX installed\MikTex\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+\c@subfigure=\count196
+\c@subtable=\count197
+) ("D:\LaTeX installed\MikTex\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen157
+\ar@mcellbox=\box95
+\extrarowheight=\dimen158
+\NC@list=\toks20
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box96
+) ("D:\LaTeX installed\MikTex\tex/latex/mdframed\mdframed.sty"
+Package: mdframed 2013/07/01 1.9b: mdframed
+ ("D:\LaTeX installed\MikTex\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) ("D:\LaTeX installed\MikTex\tex/latex/l3packages/xparse\xparse.sty" ("D:\LaTeX installed\MikTex\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+ ("D:\LaTeX installed\MikTex\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count198
+\l__pdf_internal_box=\box97
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ ("D:\LaTeX installed\MikTex\tex/latex/l3packages/xparse\xparse-generic.tex"
+\l__xparse_current_arg_int=\count199
+\g__xparse_grabber_int=\count266
+\l__xparse_m_args_int=\count267
+\l__xparse_v_nesting_int=\count268
+)) ("D:\LaTeX installed\MikTex\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count269
+) ("D:\LaTeX installed\MikTex\tex/latex/zref\zref-abspage.sty"
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+ ("D:\LaTeX installed\MikTex\tex/latex/zref\zref-base.sty"
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) ("D:\LaTeX installed\MikTex\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) ("D:\LaTeX installed\MikTex\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+) ("D:\LaTeX installed\MikTex\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\c@abspage=\count270
+Package zref Info: New property: abspage on input line 66.
+) ("D:\LaTeX installed\MikTex\tex/latex/needspace\needspace.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip62
+\c@mdf@globalstyle@cnt=\count271
+\mdf@skipabove@length=\skip63
+\mdf@skipbelow@length=\skip64
+\mdf@leftmargin@length=\skip65
+\mdf@rightmargin@length=\skip66
+\mdf@innerleftmargin@length=\skip67
+\mdf@innerrightmargin@length=\skip68
+\mdf@innertopmargin@length=\skip69
+\mdf@innerbottommargin@length=\skip70
+\mdf@splittopskip@length=\skip71
+\mdf@splitbottomskip@length=\skip72
+\mdf@outermargin@length=\skip73
+\mdf@innermargin@length=\skip74
+\mdf@linewidth@length=\skip75
+\mdf@innerlinewidth@length=\skip76
+\mdf@middlelinewidth@length=\skip77
+\mdf@outerlinewidth@length=\skip78
+\mdf@roundcorner@length=\skip79
+\mdf@footenotedistance@length=\skip80
+\mdf@userdefinedwidth@length=\skip81
+\mdf@needspace@length=\skip82
+\mdf@frametitleaboveskip@length=\skip83
+\mdf@frametitlebelowskip@length=\skip84
+\mdf@frametitlerulewidth@length=\skip85
+\mdf@frametitleleftmargin@length=\skip86
+\mdf@frametitlerightmargin@length=\skip87
+\mdf@shadowsize@length=\skip88
+\mdf@extratopheight@length=\skip89
+\mdf@subtitleabovelinewidth@length=\skip90
+\mdf@subtitlebelowlinewidth@length=\skip91
+\mdf@subtitleaboveskip@length=\skip92
+\mdf@subtitlebelowskip@length=\skip93
+\mdf@subtitleinneraboveskip@length=\skip94
+\mdf@subtitleinnerbelowskip@length=\skip95
+\mdf@subsubtitleabovelinewidth@length=\skip96
+\mdf@subsubtitlebelowlinewidth@length=\skip97
+\mdf@subsubtitleaboveskip@length=\skip98
+\mdf@subsubtitlebelowskip@length=\skip99
+\mdf@subsubtitleinneraboveskip@length=\skip100
+\mdf@subsubtitleinnerbelowskip@length=\skip101
+ ("D:\LaTeX installed\MikTex\tex/latex/mdframed\md-frame-0.mdf"
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box98
+\mdf@footnotebox=\box99
+\mdf@splitbox@one=\box100
+\mdf@splitbox@two=\box101
+\mdf@splitbox@save=\box102
+\mdfsplitboxwidth=\skip102
+\mdfsplitboxtotalwidth=\skip103
+\mdfsplitboxheight=\skip104
+\mdfsplitboxdepth=\skip105
+\mdfsplitboxtotalheight=\skip106
+\mdfframetitleboxwidth=\skip107
+\mdfframetitleboxtotalwidth=\skip108
+\mdfframetitleboxheight=\skip109
+\mdfframetitleboxdepth=\skip110
+\mdfframetitleboxtotalheight=\skip111
+\mdffootnoteboxwidth=\skip112
+\mdffootnoteboxtotalwidth=\skip113
+\mdffootnoteboxheight=\skip114
+\mdffootnoteboxdepth=\skip115
+\mdffootnoteboxtotalheight=\skip116
+\mdftotallinewidth=\skip117
+\mdfboundingboxwidth=\skip118
+\mdfboundingboxtotalwidth=\skip119
+\mdfboundingboxheight=\skip120
+\mdfboundingboxdepth=\skip121
+\mdfboundingboxtotalheight=\skip122
+\mdf@freevspace@length=\skip123
+\mdf@horizontalwidthofbox@length=\skip124
+\mdf@verticalmarginwhole@length=\skip125
+\mdf@horizontalspaceofbox=\skip126
+\mdfsubtitleheight=\skip127
+\mdfsubsubtitleheight=\skip128
+\c@mdfcountframes=\count272
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count273
+\c@mdf@env@i=\count274
+\c@mdf@env@ii=\count275
+\c@mdf@zref@counter=\count276
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\adjustbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ ("D:\LaTeX installed\MikTex\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ ("D:\LaTeX installed\MikTex\tex/generic/xkeyval\xkeyval.tex" ("D:\LaTeX installed\MikTex\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count277
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\trimclip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ ("D:\LaTeX installed\MikTex\tex/latex/collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box103
+)
+\tc@llx=\dimen159
+\tc@lly=\dimen160
+\tc@urx=\dimen161
+\tc@ury=\dimen162
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen163
+\adjbox@Height=\dimen164
+\adjbox@Depth=\dimen165
+\adjbox@Totalheight=\dimen166
+\adjbox@pwidth=\dimen167
+\adjbox@pheight=\dimen168
+\adjbox@pdepth=\dimen169
+\adjbox@ptotalheight=\dimen170
+ ("D:\LaTeX installed\MikTex\tex/latex/ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count278
+) ("D:\LaTeX installed\MikTex\tex/latex/varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box104
+\sift@deathcycles=\count279
+\@vwid@loff=\dimen171
+\@vwid@roff=\dimen172
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks23
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip129
+
+For additional information on amsmath, use the `?' option.
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks24
+\ex@=\dimen173
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen174
+) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count280
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count281
+\leftroot@=\count282
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count283
+\DOTSCASE@=\count284
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box105
+\strutbox@=\box106
+\big@size=\dimen175
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count285
+\c@MaxMatrixCols=\count286
+\dotsspace@=\muskip16
+\c@parentequation=\count287
+\dspbrk@lvl=\count288
+\tag@help=\toks25
+\row@=\count289
+\column@=\count290
+\maxfields@=\count291
+\andhelp@=\toks26
+\eqnshift@=\dimen176
+\alignsep@=\dimen177
+\tagshift@=\dimen178
+\tagwidth@=\dimen179
+\totwidth@=\dimen180
+\lineht@=\dimen181
+\@envbody=\toks27
+\multlinegap=\skip130
+\multlinetaggap=\skip131
+\mathdisplay@stack=\toks28
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+\c@homeworkProblemCounter=\count292
+\c@subProblemCounter=\count293
+) ("D:\LaTeX installed\MikTex\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen182
+\lightrulewidth=\dimen183
+\cmidrulewidth=\dimen184
+\belowrulesep=\dimen185
+\belowbottomsep=\dimen186
+\aboverulesep=\dimen187
+\abovetopsep=\dimen188
+\cmidrulesep=\dimen189
+\cmidrulekern=\dimen190
+\defaultaddspace=\dimen191
+\@cmidla=\count294
+\@cmidlb=\count295
+\@aboverulesep=\dimen192
+\@belowrulesep=\dimen193
+\@thisruleclass=\count296
+\@lastruleclass=\count297
+\@thisrulewidth=\dimen194
+) ("D:\LaTeX installed\MikTex\tex/latex/threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box107
+) ("D:\LaTeX installed\MikTex\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+ ("D:\LaTeX installed\MikTex\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count298
+ ("D:\LaTeX installed\MikTex\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+)) ("D:\LaTeX installed\MikTex\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("D:\LaTeX installed\MikTex\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count299
+\c@listtotal=\count300
+\c@listcount=\count301
+\c@liststart=\count302
+\c@liststop=\count303
+\c@citecount=\count304
+\c@citetotal=\count305
+\c@multicitecount=\count306
+\c@multicitetotal=\count307
+\c@instcount=\count308
+\c@maxnames=\count309
+\c@minnames=\count310
+\c@maxitems=\count311
+\c@minitems=\count312
+\c@citecounter=\count313
+\c@maxcitecounter=\count314
+\c@savedcitecounter=\count315
+\c@uniquelist=\count316
+\c@uniquename=\count317
+\c@refsection=\count318
+\c@refsegment=\count319
+\c@maxextratitle=\count320
+\c@maxextratitleyear=\count321
+\c@maxextraname=\count322
+\c@maxextradate=\count323
+\c@maxextraalpha=\count324
+\c@abbrvpenalty=\count325
+\c@highnamepenalty=\count326
+\c@lownamepenalty=\count327
+\c@maxparens=\count328
+\c@parenlevel=\count329
+\blx@tempcnta=\count330
+\blx@tempcntb=\count331
+\blx@tempcntc=\count332
+\blx@maxsection=\count333
+\blx@maxsegment@0=\count334
+\blx@notetype=\count335
+\blx@parenlevel@text=\count336
+\blx@parenlevel@foot=\count337
+\blx@sectionciteorder@0=\count338
+\blx@entrysetcounter=\count339
+\labelnumberwidth=\skip132
+\labelalphawidth=\skip133
+\biblabelsep=\skip134
+\bibitemsep=\skip135
+\bibnamesep=\skip136
+\bibinitsep=\skip137
+\bibparsep=\skip138
+\bibhang=\skip139
+\blx@bcfin=\read2
+\blx@bcfout=\write3
+\blx@langwohyphens=\language79
+\c@mincomprange=\count340
+\c@maxcomprange=\count341
+\c@mincompwidth=\count342
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count343
+\c@savedafterword=\count344
+\c@annotator=\count345
+\c@savedannotator=\count346
+\c@author=\count347
+\c@savedauthor=\count348
+\c@bookauthor=\count349
+\c@savedbookauthor=\count350
+\c@commentator=\count351
+\c@savedcommentator=\count352
+\c@editor=\count353
+\c@savededitor=\count354
+\c@editora=\count355
+\c@savededitora=\count356
+\c@editorb=\count357
+\c@savededitorb=\count358
+\c@editorc=\count359
+\c@savededitorc=\count360
+\c@foreword=\count361
+\c@savedforeword=\count362
+\c@holder=\count363
+\c@savedholder=\count364
+\c@introduction=\count365
+\c@savedintroduction=\count366
+\c@namea=\count367
+\c@savednamea=\count368
+\c@nameb=\count369
+\c@savednameb=\count370
+\c@namec=\count371
+\c@savednamec=\count372
+\c@translator=\count373
+\c@savedtranslator=\count374
+\c@shortauthor=\count375
+\c@savedshortauthor=\count376
+\c@shorteditor=\count377
+\c@savedshorteditor=\count378
+\c@labelname=\count379
+\c@savedlabelname=\count380
+\c@institution=\count381
+\c@savedinstitution=\count382
+\c@lista=\count383
+\c@savedlista=\count384
+\c@listb=\count385
+\c@savedlistb=\count386
+\c@listc=\count387
+\c@savedlistc=\count388
+\c@listd=\count389
+\c@savedlistd=\count390
+\c@liste=\count391
+\c@savedliste=\count392
+\c@listf=\count393
+\c@savedlistf=\count394
+\c@location=\count395
+\c@savedlocation=\count396
+\c@organization=\count397
+\c@savedorganization=\count398
+\c@origlocation=\count399
+\c@savedoriglocation=\count400
+\c@origpublisher=\count401
+\c@savedorigpublisher=\count402
+\c@publisher=\count403
+\c@savedpublisher=\count404
+\c@language=\count405
+\c@savedlanguage=\count406
+\c@origlanguage=\count407
+\c@savedoriglanguage=\count408
+\c@pageref=\count409
+\c@savedpageref=\count410
+\shorthandwidth=\skip140
+\shortjournalwidth=\skip141
+\shortserieswidth=\skip142
+\shorttitlewidth=\skip143
+\shortauthorwidth=\skip144
+\shorteditorwidth=\skip145
+\locallabelnumberwidth=\skip146
+\locallabelalphawidth=\skip147
+\localshorthandwidth=\skip148
+\localshortjournalwidth=\skip149
+\localshortserieswidth=\skip150
+\localshorttitlewidth=\skip151
+\localshortauthorwidth=\skip152
+\localshorteditorwidth=\skip153
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
+\c@textcitecount=\count411
+\c@textcitetotal=\count412
+\c@textcitemaxnames=\count413
+\c@biburlbigbreakpenalty=\count414
+\c@biburlbreakpenalty=\count415
+\c@biburlnumpenalty=\count416
+\c@biburlucpenalty=\count417
+\c@biburllcpenalty=\count418
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count419
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex/bbx\numeric.bbx"
+File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count420
+\c@bbx:relatedtotal=\count421
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex/cbx\numeric.cbx"
+File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+\@quotelevel=\count422
+\@quotereset=\count423
+ ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.aux"
+
+LaTeX Warning: Label `fig:proteus_a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:proteus_a' multiply defined.
+
+
+LaTeX Warning: Label `fig:p1' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+ ("D:\LaTeX installed\MikTex\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count424
+\scratchdimen=\dimen195
+\scratchbox=\box108
+\nofMPsegments=\count425
+\nofMParguments=\count426
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count427
+\MPscratchDim=\dimen196
+\MPnumerator=\count428
+\makeMPintoPDFobject=\count429
+\everyMPtoPDFconversion=\toks30
+) ("D:\LaTeX installed\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ ("D:\LaTeX installed\MikTex\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+\c@lstlisting=\count430
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box109
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ ("D:\LaTeX installed\MikTex\tex/latex/biblatex/lbx\english.lbx"
+File: english.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout3 = `main.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'main.bbl' found.
+ ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.bbl")
+Package biblatex Info: Reference section=0 on input line 21.
+Package biblatex Info: Reference segment=0 on input line 21.
+<logo.png, id=1, 299.1175pt x 335.2525pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 22.
+(pdftex.def)             Requested size: 149.55838pt x 167.62584pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/hp/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <D:/LaTeX installed/MikTex/tex/latex/labDecorator/logo.png>] ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.toc")
+\tf@toc=\write4
+\openout4 = `main.toc'.
+
+ [1] ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.lof")
+\tf@lof=\write5
+\openout5 = `main.lof'.
+
+ [2] ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.lot")
+\tf@lot=\write6
+\openout6 = `main.lot'.
+
+ [3] ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.lol")
+\tf@lol=\write7
+\openout7 = `main.lol'.
+
+ [4]
+<../Figures/tmod.png, id=25, 481.8pt x 102.98476pt>
+File: ../Figures/tmod.png Graphic file (type png)
+<use ../Figures/tmod.png>
+Package pdftex.def Info: ../Figures/tmod.png  used on input line 54.
+(pdftex.def)             Requested size: 337.25769pt x 72.08882pt.
+ [1 <../Figures/tmod.png>]
+<../Figures/tcon.png, id=31, 602.25pt x 50.43843pt>
+File: ../Figures/tcon.png Graphic file (type png)
+<use ../Figures/tcon.png>
+Package pdftex.def Info: ../Figures/tcon.png  used on input line 83.
+(pdftex.def)             Requested size: 421.57211pt x 35.30664pt.
+ [2 <../Figures/tcon.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+[3] [4]
+<../Figures/3_1.pdf, id=48, 238.8925pt x 223.83624pt>
+File: ../Figures/3_1.pdf Graphic file (type pdf)
+<use ../Figures/3_1.pdf>
+Package pdftex.def Info: ../Figures/3_1.pdf  used on input line 192.
+(pdftex.def)             Requested size: 211.38885pt x 211.39316pt.
+<../Figures/3_2.pdf, id=49, 245.91875pt x 252.945pt>
+File: ../Figures/3_2.pdf Graphic file (type pdf)
+<use ../Figures/3_2.pdf>
+Package pdftex.def Info: ../Figures/3_2.pdf  used on input line 198.
+(pdftex.def)             Requested size: 211.39594pt x 211.39165pt.
+<../Figures/3_3.pdf, id=50, 433.62pt x 390.45876pt>
+File: ../Figures/3_3.pdf Graphic file (type pdf)
+<use ../Figures/3_3.pdf>
+Package pdftex.def Info: ../Figures/3_3.pdf  used on input line 205.
+(pdftex.def)             Requested size: 211.38829pt x 190.34937pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 190--210
+[]$[]$ $[]$
+ []
+
+[5 <../Figures/3_1.pdf> <../Figures/3_2.pdf> <../Figures/3_3.pdf>]
+<../Figures/p1.png, id=81, 327.02174pt x 133.6995pt>
+File: ../Figures/p1.png Graphic file (type png)
+<use ../Figures/p1.png>
+Package pdftex.def Info: ../Figures/p1.png  used on input line 220.
+(pdftex.def)             Requested size: 327.02094pt x 133.69916pt.
+ (../Codes/Assembly/lab3_1_a.a) ("D:\LaTeX installed\MikTex\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) ("D:\LaTeX installed\MikTex\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+) (../Codes/C/lab3_1_a.c [6 <../Figures/p1.png>]) (../Codes/Assembly/lab3_1_b.a) (../Codes/C/lab3_1_b.c) (../Codes/Assembly/lab3_1_c.a)
+Overfull \vbox (12.6733pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (15.98831pt too high) has occurred while \output is active []
+
+ [7] (../Codes/C/lab3_1_c.c) (../Codes/Assembly/lab3_1_d.a) (../Codes/C/lab3_1_d.c) [8]
+<../Figures/p2.png, id=95, 341.47575pt x 109.00725pt>
+File: ../Figures/p2.png Graphic file (type png)
+<use ../Figures/p2.png>
+Package pdftex.def Info: ../Figures/p2.png  used on input line 236.
+(pdftex.def)             Requested size: 341.47491pt x 109.00697pt.
+ (../Codes/Assembly/lab3_2_a.a) (../Codes/C/lab3_2_a.c [9 <../Figures/p2.png>]) (../Codes/Assembly/lab3_2_b.a) (../Codes/C/lab3_2_b.c) (../Codes/Assembly/lab3_2_c.a [10]) (../Codes/C/lab3_2_c.c) (../Codes/Assembly/lab3_2_d.a) (../Codes/C/lab3_2_d.c [11]) (../Codes/Assembly/lab3_3.a) [12] (../Codes/C/lab3_3.c)
+<../Figures/1a.png, id=109, 244.5135pt x 274.626pt>
+File: ../Figures/1a.png Graphic file (type png)
+<use ../Figures/1a.png>
+Package pdftex.def Info: ../Figures/1a.png  used on input line 257.
+(pdftex.def)             Requested size: 187.9027pt x 211.052pt.
+<../Figures/1b.png, id=110, 244.5135pt x 272.217pt>
+File: ../Figures/1b.png Graphic file (type png)
+<use ../Figures/1b.png>
+Package pdftex.def Info: ../Figures/1b.png  used on input line 263.
+(pdftex.def)             Requested size: 187.9027pt x 209.20065pt.
+<../Figures/1c.png, id=111, 245.11575pt x 274.02374pt>
+File: ../Figures/1c.png Graphic file (type png)
+<use ../Figures/1c.png>
+Package pdftex.def Info: ../Figures/1c.png  used on input line 270.
+(pdftex.def)             Requested size: 187.9027pt x 210.06651pt.
+<../Figures/1d.png, id=112, 244.5135pt x 272.81924pt>
+File: ../Figures/1d.png Graphic file (type png)
+<use ../Figures/1d.png>
+Package pdftex.def Info: ../Figures/1d.png  used on input line 276.
+(pdftex.def)             Requested size: 187.9027pt x 209.6635pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 255--280
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 255--280
+[]$ $[]$ 
+ []
+
+[13]
+<../Figures/2a.png, id=116, 242.70676pt x 274.626pt>
+File: ../Figures/2a.png Graphic file (type png)
+<use ../Figures/2a.png>
+Package pdftex.def Info: ../Figures/2a.png  used on input line 288.
+(pdftex.def)             Requested size: 187.9027pt x 212.61504pt.
+<../Figures/2b.png, id=117, 245.11575pt x 274.02374pt>
+File: ../Figures/2b.png Graphic file (type png)
+<use ../Figures/2b.png>
+Package pdftex.def Info: ../Figures/2b.png  used on input line 294.
+(pdftex.def)             Requested size: 187.9027pt x 210.06651pt.
+<../Figures/2c.png, id=118, 244.5135pt x 274.02374pt>
+File: ../Figures/2c.png Graphic file (type png)
+<use ../Figures/2c.png>
+Package pdftex.def Info: ../Figures/2c.png  used on input line 301.
+(pdftex.def)             Requested size: 187.9027pt x 210.58916pt.
+<../Figures/2d.png, id=119, 245.718pt x 272.81924pt>
+File: ../Figures/2d.png Graphic file (type png)
+<use ../Figures/2d.png>
+Package pdftex.def Info: ../Figures/2d.png  used on input line 307.
+(pdftex.def)             Requested size: 187.9027pt x 208.63527pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 286--311
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 286--311
+[]$ $[]$ 
+ []
+
+[14 <../Figures/1a.png> <../Figures/1b.png> <../Figures/1c.png> <../Figures/1d.png>]
+<../Figures/3a.pdf, id=128, 202.7575pt x 87.32625pt>
+File: ../Figures/3a.pdf Graphic file (type pdf)
+<use ../Figures/3a.pdf>
+Package pdftex.def Info: ../Figures/3a.pdf  used on input line 319.
+(pdftex.def)             Requested size: 187.9027pt x 80.93008pt.
+<../Figures/3c.pdf, id=129, 202.7575pt x 87.32625pt>
+File: ../Figures/3c.pdf Graphic file (type pdf)
+<use ../Figures/3c.pdf>
+Package pdftex.def Info: ../Figures/3c.pdf  used on input line 325.
+(pdftex.def)             Requested size: 187.9027pt x 80.93008pt.
+<../Figures/3b.pdf, id=130, 202.7575pt x 87.32625pt>
+File: ../Figures/3b.pdf Graphic file (type pdf)
+<use ../Figures/3b.pdf>
+Package pdftex.def Info: ../Figures/3b.pdf  used on input line 332.
+(pdftex.def)             Requested size: 187.9027pt x 80.93008pt.
+<../Figures/3d.pdf, id=131, 202.7575pt x 87.32625pt>
+File: ../Figures/3d.pdf Graphic file (type pdf)
+<use ../Figures/3d.pdf>
+Package pdftex.def Info: ../Figures/3d.pdf  used on input line 338.
+(pdftex.def)             Requested size: 187.9027pt x 80.93008pt.
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 317--342
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.2222pt too wide) in paragraph at lines 317--342
+[]$ $[]$ 
+ []
+
+[15 <../Figures/2a.png> <../Figures/2b.png> <../Figures/2c.png> <../Figures/2d.png>] [16 <../Figures/3a.pdf> <../Figures/3c.pdf> <../Figures/3b.pdf> <../Figures/3d.pdf>]
+Overfull \hbox (3.9832pt too wide) in paragraph at lines 349--349
+[]\OT1/cmr/m/n/10 B. Vuk-sanovic. \OT1/cmr/m/it/10 Pro-gram-ming Timers on 8051\OT1/cmr/m/n/10 . en. [On-line]. Avail-able: \OT1/cmr/m/sc/10 url\OT1/cmr/m/n/10 : $\OT1/cmtt/m/n/10 https : / / www . 8051projects .
+ []
+
+[17] ("p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 17492 strings out of 480790
+ 302750 string characters out of 2906132
+ 1351409 words of memory out of 3000000
+ 33177 multiletter control sequences out of 15000+200000
+ 544025 words of font info for 69 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,13n,75p,1018b,2148s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\hp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmtt10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "p:/Assignments_Lab_Reports_LaTeX\Embedded System\Lab 3\Report\main.pdf" (22 pages, 446762 bytes).
+PDF statistics:
+ 207 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+

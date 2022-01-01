@@ -1,0 +1,29 @@
+Command line:
+   q4_pos_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  58049
+
+Tue Dec 01 20:50:19 2020
+
+
+ Elaboration Time: 0.03125 sec
+
+ Current Memory Usage: 5152.95 Meg
+
+ Total Signals          : 10
+ Total Nets             : 8
+ Total Signal Drivers   : 5
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 2
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 491
+Total Line Count : 7
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 5467.53 Meg
+
+Tue Dec 01 20:51:05 2020
+

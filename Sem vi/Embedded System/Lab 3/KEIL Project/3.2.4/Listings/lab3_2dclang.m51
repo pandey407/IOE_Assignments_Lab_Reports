@@ -1,0 +1,114 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/13/2020  12:40:43  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab3_2_d.obj TO .\Objects\lab3_2dclang PRINT (.\Listings\lab3_2dclang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab3_2_d.obj (LAB3_2_D)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\lab3_2dclang (LAB3_2_D)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            IDATA   0008H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     002EH     UNIT         ?PR?_DELAY?LAB3_2_D
+            CODE    082EH     001EH     UNIT         ?PR?MAIN?LAB3_2_D
+            CODE    084CH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab3_2dclang (LAB3_2_D)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?LAB3_2_D
+
+?PR?MAIN?LAB3_2_D
+  +--> ?PR?_DELAY?LAB3_2_D
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab3_2dclang (LAB3_2_D)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB3_2_D
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  C:0807H         PUBLIC        _delay
+  B:0080H.0       PUBLIC        select_bit
+  C:082EH         PUBLIC        main
+  D:0089H         PUBLIC        TMOD
+  B:0088H.7       PUBLIC        TF1
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/13/2020  12:40:43  PAGE 2
+
+
+  D:008CH         PUBLIC        TH0
+  B:0088H.6       PUBLIC        TR1
+  -------         PROC          L?0015
+  -------         ENDPROC       L?0015
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        factor
+  -------         DO            
+  D:0004H         SYMBOL        i
+  -------         ENDDO         
+  C:0807H         LINE#         3
+  C:0807H         LINE#         4
+  C:0807H         LINE#         6
+  C:0817H         LINE#         7
+  C:0817H         LINE#         8
+  C:081AH         LINE#         9
+  C:081DH         LINE#         10
+  C:081FH         LINE#         11
+  C:0822H         LINE#         12
+  C:0824H         LINE#         13
+  C:0826H         LINE#         14
+  C:082DH         LINE#         15
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0002H         SYMBOL        i
+  -------         ENDDO         
+  C:082EH         LINE#         16
+  C:082EH         LINE#         17
+  C:082EH         LINE#         19
+  C:082EH         LINE#         20
+  C:082EH         LINE#         21
+  C:0830H         LINE#         22
+  C:0832H         LINE#         23
+  C:0832H         LINE#         24
+  C:0835H         LINE#         25
+  C:0838H         LINE#         26
+  C:0838H         LINE#         27
+  C:083AH         LINE#         28
+  C:083CH         LINE#         29
+  C:083CH         LINE#         30
+  C:083FH         LINE#         31
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB3_2_D
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 004CH BYTE ( 3%) *
+******************************************************************************
+
+Program Size: data=9.0 xdata=0 code=91
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

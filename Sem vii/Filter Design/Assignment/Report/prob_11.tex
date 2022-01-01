@@ -1,0 +1,85 @@
+\problem{What is the importance of sensitivity analysis in filter design? Explain the sensitivity of the
+passive filter.}
+The importance of sensitivity analysis in filter design are noted as,
+\begin{enumerate}
+    \item Sensitivity is used in prediction of behavior of device with change in parameters.
+    \item It is used to figure out the extent that errors in elements contribute to entire operation of the network.
+    \item It is used to select circuit components and filters for various applications.
+    \item Prediction of the difference between a practical filter and nominal design considerations is guided by sensitivity analysis.
+    \item Tradeoff for conflicting requirements for low cost and precision are based on sensitivity analysis.
+\end{enumerate}
+For the sensitivity of passive filter, let us consider a RLC network as,
+\begin{figure}[H]
+    \centering
+    \figRLC
+    \caption{Passive RLC network}
+    \label{fig:rlc}
+\end{figure}
+
+The transfer function of the network shown in Figure~\ref{fig:rlc} is given as,
+\begin{equation}
+    \begin{aligned}[b]
+       & T(s)=\frac{V_2}{V_1}\\
+        &\Rightarrow T(s)=\ddfrac{\frac{1}{sC}}{R+sL+\frac{1}{sC}}\\
+       & \Rightarrow T(s)=\ddfrac{1}{s^2LC+sRC+1}\\
+       & \therefore T(s)=\ddfrac{\frac{1}{LC}}{s^2+s\frac{R}{L}+\frac{1}{LC}}
+    \end{aligned}
+    \label{eqn:rlc_calc}
+\end{equation}
+Also, the general equation for a lowpass filter is given as,
+\begin{equation}
+    T(s)=\ddfrac{H\omega_0^2}{s^2+\frac{\omega_0}{Q}s+\omega_0^2}
+    \label{eqn:lp-standard}
+\end{equation}
+Comparing Equation~\ref{eqn:rlc_calc} and Equation~\ref{eqn:lp-standard}, we get,
+\begin{equation*}
+    \begin{aligned}
+    &\omega_0^2=\frac{1}{LC}\Rightarrow \omega_0=\sqrt{\frac{1}{LC}}=L^{-1/2}C^{-1/2}\\
+    &\frac{\omega_0}{Q}=\frac{R}{L}\Rightarrow Q=\frac{1}{R}\sqrt{\frac{L}{C}}=R^{-1}L^{1/2}C^{-1/2}
+    \end{aligned}
+\end{equation*}
+So, we can calculate the following,
+\begin{equation}
+    \begin{aligned}[b]
+        S_L^{\omega_0}&=\left(\frac{L}{\omega_0}\right)\left(\frac{\delta \omega_0}{\delta L}\right)=\left(\frac{L}{\omega_0}\right)\left(\frac{\delta (L^{-1/2}C^{-1/2})}{\delta L}\right)\\
+        &=\left(\frac{L}{\omega_0}\right)\left(-\frac{1}{2}L^{-3/2}\right)C^{-1/2}\\
+        &=\left(-\frac{1}{2}\right)\frac{L.L^{-3/2}C^{-1/2}}{\omega_0}\\
+        &=\left(-\frac{1}{2}\right)\left(\frac{L^{-1/2}L^{-1/2}}{L^{-1/2}C^{-1/2}}\right)=-\frac{1}{2}
+    \end{aligned}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}[b]
+        S_C^{\omega_0}&=\left(\frac{C}{\omega_0}\right)\left(\frac{\delta \omega_0}{\delta C}\right)=\left(\frac{C}{\omega_0}\right)\left(\frac{\delta (L^{-1/2}C^{-1/2})}{\delta C}\right)\\
+        &=\left(\frac{C}{\omega_0}\right)\left(-\frac{1}{2}C^{-3/2}\right)L^{-1/2}\\
+        &=\left(-\frac{1}{2}\right)\frac{L^{-1/2}C.C^{-3/2}}{\omega_0}\\
+        &=\left(-\frac{1}{2}\right)\left(\frac{L^{-1/2}C^{-1/2}}{L^{-1/2}C^{-1/2}}\right)=-\frac{1}{2}
+    \end{aligned}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}[b]
+        S_R^{Q}&=\left(\frac{R}{Q}\right)\left(\frac{\delta Q}{\delta R}\right)=\left(\frac{R}{Q}\right)\left(\frac{\delta (R^{-1}L^{1/2}C^{-1/2})}{\delta Q}\right)\\
+        &=\left(\frac{R}{Q}\right)\left(-R^{-2}\right)L^{1/2}C^{-1/2}\\
+        &=\left(-1\right)\frac{R.R^{-2}L^{1/2}C^{-1/2}}{Q}\\
+        &=\left(-1\right)\left(\frac{R^{-1}L^{1/2}C^{-1/2}}{R^{-1}L^{1/2}C^{-1/2}}\right)=-1
+    \end{aligned}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}[b]
+        S_L^{Q}&=\left(\frac{L}{Q}\right)\left(\frac{\delta Q}{\delta L}\right)=\left(\frac{L}{Q}\right)\left(\frac{\delta (R^{-1}L^{1/2}C^{-1/2})}{\delta Q}\right)\\
+        &=\left(\frac{L}{Q}\right)\left(\frac{1}{2}L^{-1/2}\right)R^{-1}C^{-1/2}\\
+        &=\left(\frac{1}{2}\right)\frac{L.L^{-1/2}R^{-1}C^{-1/2}}{Q}\\
+        &=\left(\frac{1}{2}\right)\left(\frac{R^{-1}L^{1/2}C^{-1/2}}{R^{-1}L^{1/2}C^{-1/2}}\right)=\frac{1}{2}
+    \end{aligned}
+\end{equation}
+
+\begin{equation}
+    \begin{aligned}[b]
+        S_C^{Q}&=\left(\frac{C}{Q}\right)\left(\frac{\delta Q}{\delta C}\right)=\left(\frac{C}{Q}\right)\left(\frac{\delta (R^{-1}L^{1/2}C^{-1/2})}{\delta Q}\right)\\
+        &=\left(\frac{C}{Q}\right)\left(-\frac{1}{2}C^{-3/2}\right)R^{-1}L^{1/2}\\
+        &=\left(-\frac{1}{2}\right)\frac{C.C^{-3/2}R^{-1}L^{1/2}}{Q}\\
+        &=\left(-\frac{1}{2}\right)\left(\frac{R^{-1}L^{1/2}C^{-1/2}}{R^{-1}L^{1/2}C^{-1/2}}\right)=-\frac{1}{2}
+    \end{aligned}
+\end{equation}

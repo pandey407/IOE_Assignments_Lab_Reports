@@ -1,0 +1,17 @@
+Ashlesh_0#telnet 202.60.1.2
+Trying 202.60.1.2 ...Open
+
+
+User Access Verification
+
+Password: 
+Ashlesh_1>enable
+Password: 
+Ashlesh_1#config terminal 
+Ashlesh_1(config)#router rip
+Ashlesh_1(config-router)#network 202.60.1.0
+Ashlesh_1(config-router)#network 202.60.2.0
+Ashlesh_1(config-router)#network 202.60.3.0
+Ashlesh_1(config-router)#exit
+Ashlesh_1(config)#exit
+Ashlesh_1#

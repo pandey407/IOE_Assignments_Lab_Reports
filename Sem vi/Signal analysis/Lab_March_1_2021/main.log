@@ -1,0 +1,1095 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.9.26)  4 MAR 2021 12:11
+entering extended mode
+**"p:/Assignments_Lab_Reports_LaTeX/Signal analysis/Lab_March_1_2021/main.tex"
+("p:/Assignments_Lab_Reports_LaTeX/Signal analysis/Lab_March_1_2021/main.tex"
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18> ("D:\LaTeX installed\MikTex\tex/latex/labDecorator\lab_sheet.cls" ("D:\LaTeX installed\MikTex\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\LaTeX installed\MikTex\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count167
+\c@section=\count168
+\c@subsection=\count169
+\c@subsubsection=\count170
+\c@paragraph=\count171
+\c@subparagraph=\count172
+\c@figure=\count173
+\c@table=\count174
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+Document Class: lab_sheet 2020/09/24 My custom Lab Sheet class
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+) ("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\extramarks.sty"
+Package: extramarks 2019/01/31 v3.10 Extra marks for LaTeX
+\@temptokenb=\toks15
+) ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrextend.sty"
+Package: scrextend 2020/07/22 v3.31 KOMA-Script package (extend other classes with features of KOMA-Script classes)
+ ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrkbase.sty"
+Package: scrkbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrbase.sty"
+Package: scrbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) ("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrlfile.sty"
+Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+)))) ("D:\LaTeX installed\MikTex\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count175
+\float@exts=\toks17
+\float@box=\box45
+\@float@everytoks=\toks18
+\@floatcapt=\box46
+) ("D:\LaTeX installed\MikTex\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("D:\LaTeX installed\MikTex\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) ("D:\LaTeX installed\MikTex\tex/latex/listings\listings.sty"
+\lst@mode=\count176
+\lst@gtempboxa=\box47
+\lst@token=\toks19
+\lst@length=\count177
+\lst@currlwidth=\dimen137
+\lst@column=\count178
+\lst@pos=\count179
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count180
+\lst@lineno=\count181
+\lst@maxwidth=\dimen140
+ ("D:\LaTeX installed\MikTex\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count182
+\lst@skipnumbers=\count183
+\lst@framebox=\box48
+) ("D:\LaTeX installed\MikTex\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("D:\LaTeX installed\MikTex\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count184
+\mult@box=\box49
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count185
+\c@collectmore=\count186
+\doublecol@number=\count187
+\multicoltolerance=\count188
+\multicolpretolerance=\count189
+\full@width=\dimen142
+\page@free=\dimen143
+\premulticols=\dimen144
+\postmulticols=\dimen145
+\multicolsep=\skip58
+\multicolbaselineskip=\skip59
+\partial@page=\box50
+\last@line=\box51
+\maxbalancingoverflow=\dimen146
+\mult@rightbox=\box52
+\mult@grightbox=\box53
+\mult@gfirstbox=\box54
+\mult@firstbox=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\c@minrows=\count190
+\c@columnbadness=\count191
+\c@finalcolumnbadness=\count192
+\last@try=\dimen147
+\multicolovershoot=\dimen148
+\multicolundershoot=\dimen149
+\mult@nat@firstbox=\box93
+\colbreak@box=\box94
+\mc@col@check@num=\count193
+) ("D:\LaTeX installed\MikTex\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("D:\LaTeX installed\MikTex\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) ("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcolorbox.sty"
+Package: tcolorbox 2020/04/28 version 4.30 text color boxes
+ ("D:\LaTeX installed\MikTex\tex/latex/pgf/basiclayer\pgf.sty" ("D:\LaTeX installed\MikTex\tex/latex/pgf/utilities\pgfrcs.sty" ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks20
+\pgfutil@tempdima=\dimen150
+\pgfutil@tempdimb=\dimen151
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box95
+ ("D:\LaTeX installed\MikTex\tex/latex/ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+)) ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfrcs.code.tex" ("D:\LaTeX installed\MikTex\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/latex/pgf/basiclayer\pgfcore.sty" ("D:\LaTeX installed\MikTex\tex/latex/pgf/systemlayer\pgfsys.sty" ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks23
+))
+\pgf@x=\dimen152
+\pgf@y=\dimen153
+\pgf@xa=\dimen154
+\pgf@ya=\dimen155
+\pgf@xb=\dimen156
+\pgf@yb=\dimen157
+\pgf@xc=\dimen158
+\pgf@yc=\dimen159
+\pgf@xd=\dimen160
+\pgf@yd=\dimen161
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count194
+\c@pgf@countb=\count195
+\c@pgf@countc=\count196
+\c@pgf@countd=\count197
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count198
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgf.cfg"
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+))) ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count199
+\pgfsyssoftpath@bigbuffer@items=\count266
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmath.code.tex" ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathcalc.code.tex" ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathutil.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen162
+\pgfmath@count=\count267
+\pgfmath@box=\box96
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count268
+)) ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfint.code.tex") ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen163
+\pgf@picmaxx=\dimen164
+\pgf@picminy=\dimen165
+\pgf@picmaxy=\dimen166
+\pgf@pathminx=\dimen167
+\pgf@pathmaxx=\dimen168
+\pgf@pathminy=\dimen169
+\pgf@pathmaxy=\dimen170
+\pgf@xx=\dimen171
+\pgf@xy=\dimen172
+\pgf@yx=\dimen173
+\pgf@yy=\dimen174
+\pgf@zx=\dimen175
+\pgf@zy=\dimen176
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen177
+\pgf@path@lasty=\dimen178
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen179
+\pgf@shorten@start@additional=\dimen180
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box97
+\pgf@hbox=\box98
+\pgf@layerbox@main=\box99
+\pgf@picture@serial@count=\count269
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen181
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen182
+\pgf@pt@y=\dimen183
+\pgf@pt@temp=\dimen184
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen185
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen186
+\pgf@sys@shading@range@num=\count270
+\pgf@shadingcount=\count271
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box100
+)) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) ("D:\LaTeX installed\MikTex\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box101
+) ("D:\LaTeX installed\MikTex\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+) ("D:\LaTeX installed\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen187
+\pgf@nodesepend=\dimen188
+) ("D:\LaTeX installed\MikTex\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) ("D:\LaTeX installed\MikTex\tex/latex/tools\verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read3
+) ("D:\LaTeX installed\MikTex\tex/latex/environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ ("D:\LaTeX installed\MikTex\tex/latex/trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\@envbody=\toks32
+) ("D:\LaTeX installed\MikTex\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count272
+)
+\tcb@titlebox=\box102
+\tcb@upperbox=\box103
+\tcb@lowerbox=\box104
+\tcb@phantombox=\box105
+\c@tcbbreakpart=\count273
+\c@tcblayer=\count274
+\c@tcolorbox@number=\count275
+\tcb@temp=\box106
+\tcb@temp=\box107
+\tcb@temp=\box108
+\tcb@temp=\box109
+\tcb@out=\write4
+\tcb@record@out=\write5
+) ("D:\LaTeX installed\MikTex\tex/latex/caption\caption.sty"
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+ ("D:\LaTeX installed\MikTex\tex/latex/caption\caption3.sty"
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen189
+\captionmargin@=\dimen190
+\captionwidth=\dimen191
+\caption@tempdima=\dimen192
+\caption@indent=\dimen193
+\caption@parindent=\dimen194
+\caption@hangindent=\dimen195
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count276
+\c@continuedfloat=\count277
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+) ("D:\LaTeX installed\MikTex\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+\c@subfigure=\count278
+\c@subtable=\count279
+) ("D:\LaTeX installed\MikTex\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen196
+\ar@mcellbox=\box110
+\extrarowheight=\dimen197
+\NC@list=\toks33
+\extratabsurround=\skip60
+\backup@length=\skip61
+\ar@cellbox=\box111
+) ("D:\LaTeX installed\MikTex\tex/latex/mdframed\mdframed.sty"
+Package: mdframed 2013/07/01 1.9b: mdframed
+ ("D:\LaTeX installed\MikTex\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)) ("D:\LaTeX installed\MikTex\tex/latex/l3packages/xparse\xparse.sty" ("D:\LaTeX installed\MikTex\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-06-18 L3 programming layer (loader) 
+ ("D:\LaTeX installed\MikTex\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count280
+\l__pdf_internal_box=\box112
+))
+Package: xparse 2020-05-15 L3 Experimental document command parser
+ ("D:\LaTeX installed\MikTex\tex/latex/l3packages/xparse\xparse-generic.tex"
+\l__xparse_current_arg_int=\count281
+\g__xparse_grabber_int=\count282
+\l__xparse_m_args_int=\count283
+\l__xparse_v_nesting_int=\count284
+)) ("D:\LaTeX installed\MikTex\tex/latex/zref\zref-abspage.sty"
+Package: zref-abspage 2020-07-03 v2.32 Module abspage for zref (HO)
+ ("D:\LaTeX installed\MikTex\tex/latex/zref\zref-base.sty"
+Package: zref-base 2020-07-03 v2.32 Module base for zref (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) ("D:\LaTeX installed\MikTex\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ ("D:\LaTeX installed\MikTex\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) ("D:\LaTeX installed\MikTex\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+) ("D:\LaTeX installed\MikTex\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 764.
+Package zref Info: New property: default on input line 765.
+Package zref Info: New property: page on input line 766.
+) ("D:\LaTeX installed\MikTex\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\c@abspage=\count285
+Package zref Info: New property: abspage on input line 66.
+) ("D:\LaTeX installed\MikTex\tex/latex/needspace\needspace.sty"
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+\mdf@templength=\skip62
+\c@mdf@globalstyle@cnt=\count286
+\mdf@skipabove@length=\skip63
+\mdf@skipbelow@length=\skip64
+\mdf@leftmargin@length=\skip65
+\mdf@rightmargin@length=\skip66
+\mdf@innerleftmargin@length=\skip67
+\mdf@innerrightmargin@length=\skip68
+\mdf@innertopmargin@length=\skip69
+\mdf@innerbottommargin@length=\skip70
+\mdf@splittopskip@length=\skip71
+\mdf@splitbottomskip@length=\skip72
+\mdf@outermargin@length=\skip73
+\mdf@innermargin@length=\skip74
+\mdf@linewidth@length=\skip75
+\mdf@innerlinewidth@length=\skip76
+\mdf@middlelinewidth@length=\skip77
+\mdf@outerlinewidth@length=\skip78
+\mdf@roundcorner@length=\skip79
+\mdf@footenotedistance@length=\skip80
+\mdf@userdefinedwidth@length=\skip81
+\mdf@needspace@length=\skip82
+\mdf@frametitleaboveskip@length=\skip83
+\mdf@frametitlebelowskip@length=\skip84
+\mdf@frametitlerulewidth@length=\skip85
+\mdf@frametitleleftmargin@length=\skip86
+\mdf@frametitlerightmargin@length=\skip87
+\mdf@shadowsize@length=\skip88
+\mdf@extratopheight@length=\skip89
+\mdf@subtitleabovelinewidth@length=\skip90
+\mdf@subtitlebelowlinewidth@length=\skip91
+\mdf@subtitleaboveskip@length=\skip92
+\mdf@subtitlebelowskip@length=\skip93
+\mdf@subtitleinneraboveskip@length=\skip94
+\mdf@subtitleinnerbelowskip@length=\skip95
+\mdf@subsubtitleabovelinewidth@length=\skip96
+\mdf@subsubtitlebelowlinewidth@length=\skip97
+\mdf@subsubtitleaboveskip@length=\skip98
+\mdf@subsubtitlebelowskip@length=\skip99
+\mdf@subsubtitleinneraboveskip@length=\skip100
+\mdf@subsubtitleinnerbelowskip@length=\skip101
+ ("D:\LaTeX installed\MikTex\tex/latex/mdframed\md-frame-0.mdf"
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box113
+\mdf@footnotebox=\box114
+\mdf@splitbox@one=\box115
+\mdf@splitbox@two=\box116
+\mdf@splitbox@save=\box117
+\mdfsplitboxwidth=\skip102
+\mdfsplitboxtotalwidth=\skip103
+\mdfsplitboxheight=\skip104
+\mdfsplitboxdepth=\skip105
+\mdfsplitboxtotalheight=\skip106
+\mdfframetitleboxwidth=\skip107
+\mdfframetitleboxtotalwidth=\skip108
+\mdfframetitleboxheight=\skip109
+\mdfframetitleboxdepth=\skip110
+\mdfframetitleboxtotalheight=\skip111
+\mdffootnoteboxwidth=\skip112
+\mdffootnoteboxtotalwidth=\skip113
+\mdffootnoteboxheight=\skip114
+\mdffootnoteboxdepth=\skip115
+\mdffootnoteboxtotalheight=\skip116
+\mdftotallinewidth=\skip117
+\mdfboundingboxwidth=\skip118
+\mdfboundingboxtotalwidth=\skip119
+\mdfboundingboxheight=\skip120
+\mdfboundingboxdepth=\skip121
+\mdfboundingboxtotalheight=\skip122
+\mdf@freevspace@length=\skip123
+\mdf@horizontalwidthofbox@length=\skip124
+\mdf@verticalmarginwhole@length=\skip125
+\mdf@horizontalspaceofbox=\skip126
+\mdfsubtitleheight=\skip127
+\mdfsubsubtitleheight=\skip128
+\c@mdfcountframes=\count287
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count288
+\c@mdf@env@i=\count289
+\c@mdf@env@ii=\count290
+\c@mdf@zref@counter=\count291
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\adjustbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ ("D:\LaTeX installed\MikTex\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ ("D:\LaTeX installed\MikTex\tex/generic/xkeyval\xkeyval.tex" ("D:\LaTeX installed\MikTex\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks34
+\XKV@tempa@toks=\toks35
+)
+\XKV@depth=\count292
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\trimclip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ ("D:\LaTeX installed\MikTex\tex/latex/collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box118
+)
+\tc@llx=\dimen198
+\tc@lly=\dimen199
+\tc@urx=\dimen256
+\tc@ury=\dimen257
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ ("D:\LaTeX installed\MikTex\tex/latex/adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen258
+\adjbox@Height=\dimen259
+\adjbox@Depth=\dimen260
+\adjbox@Totalheight=\dimen261
+\adjbox@pwidth=\dimen262
+\adjbox@pheight=\dimen263
+\adjbox@pdepth=\dimen264
+\adjbox@ptotalheight=\dimen265
+ ("D:\LaTeX installed\MikTex\tex/latex/ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count293
+) ("D:\LaTeX installed\MikTex\tex/latex/varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box119
+\sift@deathcycles=\count294
+\@vwid@loff=\dimen266
+\@vwid@roff=\dimen267
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks36
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip129
+
+For additional information on amsmath, use the `?' option.
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks37
+\ex@=\dimen268
+)) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen269
+) ("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count295
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count296
+\leftroot@=\count297
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count298
+\DOTSCASE@=\count299
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box120
+\strutbox@=\box121
+\big@size=\dimen270
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count300
+\c@MaxMatrixCols=\count301
+\dotsspace@=\muskip16
+\c@parentequation=\count302
+\dspbrk@lvl=\count303
+\tag@help=\toks38
+\row@=\count304
+\column@=\count305
+\maxfields@=\count306
+\andhelp@=\toks39
+\eqnshift@=\dimen271
+\alignsep@=\dimen272
+\tagshift@=\dimen273
+\tagwidth@=\dimen274
+\totwidth@=\dimen275
+\lineht@=\dimen276
+\@envbody=\toks40
+\multlinegap=\skip130
+\multlinetaggap=\skip131
+\mathdisplay@stack=\toks41
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) ("D:\LaTeX installed\MikTex\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen277
+\lightrulewidth=\dimen278
+\cmidrulewidth=\dimen279
+\belowrulesep=\dimen280
+\belowbottomsep=\dimen281
+\aboverulesep=\dimen282
+\abovetopsep=\dimen283
+\cmidrulesep=\dimen284
+\cmidrulekern=\dimen285
+\defaultaddspace=\dimen286
+\@cmidla=\count307
+\@cmidlb=\count308
+\@aboverulesep=\dimen287
+\@belowrulesep=\dimen288
+\@thisruleclass=\count309
+\@lastruleclass=\count310
+\@thisrulewidth=\dimen289
+) ("D:\LaTeX installed\MikTex\tex/latex/multirow\multirow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip132
+\multirow@cntb=\count311
+\multirow@dima=\skip133
+\bigstrutjot=\dimen290
+) ("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcbskins.code.tex"
+Library (tcolorbox): 'tcbskins.code.tex' version '4.30'
+("D:\LaTeX installed\MikTex\tex/latex/pgf/frontendlayer\tikz.sty" ("D:\LaTeX installed\MikTex\tex/latex/pgf/utilities\pgffor.sty" ("D:\LaTeX installed\MikTex\tex/latex/pgf/utilities\pgfkeys.sty" ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgfkeys.code.tex")) ("D:\LaTeX installed\MikTex\tex/latex/pgf/math\pgfmath.sty" ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmath.code.tex")) ("D:\LaTeX installed\MikTex\tex/generic/pgf/utilities\pgffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/math\pgfmath.code.tex")
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks42
+\pgffor@toks=\toks43
+)) ("D:\LaTeX installed\MikTex\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex"
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count312
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikz@lastmovetox=\dimen298
+\tikz@lastmovetoy=\dimen299
+\tikzleveldistance=\dimen300
+\tikzsiblingdistance=\dimen301
+\tikz@figbox=\box122
+\tikz@figbox@bg=\box123
+\tikz@tempbox=\box124
+\tikz@tempbox@bg=\box125
+\tikztreelevel=\count313
+\tikznumberofchildren=\count314
+\tikznumberofcurrentchild=\count315
+\tikz@fig@count=\count316
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/modules\pgfmodulematrix.code.tex"
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count317
+\pgfmatrixcurrentcolumn=\count318
+\pgf@matrix@numberofcolumns=\count319
+)
+\tikz@expandcount=\count320
+ ("D:\LaTeX installed\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\tcb@waterbox=\box126
+ ("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcbskinsjigsaw.code.tex"
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.30'
+)) ("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcblistings.code.tex"
+Library (tcolorbox): 'tcblistings.code.tex' version '4.30'
+("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcblistingscore.code.tex"
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.30'
+("D:\LaTeX installed\MikTex\tex/latex/tcolorbox\tcbprocessing.code.tex"
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.30'
+("D:\LaTeX installed\MikTex\tex/latex/tools\shellesc.sty"
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count321
+))
+\c@homeworkProblemCounter=\count322
+\c@subProblemCounter=\count323
+) ("D:\LaTeX installed\MikTex\tex/latex/epstopdf-pkg\epstopdf.sty"
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+ ("D:\LaTeX installed\MikTex\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+) ("D:\LaTeX installed\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)) ("p:/Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux"
+
+LaTeX Warning: Label `fig:fourier' multiply defined.
+
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+ ("D:\LaTeX installed\MikTex\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count324
+\scratchdimen=\dimen302
+\scratchbox=\box127
+\nofMPsegments=\count325
+\nofMParguments=\count326
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count327
+\MPscratchDim=\dimen303
+\MPnumerator=\count328
+\makeMPintoPDFobject=\count329
+\everyMPtoPDFconversion=\toks45
+)
+\c@lstlisting=\count330
+ ABD: EveryShipout initializing macros
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box128
+<logo.png, id=4, 299.1175pt x 335.2525pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 4.
+(pdftex.def)             Requested size: 149.55838pt x 167.62584pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+ ("D:\LaTeX installed\MikTex\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/hp/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <D:/LaTeX installed/MikTex/tex/latex/labDecorator/logo.png>] [1] ("D:\LaTeX installed\MikTex\tex/latex/listings\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (Codes/sinosoidal.m)
+Package epstopdf Info: Source file: <./Figures/sinosoidal.eps>
+(epstopdf)                    date: 2021-03-04 01:07:02
+(epstopdf)                    size: 86384 bytes
+(epstopdf)             Output file: <./Figures/sinosoidal-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 01:09:51
+(epstopdf)                    size: 38108 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/sinosoidal-eps-converted-to.pdf ./Figures/sinosoidal.eps>
+(epstopdf)             \includegraphics on input line 51.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/sinosoidal-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/sinosoidal-eps-converted-to.pdf, id=22, 372.39125pt x 301.125pt>
+File: ./Figures/sinosoidal-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/sinosoidal-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/sinosoidal-eps-converted-to.pdf  used on input line 51.
+(pdftex.def)             Requested size: 223.43646pt x 180.67638pt.
+[2 <./Figures/sinosoidal-eps-converted-to.pdf>] (Codes/ramp.m)
+Package epstopdf Info: Source file: <./Figures/ramp.eps>
+(epstopdf)                    date: 2021-03-04 01:06:57
+(epstopdf)                    size: 62027 bytes
+(epstopdf)             Output file: <./Figures/ramp-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 09:55:40
+(epstopdf)                    size: 25301 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/ramp-eps-converted-to.pdf ./Figures/ramp.eps>
+(epstopdf)             \includegraphics on input line 61.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/ramp-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/ramp-eps-converted-to.pdf, id=36, 359.3425pt x 294.09875pt>
+File: ./Figures/ramp-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/ramp-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/ramp-eps-converted-to.pdf  used on input line 61.
+(pdftex.def)             Requested size: 215.60715pt x 176.4606pt.
+(Codes/powered.m)
+Package epstopdf Info: Source file: <./Figures/powered_1.eps>
+(epstopdf)                    date: 2021-03-04 10:17:24
+(epstopdf)                    size: 62880 bytes
+(epstopdf)             Output file: <./Figures/powered_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:18:47
+(epstopdf)                    size: 24194 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/powered_1-eps-converted-to.pdf ./Figures/powered_1.eps>
+(epstopdf)             \includegraphics on input line 71.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/powered_1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/powered_1-eps-converted-to.pdf, id=37, 356.33125pt x 294.09875pt>
+File: ./Figures/powered_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/powered_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/powered_1-eps-converted-to.pdf  used on input line 71.
+(pdftex.def)             Requested size: 213.80038pt x 176.4606pt.
+[3 <./Figures/ramp-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <./Figures/powered_3.eps>
+(epstopdf)                    date: 2021-03-04 10:18:16
+(epstopdf)                    size: 54321 bytes
+(epstopdf)             Output file: <./Figures/powered_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:18:49
+(epstopdf)                    size: 10703 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/powered_3-eps-converted-to.pdf ./Figures/powered_3.eps>
+(epstopdf)             \includegraphics on input line 78.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/powered_3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/powered_3-eps-converted-to.pdf, id=50, 359.3425pt x 294.09875pt>
+File: ./Figures/powered_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/powered_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/powered_3-eps-converted-to.pdf  used on input line 78.
+(pdftex.def)             Requested size: 215.60715pt x 176.4606pt.
+Package epstopdf Info: Source file: <./Figures/powered_2.eps>
+(epstopdf)                    date: 2021-03-04 10:18:04
+(epstopdf)                    size: 62880 bytes
+(epstopdf)             Output file: <./Figures/powered_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:18:48
+(epstopdf)                    size: 24158 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/powered_2-eps-converted-to.pdf ./Figures/powered_2.eps>
+(epstopdf)             \includegraphics on input line 85.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/powered_2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/powered_2-eps-converted-to.pdf, id=51, 356.33125pt x 294.09875pt>
+File: ./Figures/powered_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/powered_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/powered_2-eps-converted-to.pdf  used on input line 85.
+(pdftex.def)             Requested size: 213.80038pt x 176.4606pt.
+[4 <./Figures/powered_1-eps-converted-to.pdf> <./Figures/powered_3-eps-converted-to.pdf> <./Figures/powered_2-eps-converted-to.pdf>] (Codes/exp_signal.m)
+Package epstopdf Info: Source file: <./Figures/exp_signal_1.eps>
+(epstopdf)                    date: 2021-03-04 00:57:38
+(epstopdf)                    size: 62264 bytes
+(epstopdf)             Output file: <./Figures/exp_signal_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:24:30
+(epstopdf)                    size: 25640 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/exp_signal_1-eps-converted-to.pdf ./Figures/exp_signal_1.eps>
+(epstopdf)             \includegraphics on input line 94.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/exp_signal_1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/exp_signal_1-eps-converted-to.pdf, id=79, 356.33125pt x 294.09875pt>
+File: ./Figures/exp_signal_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/exp_signal_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/exp_signal_1-eps-converted-to.pdf  used on input line 94.
+(pdftex.def)             Requested size: 213.80038pt x 176.4606pt.
+Package epstopdf Info: Source file: <./Figures/exp_signal_2.eps>
+(epstopdf)                    date: 2021-03-04 00:58:06
+(epstopdf)                    size: 54350 bytes
+(epstopdf)             Output file: <./Figures/exp_signal_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:24:31
+(epstopdf)                    size: 10932 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/exp_signal_2-eps-converted-to.pdf ./Figures/exp_signal_2.eps>
+(epstopdf)             \includegraphics on input line 101.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/exp_signal_2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/exp_signal_2-eps-converted-to.pdf, id=80, 359.3425pt x 294.09875pt>
+File: ./Figures/exp_signal_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/exp_signal_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/exp_signal_2-eps-converted-to.pdf  used on input line 101.
+(pdftex.def)             Requested size: 215.60715pt x 176.4606pt.
+Package epstopdf Info: Source file: <./Figures/exp_signal_3.eps>
+(epstopdf)                    date: 2021-03-04 00:58:28
+(epstopdf)                    size: 62264 bytes
+(epstopdf)             Output file: <./Figures/exp_signal_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:24:32
+(epstopdf)                    size: 25509 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/exp_signal_3-eps-converted-to.pdf ./Figures/exp_signal_3.eps>
+(epstopdf)             \includegraphics on input line 108.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/exp_signal_3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/exp_signal_3-eps-converted-to.pdf, id=81, 356.33125pt x 294.09875pt>
+File: ./Figures/exp_signal_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/exp_signal_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/exp_signal_3-eps-converted-to.pdf  used on input line 108.
+(pdftex.def)             Requested size: 213.80038pt x 176.4606pt.
+[5 <./Figures/exp_signal_1-eps-converted-to.pdf> <./Figures/exp_signal_2-eps-converted-to.pdf>] (Codes/unit_step.m)
+Package epstopdf Info: Source file: <./Figures/unit_step.eps>
+(epstopdf)                    date: 2021-03-04 01:07:04
+(epstopdf)                    size: 50980 bytes
+(epstopdf)             Output file: <./Figures/unit_step-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:28:45
+(epstopdf)                    size: 10330 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/unit_step-eps-converted-to.pdf ./Figures/unit_step.eps>
+(epstopdf)             \includegraphics on input line 118.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/unit_step-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/unit_step-eps-converted-to.pdf, id=101, 359.3425pt x 294.09875pt>
+File: ./Figures/unit_step-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/unit_step-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/unit_step-eps-converted-to.pdf  used on input line 118.
+(pdftex.def)             Requested size: 215.60715pt x 176.4606pt.
+[6 <./Figures/exp_signal_3-eps-converted-to.pdf> <./Figures/unit_step-eps-converted-to.pdf>] (Codes/unit_impulse.m)
+Package epstopdf Info: Source file: <./Figures/unit_impulse.eps>
+(epstopdf)                    date: 2021-03-04 10:40:48
+(epstopdf)                    size: 51991 bytes
+(epstopdf)             Output file: <./Figures/unit_impulse-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 10:41:26
+(epstopdf)                    size: 14545 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/unit_impulse-eps-converted-to.pdf ./Figures/unit_impulse.eps>
+(epstopdf)             \includegraphics on input line 128.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/unit_impulse-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/unit_impulse-eps-converted-to.pdf, id=122, 359.3425pt x 294.09875pt>
+File: ./Figures/unit_impulse-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/unit_impulse-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/unit_impulse-eps-converted-to.pdf  used on input line 128.
+(pdftex.def)             Requested size: 215.60715pt x 176.4606pt.
+[7 <./Figures/unit_impulse-eps-converted-to.pdf>] (Codes/sin_odd_add.m)
+Package epstopdf Info: Source file: <./Figures/sin_add_odd_1.eps>
+(epstopdf)                    date: 2021-03-04 11:03:03
+(epstopdf)                    size: 53172 bytes
+(epstopdf)             Output file: <./Figures/sin_add_odd_1-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:05:30
+(epstopdf)                    size: 22813 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/sin_add_odd_1-eps-converted-to.pdf ./Figures/sin_add_odd_1.eps>
+(epstopdf)             \includegraphics on input line 150.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/sin_add_odd_1-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/sin_add_odd_1-eps-converted-to.pdf, id=137, 366.36874pt x 301.125pt>
+File: ./Figures/sin_add_odd_1-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/sin_add_odd_1-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/sin_add_odd_1-eps-converted-to.pdf  used on input line 150.
+(pdftex.def)             Requested size: 256.45636pt x 210.78606pt.
+Package epstopdf Info: Source file: <./Figures/sin_add_odd_2.eps>
+(epstopdf)                    date: 2021-03-04 11:03:03
+(epstopdf)                    size: 53108 bytes
+(epstopdf)             Output file: <./Figures/sin_add_odd_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:05:31
+(epstopdf)                    size: 22107 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/sin_add_odd_2-eps-converted-to.pdf ./Figures/sin_add_odd_2.eps>
+(epstopdf)             \includegraphics on input line 157.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/sin_add_odd_2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/sin_add_odd_2-eps-converted-to.pdf, id=138, 366.36874pt x 301.125pt>
+File: ./Figures/sin_add_odd_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/sin_add_odd_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/sin_add_odd_2-eps-converted-to.pdf  used on input line 157.
+(pdftex.def)             Requested size: 256.45636pt x 210.78606pt.
+Package epstopdf Info: Source file: <./Figures/sin_add_odd_3.eps>
+(epstopdf)                    date: 2021-03-04 11:03:04
+(epstopdf)                    size: 53148 bytes
+(epstopdf)             Output file: <./Figures/sin_add_odd_3-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:05:33
+(epstopdf)                    size: 20998 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/sin_add_odd_3-eps-converted-to.pdf ./Figures/sin_add_odd_3.eps>
+(epstopdf)             \includegraphics on input line 164.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/sin_add_odd_3-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/sin_add_odd_3-eps-converted-to.pdf, id=139, 366.36874pt x 301.125pt>
+File: ./Figures/sin_add_odd_3-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/sin_add_odd_3-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/sin_add_odd_3-eps-converted-to.pdf  used on input line 164.
+(pdftex.def)             Requested size: 256.45636pt x 210.78606pt.
+[8 <./Figures/sin_add_odd_1-eps-converted-to.pdf> <./Figures/sin_add_odd_2-eps-converted-to.pdf>] (Codes/dis_convo.m)
+Package epstopdf Info: Source file: <./Figures/dis_convo.eps>
+(epstopdf)                    date: 2021-03-04 01:06:29
+(epstopdf)                    size: 28173 bytes
+(epstopdf)             Output file: <./Figures/dis_convo-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:16:23
+(epstopdf)                    size: 10724 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/dis_convo-eps-converted-to.pdf ./Figures/dis_convo.eps>
+(epstopdf)             \includegraphics on input line 184.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/dis_convo-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/dis_convo-eps-converted-to.pdf, id=159, 352.31625pt x 278.03876pt>
+File: ./Figures/dis_convo-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/dis_convo-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/dis_convo-eps-converted-to.pdf  used on input line 184.
+(pdftex.def)             Requested size: 211.39137pt x 166.82454pt.
+[9 <./Figures/sin_add_odd_3-eps-converted-to.pdf>] (Codes/dis_convo_2.m)
+Package epstopdf Info: Source file: <./Figures/dis_convo_2.eps>
+(epstopdf)                    date: 2021-03-04 01:06:31
+(epstopdf)                    size: 33774 bytes
+(epstopdf)             Output file: <./Figures/dis_convo_2-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:17:44
+(epstopdf)                    size: 14271 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/dis_convo_2-eps-converted-to.pdf ./Figures/dis_convo_2.eps>
+(epstopdf)             \includegraphics on input line 192.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/dis_convo_2-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/dis_convo_2-eps-converted-to.pdf, id=171, 357.335pt x 278.03876pt>
+File: ./Figures/dis_convo_2-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/dis_convo_2-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/dis_convo_2-eps-converted-to.pdf  used on input line 192.
+(pdftex.def)             Requested size: 214.40265pt x 166.82454pt.
+[10 <./Figures/dis_convo-eps-converted-to.pdf> <./Figures/dis_convo_2-eps-converted-to.pdf>] (Codes/fourier_transform.m)
+Package epstopdf Info: Source file: <./Figures/fourier_transform.eps>
+(epstopdf)                    date: 2021-03-04 01:06:44
+(epstopdf)                    size: 29567 bytes
+(epstopdf)             Output file: <./Figures/fourier_transform-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 11:52:23
+(epstopdf)                    size: 11766 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/fourier_transform-eps-converted-to.pdf ./Figures/fourier_transform.eps>
+(epstopdf)             \includegraphics on input line 211.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/fourier_transform-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/fourier_transform-eps-converted-to.pdf, id=191, 352.31625pt x 278.03876pt>
+File: ./Figures/fourier_transform-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/fourier_transform-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/fourier_transform-eps-converted-to.pdf  used on input line 211.
+(pdftex.def)             Requested size: 211.39137pt x 166.82454pt.
+[11 <./Figures/fourier_transform-eps-converted-to.pdf>] (Codes/freq_response.m)
+Package epstopdf Info: Source file: <./Figures/freq_response.eps>
+(epstopdf)                    date: 2021-03-04 01:06:45
+(epstopdf)                    size: 31794 bytes
+(epstopdf)             Output file: <./Figures/freq_response-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-03-04 12:06:18
+(epstopdf)                    size: 14307 bytes
+(epstopdf)             Command: <epstopdf --outfile=./Figures/freq_response-eps-converted-to.pdf ./Figures/freq_response.eps>
+(epstopdf)             \includegraphics on input line 239.
+Package epstopdf Info: Output file is already uptodate.
+
+
+pdfTeX warning: pdflatex (file ./Figures/freq_response-eps-converted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<./Figures/freq_response-eps-converted-to.pdf, id=203, 361.35pt x 294.09875pt>
+File: ./Figures/freq_response-eps-converted-to.pdf Graphic file (type pdf)
+<use ./Figures/freq_response-eps-converted-to.pdf>
+Package pdftex.def Info: ./Figures/freq_response-eps-converted-to.pdf  used on input line 239.
+(pdftex.def)             Requested size: 216.81168pt x 176.4606pt.
+[12 <./Figures/freq_response-eps-converted-to.pdf>] ("p:/Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23968 strings out of 480790
+ 475388 string characters out of 2906132
+ 1081616 words of memory out of 3000000
+ 39489 multiletter control sequences out of 15000+200000
+ 542132 words of font info for 62 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,12n,87p,921b,1969s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\hp\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmti12.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on "p:/Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.pdf" (13 pages, 556165 bytes).
+PDF statistics:
+ 261 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+

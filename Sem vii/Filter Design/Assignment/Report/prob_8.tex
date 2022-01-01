@@ -1,0 +1,13 @@
+\problem{What are the zeros of transmission? How can they be realized in a network? Explain with
+suitable examples.}
+As the name suggests, zeros of transmission are the frequency group at which a considered two-port network's output is zero despite having a non-zero, finite input. Such network condition is said be zero transmission. To realize zeros of transmission in a network, combination of network elements are employed such that input is prevented in reaching output by either shortening or opening the available transmission paths. Another way of attaining zero transmission is by cancelling out the different path signals such that zero output is observed.\\
+For the admittance function given as,
+\begin{equation*}
+    Y(s)=\frac{2K_is}{s^2+\omega_i^2}
+\end{equation*}
+At pole frequency $s=j\omega_i$, $Y(s)=\infty$ and $Z(s)=0$. Short circuit occurs in the short arm. 
+For the impedance function given as,
+\begin{equation*}
+    Z(s)=\frac{2K_is}{s^2+\omega_i^2}
+\end{equation*}
+At pole frequency $s=j\omega_i$, $Z(s)=\infty$ and $Y(s)=0$. Open circuit occurs in the series arm. 

@@ -1,0 +1,16 @@
+Ashlesh#telnet 200.200.20.66
+Trying 200.200.20.66 ...Open
+User Access Verification
+
+Password: 
+Pandey>enable
+Password: 
+Pandey#config terminal
+Pandey(config)#ip route 200.200.20.0 255.255.255.224 200.200.20.65
+Pandey(config)#ip route 200.200.20.32 255.255.255.224 200.200.20.65
+Pandey(config)#exit
+Pandey#exit
+[Connection to 200.200.20.66 closed by foreign host]
+Ashlesh#exit
+[Connection to 200.200.20.1 closed by foreign host]
+C:\>

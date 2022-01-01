@@ -1,0 +1,23 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY q6_mux4_1 IS PORT (
+	X1, X2, X3, X4, S0, S1 : IN STD_LOGIC;
+	Y : OUT STD_LOGIC
+);
+END q6_mux4_1;
+
+ARCHITECTURE structural OF q6_mux4_1 IS
+	SIGNAL F1, F2 : STD_LOGIC;
+
+	COMPONENT q5_mux2_1 IS PORT (
+		X1, X2, S : IN STD_LOGIC;
+		Y : OUT STD_LOGIC
+		);
+	END COMPONENT;
+
+BEGIN
+	M0 : q5_mux2_1 PORT MAP(X1 => X1, X2 => X2, S => S0, Y => F1);
+	M1 : q5_mux2_1 PORT MAP(X1 => X3, X2 => X4, S => S0, Y => F2);
+	M2 : q5_mux2_1 PORT MAP(X1 => F1, X2 => F2, S => S1, Y => Y);
+END structural;

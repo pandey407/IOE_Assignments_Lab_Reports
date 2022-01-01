@@ -1,0 +1,11 @@
+C:\>ping 202.60.6.3
+
+Pinging 202.60.6.3 with 32 bytes of data:
+
+Reply from 202.60.0.1: Destination host unreachable.
+Reply from 202.60.0.1: Destination host unreachable.
+Reply from 202.60.0.1: Destination host unreachable.
+Reply from 202.60.0.1: Destination host unreachable.
+
+Ping statistics for 202.60.6.3:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),

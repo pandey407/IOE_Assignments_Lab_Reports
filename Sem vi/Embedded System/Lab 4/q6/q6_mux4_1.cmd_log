@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q6/q6_mux4_1.xst" -ofn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q6/q6_mux4_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa7a100t-csg324-2I "q6_mux4_1.ngc" q6_mux4_1.ngd  
+map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o q6_mux4_1_map.ncd q6_mux4_1.ngd q6_mux4_1.pcf 

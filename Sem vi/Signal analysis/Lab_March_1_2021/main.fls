@@ -1,0 +1,534 @@
+PWD p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021
+INPUT C:\Users\hp\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.tex
+OUTPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.log
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\lab_sheet.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\lab_sheet.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstmisc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstmisc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\listings.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\multicol.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\multicol.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xcolor\xcolor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xcolor\xcolor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\color.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\color.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcolorbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcolorbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\basiclayer\pgf.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgfrcs.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfutil-common.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfutil-common-lists.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfutil-latex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\ms\everyshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\ms\everyshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfrcs.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\pgf.revision.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\pgf.revision.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\basiclayer\pgfcore.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\systemlayer\pgfsys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsys.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfkeysfiltered.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgf.cfg
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsys-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcore.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathcalc.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathutil.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathparser.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.basic.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.trigonometric.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.random.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.comparison.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.base.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.round.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.misc.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfunctions.integerarithmetics.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmathfloat.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfint.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoregraphicstate.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoretransformations.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorequick.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoreobjects.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorepathprocessing.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoreimage.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoreexternal.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcoretransparency.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorepatterns.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\basiclayer\pgfcorerdf.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\verbatim.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\verbatim.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\environ\environ.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\environ\environ.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\trimspaces\trimspaces.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\trimspaces\trimspaces.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\etoolbox\etoolbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\caption3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\subcaption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\caption\subcaption.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\mdframed.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\mdframed.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\kvoptions\kvoptions.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\ltxcmds\ltxcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvsetkeys\kvsetkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3kernel\expl3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3kernel\expl3.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3packages\xparse\xparse-generic.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-abspage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-abspage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\zref\zref-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\infwarerr\infwarerr.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\kvdefinekeys\kvdefinekeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pdftexcmds\pdftexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\iftex\iftex.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\iftex\iftex.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\etexcmds\etexcmds.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\auxhook\auxhook.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\auxhook\auxhook.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\atbegshi\atbegshi.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\needspace\needspace.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\needspace\needspace.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\mdframed\md-frame-0.mdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjustbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\xkeyval\xkeyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\xkeyval\xkeyval.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\xkeyval\xkvutils.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\adjcalc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\trimclip.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\trimclip.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\collectbox\collectbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\collectbox\collectbox.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\adjustbox\tc-pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\ifoddpage\ifoddpage.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\varwidth\varwidth.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amssymb.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amssymb.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amstext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amstext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsgen.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsgen.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsopn.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsopn.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\booktabs\booktabs.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\booktabs\booktabs.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\multirow\multirow.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\multirow\multirow.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcbskins.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\frontendlayer\tikz.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgffor.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\utilities\pgfkeys.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgfkeys.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\pgf\math\pgfmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\utilities\pgffor.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\math\pgfmath.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\modules\pgfmodulematrix.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcbskinsjigsaw.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcblistings.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcblistingscore.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\tcolorbox\tcbprocessing.code.tex
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\shellesc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\shellesc.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\grfext\grfext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\grfext\grfext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux
+INPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux
+OUTPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr17.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+OUTPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.pdf
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\tex\latex\labDecorator\logo.png
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr9.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmti12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstlang1.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\listings\lstlang1.sty
+INPUT Codes\sinosoidal.m
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmtt10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmtt8.tfm
+INPUT Codes\sinosoidal.m
+INPUT Codes\sinosoidal.m
+INPUT Figures\sinosoidal.eps
+INPUT .\Figures\sinosoidal.eps
+INPUT .\Figures\sinosoidal.eps
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT .\Figures\sinosoidal.eps
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT .\Figures\sinosoidal-eps-converted-to.pdf
+INPUT Codes\ramp.m
+INPUT Codes\ramp.m
+INPUT Codes\ramp.m
+INPUT Figures\ramp.eps
+INPUT .\Figures\ramp.eps
+INPUT .\Figures\ramp.eps
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT .\Figures\ramp.eps
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT .\Figures\ramp-eps-converted-to.pdf
+INPUT Codes\powered.m
+INPUT Codes\powered.m
+INPUT Codes\powered.m
+INPUT Figures\powered_1.eps
+INPUT .\Figures\powered_1.eps
+INPUT .\Figures\powered_1.eps
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT .\Figures\powered_1.eps
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT .\Figures\powered_1-eps-converted-to.pdf
+INPUT Figures\powered_3.eps
+INPUT .\Figures\powered_3.eps
+INPUT .\Figures\powered_3.eps
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT .\Figures\powered_3.eps
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT .\Figures\powered_3-eps-converted-to.pdf
+INPUT Figures\powered_2.eps
+INPUT .\Figures\powered_2.eps
+INPUT .\Figures\powered_2.eps
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT .\Figures\powered_2.eps
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT .\Figures\powered_2-eps-converted-to.pdf
+INPUT Codes\exp_signal.m
+INPUT Codes\exp_signal.m
+INPUT Codes\exp_signal.m
+INPUT Figures\exp_signal_1.eps
+INPUT .\Figures\exp_signal_1.eps
+INPUT .\Figures\exp_signal_1.eps
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_1.eps
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_1-eps-converted-to.pdf
+INPUT Figures\exp_signal_2.eps
+INPUT .\Figures\exp_signal_2.eps
+INPUT .\Figures\exp_signal_2.eps
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_2.eps
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_2-eps-converted-to.pdf
+INPUT Figures\exp_signal_3.eps
+INPUT .\Figures\exp_signal_3.eps
+INPUT .\Figures\exp_signal_3.eps
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_3.eps
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT .\Figures\exp_signal_3-eps-converted-to.pdf
+INPUT Codes\unit_step.m
+INPUT Codes\unit_step.m
+INPUT Codes\unit_step.m
+INPUT Figures\unit_step.eps
+INPUT .\Figures\unit_step.eps
+INPUT .\Figures\unit_step.eps
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT .\Figures\unit_step.eps
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT .\Figures\unit_step-eps-converted-to.pdf
+INPUT Codes\unit_impulse.m
+INPUT Codes\unit_impulse.m
+INPUT Codes\unit_impulse.m
+INPUT Figures\unit_impulse.eps
+INPUT .\Figures\unit_impulse.eps
+INPUT .\Figures\unit_impulse.eps
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT .\Figures\unit_impulse.eps
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT .\Figures\unit_impulse-eps-converted-to.pdf
+INPUT Codes\sin_odd_add.m
+INPUT Codes\sin_odd_add.m
+INPUT Codes\sin_odd_add.m
+INPUT Figures\sin_add_odd_1.eps
+INPUT .\Figures\sin_add_odd_1.eps
+INPUT .\Figures\sin_add_odd_1.eps
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_1.eps
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_1-eps-converted-to.pdf
+INPUT Figures\sin_add_odd_2.eps
+INPUT .\Figures\sin_add_odd_2.eps
+INPUT .\Figures\sin_add_odd_2.eps
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_2.eps
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_2-eps-converted-to.pdf
+INPUT Figures\sin_add_odd_3.eps
+INPUT .\Figures\sin_add_odd_3.eps
+INPUT .\Figures\sin_add_odd_3.eps
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_3.eps
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT .\Figures\sin_add_odd_3-eps-converted-to.pdf
+INPUT Codes\dis_convo.m
+INPUT Codes\dis_convo.m
+INPUT Codes\dis_convo.m
+INPUT Figures\dis_convo.eps
+INPUT .\Figures\dis_convo.eps
+INPUT .\Figures\dis_convo.eps
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT .\Figures\dis_convo.eps
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT .\Figures\dis_convo-eps-converted-to.pdf
+INPUT Codes\dis_convo_2.m
+INPUT Codes\dis_convo_2.m
+INPUT Codes\dis_convo_2.m
+INPUT Figures\dis_convo_2.eps
+INPUT .\Figures\dis_convo_2.eps
+INPUT .\Figures\dis_convo_2.eps
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT .\Figures\dis_convo_2.eps
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT .\Figures\dis_convo_2-eps-converted-to.pdf
+INPUT Codes\fourier_transform.m
+INPUT Codes\fourier_transform.m
+INPUT Codes\fourier_transform.m
+INPUT Figures\fourier_transform.eps
+INPUT .\Figures\fourier_transform.eps
+INPUT .\Figures\fourier_transform.eps
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT .\Figures\fourier_transform.eps
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT .\Figures\fourier_transform-eps-converted-to.pdf
+INPUT Codes\freq_response.m
+INPUT Codes\freq_response.m
+INPUT Codes\freq_response.m
+INPUT Figures\freq_response.eps
+INPUT .\Figures\freq_response.eps
+INPUT .\Figures\freq_response.eps
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT .\Figures\freq_response.eps
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT .\Figures\freq_response-eps-converted-to.pdf
+INPUT p:\Assignments_Lab_Reports_LaTeX\Signal analysis\Lab_March_1_2021\main.aux
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmtt8.pfb

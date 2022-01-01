@@ -1,0 +1,13 @@
+Ashlesh_2#show ip route 
+Gateway of last resort is not set
+
+R    202.60.0.0/24 [120/2] via 202.60.5.2, 00:00:17, GigabitEthernet0/1
+R    202.60.1.0/24 [120/3] via 202.60.5.2, 00:00:17, GigabitEthernet0/1
+R    202.60.2.0/24 [120/4] via 202.60.5.2, 00:00:17, GigabitEthernet0/1
+     202.60.4.0/24 is variably subnetted, 2 subnets, 2 masks
+C       202.60.4.0/24 is directly connected, GigabitEthernet0/2
+L       202.60.4.1/32 is directly connected, GigabitEthernet0/2
+     202.60.5.0/24 is variably subnetted, 2 subnets, 2 masks
+C       202.60.5.0/24 is directly connected, GigabitEthernet0/1
+L       202.60.5.1/32 is directly connected, GigabitEthernet0/1
+R    202.60.6.0/24 [120/1] via 202.60.5.2, 00:00:17, GigabitEthernet0/1

@@ -1,0 +1,718 @@
+Release 14.5 - xst P.58f (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> Reading design: bit2dec.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "bit2dec.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "bit2dec"
+Output Format                      : NGC
+Target Device                      : xa7a100t-2I-csg324
+
+---- Source Options
+Top Module Name                    : bit2dec
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\q7dff.vhd" into library work
+Parsing entity <dff>.
+Parsing architecture <behavioral> of entity <dff>.
+Parsing VHDL file "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\q7bcd.vhd" into library work
+Parsing entity <bit2dec>.
+Parsing architecture <structural> of entity <bit2dec>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <bit2dec> (architecture <structural>) from library <work>.
+
+Elaborating entity <dff> (architecture <behavioral>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <bit2dec>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\q7bcd.vhd".
+WARNING:Xst:647 - Input <reset> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Summary:
+	no macro.
+Unit <bit2dec> synthesized.
+
+Synthesizing Unit <dff>.
+    Related source file is "P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\q7dff.vhd".
+    Found 1-bit register for signal <q>.
+    Found 1-bit register for signal <qb>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <dff> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 16
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst - The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinx\14.5\ISE_DS\ISE\.
+Loading device for application Rf_Device from file '7a100t.nph' in environment D:\Xilinx\14.5\ISE_DS\ISE\.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <bit2dec> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block bit2dec, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : bit2dec.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 10
+#      INV                         : 8
+#      LUT2                        : 2
+# FlipFlops/Latches                : 16
+#      FDC                         : 8
+#      FDP                         : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : xa7a100tcsg324-2i 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              16  out of  126800     0%  
+ Number of Slice LUTs:                   10  out of  63400     0%  
+    Number used as Logic:                10  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     16
+   Number with an unused Flip Flop:       0  out of     16     0%  
+   Number with an unused LUT:             6  out of     16    37%  
+   Number of fully used LUT-FF pairs:    10  out of     16    62%  
+   Number of unique control sets:         8
+
+IO Utilization: 
+ Number of IOs:                          10
+ Number of bonded IOBs:                   9  out of    210     4%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRL/BUFHCEs:         1  out of    128     0%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+d6/qb                              | NONE(d7/qb)            | 2     |
+d5/qb                              | NONE(d6/qb)            | 2     |
+d4/qb                              | NONE(d5/qb)            | 2     |
+and_1(and_11:O)                    | NONE(*)(d4/qb)         | 2     |
+d2/qb                              | NONE(d3/qb)            | 2     |
+d1/qb                              | NONE(d2/qb)            | 2     |
+d0/qb                              | NONE(d1/qb)            | 2     |
+clock                              | BUFGP                  | 2     |
+-----------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 1.641ns (Maximum Frequency: 609.552MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 0.705ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd6/qb'
+  Clock period: 1.546ns (frequency: 647.040MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.546ns (Levels of Logic = 1)
+  Source:            d7/q (FF)
+  Destination:       d7/qb (FF)
+  Source Clock:      d6/qb rising
+  Destination Clock: d6/qb rising
+
+  Data Path: d7/q to d7/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.360  d7/q (d7/q)
+     LUT2:I1->O            8   0.097   0.378  and_21 (and_2)
+     FDP:PRE                   0.349          d7/qb
+    ----------------------------------------
+    Total                      1.546ns (0.807ns logic, 0.738ns route)
+                                       (52.2% logic, 47.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd5/qb'
+  Clock period: 1.177ns (frequency: 849.401MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.177ns (Levels of Logic = 1)
+  Source:            d6/qb (FF)
+  Destination:       d6/qb (FF)
+  Source Clock:      d5/qb rising
+  Destination Clock: d5/qb rising
+
+  Data Path: d6/qb to d6/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              4   0.361   0.356  d6/qb (d6/qb)
+     INV:I->O              1   0.113   0.339  d6/d_INV_1_o1_INV_0 (d6/d_INV_1_o)
+     FDP:D                     0.008          d6/qb
+    ----------------------------------------
+    Total                      1.177ns (0.482ns logic, 0.695ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd4/qb'
+  Clock period: 1.630ns (frequency: 613.685MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.630ns (Levels of Logic = 1)
+  Source:            d5/q (FF)
+  Destination:       d5/qb (FF)
+  Source Clock:      d4/qb rising
+  Destination Clock: d4/qb rising
+
+  Data Path: d5/q to d5/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.444  d5/q (d5/q)
+     LUT2:I0->O            8   0.097   0.378  and_21 (and_2)
+     FDP:PRE                   0.349          d5/qb
+    ----------------------------------------
+    Total                      1.630ns (0.807ns logic, 0.822ns route)
+                                       (49.5% logic, 50.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'and_1'
+  Clock period: 1.177ns (frequency: 849.401MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.177ns (Levels of Logic = 1)
+  Source:            d4/qb (FF)
+  Destination:       d4/qb (FF)
+  Source Clock:      and_1 rising
+  Destination Clock: and_1 rising
+
+  Data Path: d4/qb to d4/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              4   0.361   0.356  d4/qb (d4/qb)
+     INV:I->O              1   0.113   0.339  d4/d_INV_1_o1_INV_0 (d4/d_INV_1_o)
+     FDP:D                     0.008          d4/qb
+    ----------------------------------------
+    Total                      1.177ns (0.482ns logic, 0.695ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd2/qb'
+  Clock period: 1.557ns (frequency: 642.446MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.557ns (Levels of Logic = 1)
+  Source:            d3/q (FF)
+  Destination:       d3/qb (FF)
+  Source Clock:      d2/qb rising
+  Destination Clock: d2/qb rising
+
+  Data Path: d3/q to d3/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.360  d3/q (d3/q)
+     LUT2:I1->O           10   0.097   0.389  and_11 (and_1)
+     FDP:PRE                   0.349          d3/qb
+    ----------------------------------------
+    Total                      1.557ns (0.807ns logic, 0.750ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd1/qb'
+  Clock period: 1.177ns (frequency: 849.401MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.177ns (Levels of Logic = 1)
+  Source:            d2/qb (FF)
+  Destination:       d2/qb (FF)
+  Source Clock:      d1/qb rising
+  Destination Clock: d1/qb rising
+
+  Data Path: d2/qb to d2/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              4   0.361   0.356  d2/qb (d2/qb)
+     INV:I->O              1   0.113   0.339  d2/d_INV_1_o1_INV_0 (d2/d_INV_1_o)
+     FDP:D                     0.008          d2/qb
+    ----------------------------------------
+    Total                      1.177ns (0.482ns logic, 0.695ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'd0/qb'
+  Clock period: 1.641ns (frequency: 609.552MHz)
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Delay:               1.641ns (Levels of Logic = 1)
+  Source:            d1/q (FF)
+  Destination:       d1/qb (FF)
+  Source Clock:      d0/qb rising
+  Destination Clock: d0/qb rising
+
+  Data Path: d1/q to d1/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.444  d1/q (d1/q)
+     LUT2:I0->O           10   0.097   0.389  and_11 (and_1)
+     FDP:PRE                   0.349          d1/qb
+    ----------------------------------------
+    Total                      1.641ns (0.807ns logic, 0.834ns route)
+                                       (49.2% logic, 50.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock'
+  Clock period: 1.177ns (frequency: 849.401MHz)
+  Total number of paths / destination ports: 2 / 2
+-------------------------------------------------------------------------
+Delay:               1.177ns (Levels of Logic = 1)
+  Source:            d0/qb (FF)
+  Destination:       d0/qb (FF)
+  Source Clock:      clock rising
+  Destination Clock: clock rising
+
+  Data Path: d0/qb to d0/qb
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDP:C->Q              4   0.361   0.356  d0/qb (d0/qb)
+     INV:I->O              1   0.113   0.339  d0/d_INV_1_o1_INV_0 (d0/d_INV_1_o)
+     FDP:D                     0.008          d0/qb
+    ----------------------------------------
+    Total                      1.177ns (0.482ns logic, 0.695ns route)
+                                       (40.9% logic, 59.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd2/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.705ns (Levels of Logic = 1)
+  Source:            d3/q (FF)
+  Destination:       output1<3> (PAD)
+  Source Clock:      d2/qb rising
+
+  Data Path: d3/q to output1<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.344  d3/q (d3/q)
+     OBUF:I->O                 0.000          output1_3_OBUF (output1<3>)
+    ----------------------------------------
+    Total                      0.705ns (0.361ns logic, 0.344ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd1/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.700ns (Levels of Logic = 1)
+  Source:            d2/q (FF)
+  Destination:       output1<2> (PAD)
+  Source Clock:      d1/qb rising
+
+  Data Path: d2/q to output1<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.361   0.339  d2/q (d2/q)
+     OBUF:I->O                 0.000          output1_2_OBUF (output1<2>)
+    ----------------------------------------
+    Total                      0.700ns (0.361ns logic, 0.339ns route)
+                                       (51.6% logic, 48.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd0/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.705ns (Levels of Logic = 1)
+  Source:            d1/q (FF)
+  Destination:       output1<1> (PAD)
+  Source Clock:      d0/qb rising
+
+  Data Path: d1/q to output1<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.344  d1/q (d1/q)
+     OBUF:I->O                 0.000          output1_1_OBUF (output1<1>)
+    ----------------------------------------
+    Total                      0.705ns (0.361ns logic, 0.344ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clock'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.700ns (Levels of Logic = 1)
+  Source:            d0/q (FF)
+  Destination:       output1<0> (PAD)
+  Source Clock:      clock rising
+
+  Data Path: d0/q to output1<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.361   0.339  d0/q (d0/q)
+     OBUF:I->O                 0.000          output1_0_OBUF (output1<0>)
+    ----------------------------------------
+    Total                      0.700ns (0.361ns logic, 0.339ns route)
+                                       (51.6% logic, 48.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd6/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.705ns (Levels of Logic = 1)
+  Source:            d7/q (FF)
+  Destination:       output2<3> (PAD)
+  Source Clock:      d6/qb rising
+
+  Data Path: d7/q to output2<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.344  d7/q (d7/q)
+     OBUF:I->O                 0.000          output2_3_OBUF (output2<3>)
+    ----------------------------------------
+    Total                      0.705ns (0.361ns logic, 0.344ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd5/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.700ns (Levels of Logic = 1)
+  Source:            d6/q (FF)
+  Destination:       output2<2> (PAD)
+  Source Clock:      d5/qb rising
+
+  Data Path: d6/q to output2<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.361   0.339  d6/q (d6/q)
+     OBUF:I->O                 0.000          output2_2_OBUF (output2<2>)
+    ----------------------------------------
+    Total                      0.700ns (0.361ns logic, 0.339ns route)
+                                       (51.6% logic, 48.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'd4/qb'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.705ns (Levels of Logic = 1)
+  Source:            d5/q (FF)
+  Destination:       output2<1> (PAD)
+  Source Clock:      d4/qb rising
+
+  Data Path: d5/q to output2<1>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.361   0.344  d5/q (d5/q)
+     OBUF:I->O                 0.000          output2_1_OBUF (output2<1>)
+    ----------------------------------------
+    Total                      0.705ns (0.361ns logic, 0.344ns route)
+                                       (51.2% logic, 48.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'and_1'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              0.700ns (Levels of Logic = 1)
+  Source:            d4/q (FF)
+  Destination:       output2<0> (PAD)
+  Source Clock:      and_1 rising
+
+  Data Path: d4/q to output2<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              1   0.361   0.339  d4/q (d4/q)
+     OBUF:I->O                 0.000          output2_0_OBUF (output2<0>)
+    ----------------------------------------
+    Total                      0.700ns (0.361ns logic, 0.339ns route)
+                                       (51.6% logic, 48.4% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock and_1
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+and_1          |    1.177|         |         |         |
+d4/qb          |    1.630|         |         |         |
+d6/qb          |    1.546|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock          |    1.177|         |         |         |
+d0/qb          |    1.641|         |         |         |
+d2/qb          |    1.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d0/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d0/qb          |    1.641|         |         |         |
+d2/qb          |    1.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d1/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d0/qb          |    1.641|         |         |         |
+d1/qb          |    1.177|         |         |         |
+d2/qb          |    1.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d2/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d0/qb          |    1.641|         |         |         |
+d2/qb          |    1.557|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d4/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d4/qb          |    1.630|         |         |         |
+d6/qb          |    1.546|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d5/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d4/qb          |    1.630|         |         |         |
+d5/qb          |    1.177|         |         |         |
+d6/qb          |    1.546|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock d6/qb
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+d4/qb          |    1.630|         |         |         |
+d6/qb          |    1.546|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 47.00 secs
+Total CPU time to Xst completion: 46.49 secs
+ 
+--> 
+
+Total memory usage is 5078368 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

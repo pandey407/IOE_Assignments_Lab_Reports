@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q5/q5_mux2_1_tb_isim_beh.exe" -prj "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q5/q5_mux2_1_tb_beh.prj" "work.q5_mux2_1_tb" 

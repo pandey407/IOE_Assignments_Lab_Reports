@@ -1,0 +1,22 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY q1 IS PORT (
+	A, B, C, D : IN STD_LOGIC;
+	F : OUT STD_LOGIC
+);
+END q1;
+
+ARCHITECTURE behavorial OF q1 IS
+	SIGNAL F1, F2, F3, F4 : STD_LOGIC;
+
+BEGIN
+	be_proc : PROCESS (A, B, C, D, F1, F2, F3, F4)
+
+	BEGIN
+		F1 <= A AND B;
+		F2 <= NOT B AND C;
+		F <= F1 OR F2;
+	END PROCESS be_proc;
+
+END behavorial;

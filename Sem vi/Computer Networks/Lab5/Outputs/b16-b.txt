@@ -1,0 +1,30 @@
+Pandey_2#telnet 202.60.5.2
+Trying 202.60.5.2 ...Open
+
+
+User Access Verification
+
+Password: 
+Pandey_3>enable
+Password: 
+Pandey_3#configure terminal
+
+Pandey_3(config)#ip route 202.60.0.0 255.255.255.0 202.60.5.1
+Pandey_3(config)#ip route 202.60.1.0 255.255.255.0 202.60.5.1
+Pandey_3(config)#ip route 202.60.2.0 255.255.255.0 202.60.5.1
+Pandey_3(config)#ip route 202.60.3.0 255.255.255.0 202.60.5.1
+Pandey_3(config)#ip route 202.60.4.0 255.255.255.0 202.60.5.1
+Pandey_3(config)#exit
+Pandey_3#exit
+
+[Connection to 202.60.5.2 closed by foreign host]
+Pandey_2#exit
+
+[Connection to 202.60.3.2 closed by foreign host]
+Pandey_1#exit
+
+[Connection to 202.60.1.2 closed by foreign host]
+Pandey_0#exit
+
+[Connection to 202.60.0.1 closed by foreign host]
+C:\>

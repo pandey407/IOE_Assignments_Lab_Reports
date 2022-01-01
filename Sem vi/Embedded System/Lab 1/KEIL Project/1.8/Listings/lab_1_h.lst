@@ -1,0 +1,59 @@
+C51 COMPILER V9.60.0.0   LAB_1_H                                                           10/08/2020 23:08:51 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LAB_1_H
+OBJECT MODULE PLACED IN .\Objects\lab_1_h.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\..\Codes\C\lab_1_h.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRIN
+                    -T(.\Listings\lab_1_h.lst) TABS(2) OBJECT(.\Objects\lab_1_h.obj)
+
+line level    source
+
+   1          #include<reg51.h>
+   2          
+   3          void delay(int time)
+   4          {
+   5   1        unsigned int i,j;
+   6   1        for (i=0;i<time;i++)
+   7   1          for (j=0;j<125;j++);
+   8   1      }
+   9          
+  10          void main()
+  11          {
+  12   1        unsigned int a = 0x4;
+  13   1        unsigned int fact = 0x1;
+  14   1        unsigned char i;
+  15   1        unsigned char x, d1, d2, d3;
+  16   1      
+  17   1        for(i = 0x1;i<=a;i++)
+  18   1          fact *=i;
+  19   1      
+  20   1        x = fact / 0xa;
+  21   1        d1 = fact % 0xa;
+  22   1        d2 = x % 0xa;
+  23   1        d3 = x / 0xa;
+  24   1        while(1)
+  25   1        {
+  26   2          P0 = fact;
+  27   2          delay(1000);
+  28   2          P0 = d1;
+  29   2          delay(1000);
+  30   2          P0 = d2;
+  31   2          delay(1000);
+  32   2          P0 = d3;
+  33   2          delay(1000);
+  34   2        }
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    137    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----       4
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

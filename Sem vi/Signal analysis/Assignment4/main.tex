@@ -1,0 +1,223 @@
+\documentclass{home_assignment}
+\usepackage{multicol}
+\usepackage{tikz}
+
+\usepackage{multirow}
+\usepackage{diagbox}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.17}
+
+\newcolumntype{C}[1]{>{\centering\arraybackslash}m{#1}}
+
+
+\newcommand{\magplot}{
+\begin{tikzpicture}
+  \begin{axis}[
+      axis x line=middle,
+      axis y line=none,
+      xmin=-5,xmax=5,
+      ymin=0,ymax=2,
+      xlabel=$k$,
+      xlabel style = {anchor=west},
+      xtick={-4,-3,...,0,...,3,4}
+    ]
+    info{
+    \node at (0,1.3) [anchor=south] {$|a_k|$};
+    };
+    \addplot[thick,black,mark=none,] coordinates {(0, 0) (0, 1)};
+    \addplot[thick,black,mark=none,] coordinates {(1, 0) (1, 1.118033989)};
+    \addplot[thick,black,mark=none,] coordinates {(-1, 0) (-1, 1.118033989)};
+    \addplot[thick,black,mark=none,] coordinates {(2, 0) (2,0.5)};
+    \addplot[thick,black,mark=none,] coordinates {(-2, 0) (-2,0.5)};
+  \end{axis}
+\end{tikzpicture}
+}
+\newcommand{\phaseplot}{
+\begin{tikzpicture}
+  \begin{axis}[
+      axis x line=middle,
+      axis y line=none,
+      xmin=-5,xmax=5,
+      ymin=-2,ymax=2,
+      xlabel=$k$,
+      xlabel style = {anchor=west},
+      xtick={-4,-3,-1,0,2,3,4}
+    ]
+    info{
+    \node at (0,1) [anchor=south] {$\measuredangle a_k$};
+    \node at (-2,0) [anchor=south] {-2};
+    \node at (1,0) [anchor=south] {1};
+    };
+    \addplot[thick,black,mark=none,] coordinates {(1, 0) (1, -0.463647609)};
+    \addplot[thick,black,mark=none,] coordinates {(-1, 0) (-1, 0.463647609)};
+    \addplot[thick,black,mark=none,] coordinates {(2, 0) (2,0.7853981634)};
+    \addplot[thick,black,mark=none,] coordinates {(-2, 0) (-2,-0.785398163)};
+  \end{axis}
+\end{tikzpicture}
+}
+
+\begin{document}
+\titlePage{Signal Analysis Assignment \#4}{September 28, 2020}{Dr. Dibakar Raj Panta}
+\problem{Prove that the following identity holds:
+\begin{equation*}
+\int_T{e^{j(k-n)\omega_0t}dt}=\begin{cases}
+T, & \text{for }k=n\\
+0, & \text{otherwise}
+\end{cases}
+\end{equation*}
+}
+\solution{Here, we need to solve the integral on the LHS, i.e. \begin{equation}
+\int_T{e^{j(k-n)\omega_0t}dt}
+\label{eq:prob1}
+\end{equation}
+In Eq.(\ref{eq:prob1}) we are concerned with integrating $e^{j(k-n)\omega_0t}$ over an interval of length T. So, we will obtain the same result over any interval of length T, say, $[0,T], [\frac{-T}{2},\frac{T}{2}], [T,2T]$ and so on. Choosing $[0,T]$ for simplicity, results in the integral, 
+\begin{equation}
+\int_0^T{e^{j(k-n)\omega_0t}dt}=\int_0^T{cos[(k-n)\omega_0t]dt+jsin[(k-n)\omega_0t]dt}
+\label{eq:prob1solution}
+\end{equation}
+For $k=n$, the Eq.(\ref{eq:prob1solution}) becomes, 
+\begin{equation*}
+\begin{aligned}
+&=\int_0^T{cos(0)dt}+j\int_0^T{sin(0)dt}\\
+&=\int_0^T{dt}+j.0=T
+\end{aligned}
+\end{equation*}
+For $k\neq n$, $cos[(k-n)\omega_0t]$ and $sin[(k-n)\omega_0t]$ are periodic sinusoidal functions with a fundamental period of $\left|\frac{T}{k-n}\right|$. Since we are integrating the Eq.(\ref{eq:prob1solution}) over an interval of length T, such that the interval is an integral number of periods of the signal, i.e. the interval is $(k-n)^{th}$ multiple of the periods of the signal. This way, the integration can be represented as a measure of the total area under the functions over the interval T, hence the integral for $k\neq n$ results in 0.\\
+The overall evaluation of the integral represented by Eq.(\ref{eq:prob1}) shows that,
+\begin{equation*}
+\int_T{e^{j(k-n)\omega_0t}dt}=\begin{cases}
+T, & \text{for }k=n\\
+0, & \text{otherwise}
+\end{cases}
+\end{equation*}
+}
+\problem{Determine the complex form of Fourier series from its trigonometric form and vice-versa.}
+\solution{
+\subsection*{Complex Form from Trigonometric Form}
+The trigonometric form of fourier series can be written as,
+\begin{equation}
+x(t)=a_0+\sum_{n=1}^{\infty}a_ncos(n\omega_0 t)+\sum_{n=1}^{\infty}b_nsin(n\omega_0 t)
+\label{eq:prob2trigono}
+\end{equation}
+where,
+\begin{equation*}
+\begin{aligned}
+a_0&=\frac{1}{T}\int_{-T/2}^{T/2}{x(t)dt}\\
+a_n&=\frac{2}{T}\int_{-T/2}^{T/2}{x(t)cos(n\omega_0 t)dt}\\
+b_n&=\frac{2}{T}\int_{-T/2}^{T/2}{x(t)sin(n\omega_0 t)dt}
+\end{aligned}
+\end{equation*}
+From Euler's formulae, we have,
+\begin{equation*}
+cos(n\omega_0 t)=\frac{e^{jn\omega_0 t}+e^{-jn\omega_0 t}}{2} \text{, } sin(n\omega_0 t)=\frac{e^{jn\omega_0 t}-e^{-jn\omega_0 t}}{2j} =-j\left(\frac{e^{jn\omega_0 t}-e^{-jn\omega_0 t}}{2}\right)
+\end{equation*}
+Using this, we can reduce the Eq.(\ref{eq:prob2trigono}) as,
+\begin{equation*}
+\begin{aligned}
+x(t)&= a_0+\sum_{n=1}^{\infty}a_n\left(\frac{e^{jn\omega_0 t}+e^{-jn\omega_0 t}}{2}\right)+\sum_{n=1}^{\infty}b_n\left(\frac{-je^{jn\omega_0 t}+je^{-jn\omega_0 t}}{2}\right)\\
+&=a_0+\sum_{n=1}^{\infty}\left(\frac{a_n-jb_n}{2}\right)e^{jn\omega_0 t}+\sum_{n=1}^{\infty}\left(\frac{a_n+jb_n}{2}\right)e^{-jn\omega_0 t}\\
+&=a_0+\sum_{n=1}^{\infty}\left(\frac{a_n-jb_n}{2}\right)e^{jn\omega_0 t}+\sum_{n=-\infty}^{-1}\left(\frac{a_{-n}+jb_{-n}}{2}\right)e^{jn\omega_0 t}\\
+&=C_0+\sum_{n=1}^{\infty}C_ne^{jn\omega_0 t}+\sum_{n=-\infty}^{-1}C_{n}^*e^{jn\omega_0 t}
+\end{aligned}
+\end{equation*}
+where, $C_0=a_0$, $C_n=\left(\frac{a_n-jb_n}{2}\right)$ and $C_{n}^*=\left(\frac{a_{-n}+jb_{-n}}{2}\right)$ such that $C_n$ and $C_{n}^*$ are complex conjugates. If we choose to represent all the complex fourier coefficients with $C_n$ such that $C_n$ is the complex conjugate of $C_{-n}$ then, \textbf{the complex form of fourier series is given by,}
+$$x(t)=\sum_{-\infty}^{\infty}C_ne^{jn\omega_0 t}$$
+\subsection*{Trigonometric Form from Complex Form}
+The complex form of fourier series can be written as,
+\begin{equation}
+x(t)=\sum_{-\infty}^{\infty}C_ne^{jn\omega_0 t}
+\label{eq:pro2complex}
+\end{equation}
+Eq.(\ref{eq:pro2complex}) can be expanded as the sum,
+\begin{equation*}
+\begin{split}
+x(t)&=C_0+C_1e^{j\omega_0 t}+C_2e^{2j\omega_0 t}+\dots+C_ne^{jn\omega t}+\dots+C_{-1}e^{-j\omega_0 t}+C_{-2}e^{-2j\omega_0 t}+\dots+C_{-n}e^{-jn\omega_0 t}+\dots\\
+&=C_0+C_1[cos(\omega_0 t)+jsin(\omega_0 t)]+C_2[cos(2\omega_0 t)+jsin(2\omega_0 t)]+\dots+C_n[cos(n\omega_0 t)+jsin(n\omega_0 t)]+\dots+\\&C_{-1}[cos(\omega_0 t)-jsin(\omega_0 t)]+C_{-2}[cos(2\omega_0 t)-jsin(2\omega_0 t)]+\dots+C_{-n}[cos(n\omega_0 t)-jsin(n\omega_0 t)]+\dots
+\\&=C_0+(C_1+C_{-1})cos(\omega_0 t)+(C_2+C_{-2})cos(2\omega_0 t)+\dots+(C_n+C_{-n})cos(n\omega_0 t)+\dots+\\&(C_1-C_{-1})sin(\omega_0 t)+j(C_2-C_{-2})sin(2\omega_0 t)+\dots+j(C_n-C_{-n})sin(n\omega_0 t)+\dots\\
+&=C_0+\sum_{n=1}^{\infty}(C_n+C_{-n})cos(n\omega_0 t)+\sum_{n=1}^{\infty}j(C_n-C_{-n})sin(n\omega_0 t)
+\end{split}
+\end{equation*}
+This can be rearranged such that \textbf{the fourier series in trigonometric form is given by,} 
+$$
+x(t)=a_0+\sum_{n=1}^{\infty}a_ncos(n\omega_0 t)+\sum_{n=1}^{\infty}b_nsin(n\omega_0 t)
+$$
+ where,
+\begin{equation*}
+\begin{aligned}
+a_0&=C_0\\
+a_n&=(C_n+C_{-n})\\
+b_n&=j(C_n-C_{-n})
+\end{aligned}
+\end{equation*}
+}
+\problem{Plot the graph of the magnitude and phase of $a_k$ for the example below and interpret.}
+\solution{Here, $x(t)=1+sin(\omega_0 t)+2cos(\omega_0 t)+cos\left(2\omega_0 t+\frac{\pi}{4}\right)$, 
+which has the fundamental frequency $\omega_0$. The signal $x(t)$ can be expanded directly in terms of its complex exponentials for easier approach to determine the complex fourier coefficients.\\
+Using the euler's formulae, we get,
+\begin{equation*}
+\begin{aligned}
+x(t)&=1+\frac{1}{2j}[e^{j\omega_0 t}-e^{-j\omega_0 t}]+[e^{j\omega_0 t}+e^{-j\omega_0 t}]+\frac{1}{2}[e^{j(2\omega_0 t+\frac{\pi}{4})}-e^{-j(2\omega_0 t+\frac{\pi}{4})}]\\&=1+\left(1+\frac{1}{2j}\right)e^{j\omega_0 t}+\left(1-\frac{1}{2j}\right)e^{-j\omega_0 t}+\left(\frac{1}{2}e^{j(\frac{\pi}{4})}\right)e^{2j\omega_0 t}+\left(\frac{1}{2}e^{-j(\frac{\pi}{4})}\right)e^{-2j\omega_0 t}
+\end{aligned}
+\end{equation*}
+From this, we can determine the fourier series coefficients as,
+\begin{multicols}{2}
+\noindent
+\begin{equation*}
+\begin{aligned}
+a_0&=1,\\
+a_1&=\left(1+\frac{1}{2j}\right)=\left(1-\frac{1}{2}j\right),\\
+a_{-1}&=\left(1-\frac{1}{2j}\right)=\left(1+\frac{1}{2}j\right),
+\end{aligned}
+\end{equation*}
+\begin{equation*}
+\begin{aligned}
+a_2&=\frac{1}{2}e^{j(\frac{\pi}{4})}=\frac{\sqrt{2}}{4}(1+j),\\
+a_{-2}&=\frac{1}{2}e^{-j(\frac{\pi}{4})}=\frac{\sqrt{2}}{4}(1-j),\\
+a_k&=0,|k|>2
+\end{aligned}
+\end{equation*}
+\end{multicols}
+To plot the magnitude and phase of $a_k$, the following table will be used,
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|C{3cm}|C{3cm}|}
+\hline
+\diagbox{$a_k$ for }{Value} & Magnitude ($|a_k|$)& Phase($\measuredangle a_k$)\\
+\hline
+$k=0$ & 1 & 0\\
+\hline
+$k=1$ & \multirow{ 2}{*}{1.118033989}& -0.463647609\\
+\cline{0-0}\cline{3-3}
+$k=-1$ & &0.463647609\\
+\hline
+$k=2$ &  \multirow{ 2}{*}{0.5} & 0.7853981634\\
+\cline{0-0}\cline{3-3}
+$k=-2$ &  & -0.7853981634\\
+\hline
+$|k|>2$ & 0 & 0\\
+\hline
+\end{tabular}
+ \caption{Magnitude and Phase calculations for $a_k$}
+\label{tab:schedule_list}
+\end{table}
+\begin{figure}[H]
+\centering
+\magplot
+\caption{Plot for magnitude of $a_k$}
+\label{fig:magnitude}
+\end{figure}
+\begin{figure}[H]
+\centering
+\phaseplot
+\caption{Plot for phase of $a_k$}
+\label{fig:phase}
+\end{figure}
+From Figure(\ref{fig:magnitude}) and (\ref{fig:phase}), viz. the magnitude and phase plots of $a_k$, i.e. the complex coefficients of fourier series, we can see that the plots are symmetrically distributed. We can draw out the following properties of the fourier series spectrum $a_k$,
+\subsubsection*{Property 1} 
+If $x(t)$ is a real-valued periodic signal, then, $a_k={a_{-k}}^*$, i.e. the fourier coefficients follow \textbf{conjugate symmetry}. This is evident from the values of $a_k$ determined above.
+\subsubsection*{Property 2}
+If $x(t)=x(-t)$, i.e. the signal has even-symmetry about the origin, then, $a_k=a_{-k}$. This is true since the fourier coefficients of even signals are real-valued and the fourier expansion of a real-valued fourier coefficient results in only the cosine terms, which is the simplest form of an even signal. 
+\subsubsection*{Property 3}
+If $x(t)=-x(-t)$, i.e. the signal has odd-symmetry about the origin, then, $a_k=-a_{-k}$. This is true since the fourier coefficients of odd signals are purely imaginary and the fourier expansion of a purely imaginary fourier coefficient results in only the sine terms, which is the simplest form of an odd signal. 
+}
+\end{document}

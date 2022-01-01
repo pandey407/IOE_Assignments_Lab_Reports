@@ -1,0 +1,10 @@
+C:\>tracert 202.60.0.3
+
+Tracing route to 202.60.0.3 over a maximum of 30 hops: 
+
+  1   0 ms      0 ms      0 ms      202.60.4.1
+  2   0 ms      0 ms      0 ms      202.60.5.2
+  3   11 ms     13 ms     13 ms     202.60.1.1
+  4   11 ms     18 ms     14 ms     202.60.0.3
+
+Trace complete.

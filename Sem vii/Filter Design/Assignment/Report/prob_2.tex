@@ -1,0 +1,17 @@
+
+    \problem{What is normalization and denormalization? Explain its importance in filter design.}
+    Normalization is a technique used while designing filters that makes calculation and design simple to follow. Normalization simply means designing the filter with passband cutoff point (half-power frequency) at $\omega=1$ rad/s. It is also called standardization or prototyping. The importance of normalization process can be explained better with the reactance equations as,
+\\ A normalized filter at $\omega=1$ rad/s i.e. $f=\ddfrac{1}{2\pi}$ has simple values of inductive and capacitive reactances as,
+\begin{equation*}
+    \begin{aligned}
+        X_L=L \quad \quad \text{and} \quad \quad X_C=\frac{1}{C}
+    \end{aligned}
+\end{equation*}
+Any filter that isn't designed at $\omega=1$ rad/s would have an additional $2\pi f$ factor as,
+\begin{equation*}
+    \begin{aligned}
+        X_L=2\pi fL \quad \quad \text{and} \quad \quad X_C=\frac{1}{2\pi fC}
+    \end{aligned}
+\end{equation*}
+From these equations for the impedances, it is clear that the normalized filter will be easier to design. However, in reality, we require filters at different frequency ranges, so normalization is incomplete design step. To achieve filters at required frequency, designer must scale the filter in frequency. A point to note is that once the filter is scaled in frequency, it may not have elemental values that are practically available, which is why impedance scaling is required to get the desired filter response with practically realizable components. Hence these two scaling procedures are called denormalization as the prototype filter is redesigned at required specifications.\\ 
+To sum up, normalization and denormalization are filter design steps that assist in simpler design of filters, first at $\omega=1$ rad/s (normalization) and then redesign with required parameters and practically realizable elements (denormalization).

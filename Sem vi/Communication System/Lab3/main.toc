@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Objectives}{1}%
+\contentsline {section}{\numberline {2}Required Tools}{1}%
+\contentsline {section}{\numberline {3}Introduction}{1}%
+\contentsline {subsection}{\numberline {3.1}Demodulation of AM Signals}{1}%
+\contentsline {subsection}{\numberline {3.2}Envelope Detector}{1}%
+\contentsline {subsubsection}{\numberline {3.2.1}Practical Issues}{2}%
+\contentsline {section}{\numberline {4}Lab Experiment Observations}{3}%
+\contentsline {section}{\numberline {5}MATLAB Script for Demodulation using Envelope Detector}{4}%
+\contentsline {section}{\numberline {6}Simulated Signal Observation}{5}%
+\contentsline {section}{\numberline {7}Discussion and Conclusion}{5}%

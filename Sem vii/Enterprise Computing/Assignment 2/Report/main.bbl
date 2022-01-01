@@ -1,0 +1,249 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{giri-egov}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ef00b8a372dbbacf1cfebe174b6bdc9}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Shailendra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=597b6cfc05b9254a1bb4f638d1c106c5}{%
+           family={Shakya},
+           familyi={S\bibinitperiod},
+           given={Subarna},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{fullhash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{bibnamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authorbibnamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authornamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authorfullhash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Institute of Engineering}
+      \field{number}{2}
+      \field{title}{E-Government Use in Nepal: Issues of Database Management and Data Security}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{218\bibrangedash 224}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.3126/jie.v15i2.27669
+      \endverb
+    \endentry
+    \entry{buddhacarya-lbef}{article}{}
+      \name{author}{2}{}{%
+        {{hash=dcac447886eb08e99de8305e657b8469}{%
+           family={Buddhacharya},
+           familyi={B\bibinitperiod},
+           given={Kishan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0d565f8af6014e57495c975f937bfb49}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Jyotir\bibnamedelima Moy},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \strng{fullhash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \strng{bibnamehash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \strng{authorbibnamehash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \strng{authornamehash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \strng{authorfullhash}{f5c9baa0af99f763106a2fe2e207a32e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LBEF Research Journal of Science Technology and Management}
+      \field{month}{12}
+      \field{note}{Available Online}
+      \field{title}{E-Governance in Nepal: The Challenges in the Implementation of the National Identity Card in Nepal}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.lbef.org/journal/1-2/download/1-2-20-40.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.lbef.org/journal/1-2/download/1-2-20-40.pdf
+      \endverb
+    \endentry
+    \entry{giri-practicing}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ef00b8a372dbbacf1cfebe174b6bdc9}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Shailendra},
+           giveni={S\bibinitperiod}}}%
+        {{hash=597b6cfc05b9254a1bb4f638d1c106c5}{%
+           family={Shakya},
+           familyi={S\bibinitperiod},
+           given={Subarna},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{fullhash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{bibnamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authorbibnamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authornamehash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \strng{authorfullhash}{2744c0cdd04688ce9744c6a08e7c2ff3}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Trends and Technology}
+      \field{number}{4}
+      \field{title}{Practicing e-Governance in Nepal: Challenges of Civil Service}
+      \field{volume}{67}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{118\bibrangedash 123}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.14445/22312803/ijctt-v67i4p123.
+      \endverb
+    \endentry
+    \entry{maturity}{article}{}
+      \name{author}{4}{}{%
+        {{hash=e16277500bf21b13a4308f4319afca25}{%
+           family={Fath-Allah},
+           familyi={F\bibinithyphendelim A\bibinitperiod},
+           given={Abdoullah},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5b851c1b3dda5cf3172422216f10b673}{%
+           family={Cheikhi},
+           familyi={C\bibinitperiod},
+           given={Laila},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b58b0337423629513a88b3d2005e7968}{%
+           family={Al-Qutaish},
+           familyi={A\bibinithyphendelim Q\bibinitperiod},
+           given={Rafa},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4ed83e82ff6ff1f9b44c6327efe0fca0}{%
+           family={Idri},
+           familyi={I\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{de880970e5d191207eeb30b6b9ba23e9}
+      \strng{fullhash}{1ccddbfa14cea60491daa9ac66423159}
+      \strng{bibnamehash}{de880970e5d191207eeb30b6b9ba23e9}
+      \strng{authorbibnamehash}{de880970e5d191207eeb30b6b9ba23e9}
+      \strng{authornamehash}{de880970e5d191207eeb30b6b9ba23e9}
+      \strng{authorfullhash}{1ccddbfa14cea60491daa9ac66423159}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Software Engineering and Applications}
+      \field{month}{03}
+      \field{title}{E-Government Maturity Models: A Comparative Study}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{71\bibrangedash 91}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5121/ijsea.2014.5306
+      \endverb
+    \endentry
+    \entry{gajendra2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cb5efa6d95216bf6c856ec48ee5a4120}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Gajendra},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \strng{fullhash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \strng{bibnamehash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \strng{authorbibnamehash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \strng{authornamehash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \strng{authorfullhash}{cb5efa6d95216bf6c856ec48ee5a4120}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Management Research}
+      \field{month}{06}
+      \field{title}{Digital Governance in Nepal}
+      \field{volume}{12}
+      \field{year}{2020}
+      \field{pages}{41}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.5296/jmr.v12i3.17061
+      \endverb
+    \endentry
+    \entry{giri-cloud}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2ef00b8a372dbbacf1cfebe174b6bdc9}{%
+           family={Giri},
+           familyi={G\bibinitperiod},
+           given={Shailendra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \strng{fullhash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \strng{bibnamehash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \strng{authorbibnamehash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \strng{authornamehash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \strng{authorfullhash}{2ef00b8a372dbbacf1cfebe174b6bdc9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Computer Trends and Technology}
+      \field{number}{3}
+      \field{title}{Cloud Computing and Data Security CHALLENGES: A Nepal Case}
+      \field{volume}{67}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{pages}{146\bibrangedash 150}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.14445/22312803/ijctt-v67i3p128.
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

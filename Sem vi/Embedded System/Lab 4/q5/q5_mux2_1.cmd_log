@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q5/q5_mux2_1.xst" -ofn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q5/q5_mux2_1.syr" 

@@ -1,0 +1,15 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Design of higher order active filters}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Cascade of biqaud circuits}{1}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Active simulation of passive filters}{2}{subsubsection.2.1.2}%
+\contentsline {subsubsubsection}{\numberline {2.1.2.1}Ladder design with simulated inductor}{3}{subsubsubsection.2.1.2.1}%
+\contentsline {subsubsubsection}{\numberline {2.1.2.2}Ladder design with Frequency Dependent Negative Resistor (FDNR)}{3}{subsubsubsection.2.1.2.2}%
+\contentsline {subsubsubsection}{\numberline {2.1.2.3}Leapfrog simulation of ladders}{3}{subsubsubsection.2.1.2.3}%
+\contentsline {section}{\numberline {3}Exercises}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}{Design of higher order active filters using FDNR}}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}{Design of higher order active filters using simulated inductor}}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}{Design of higher order active filters using leapfrog simulation}}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{13}{section.4}%
+\contentsfinish 

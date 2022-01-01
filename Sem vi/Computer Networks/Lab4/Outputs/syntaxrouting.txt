@@ -1,0 +1,8 @@
+  ip route Destination_Network Subnet_Mask [next-hop-address or
+                                            outgoing interface]
+  where,
+  Destination_Network ===> Destination network address
+  Subnet_mask         ===> Subnet mask that reveals the network address 
+                           of destination
+  next-hop-address or ===> IP address of the nearest router in the
+  outgoing interface         path or the next interface

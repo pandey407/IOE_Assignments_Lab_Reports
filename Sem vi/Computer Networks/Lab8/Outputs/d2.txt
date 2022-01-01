@@ -1,0 +1,16 @@
+Router>enable
+Router#configure terminal
+
+Router(config)#interface gigabitEthernet 0/0.1
+Router(config-subif)#encapsulation dot1Q 1
+Router(config-subif)#ip address 200.1.1.1 255.255.255.192
+Router(config-subif)#exit
+
+Router(config)#interface gigabitEthernet 0/0.2
+Router(config-subif)#encapsulation dot1Q 2
+Router(config-subif)#ip address 200.1.1.65 255.255.255.192
+Router(config-subif)#exit
+
+Router(config)#interface gigabitEthernet 0/0
+Router(config-if)#no shutdown
+Router(config-if)#end

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="92" delta="new" >"P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\dff_be.vhd" Line 16: <arg fmt="%s" index="1">reset</arg> should be on the sensitivity list of the process
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\john_st.vhd</arg>&quot; line <arg fmt="%s" index="2">26</arg>: Output port &lt;<arg fmt="%s" index="3">qnot</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">d0</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\john_st.vhd</arg>&quot; line <arg fmt="%s" index="2">28</arg>: Output port &lt;<arg fmt="%s" index="3">qnot</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">d1</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\john_st.vhd</arg>&quot; line <arg fmt="%s" index="2">30</arg>: Output port &lt;<arg fmt="%s" index="3">qnot</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">d2</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">P:\Assignments_Lab_Reports_LaTeX\Embedded System\Lab 5\Codes\john_st.vhd</arg>&quot; line <arg fmt="%s" index="2">32</arg>: Output port &lt;<arg fmt="%s" index="3">qnot</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">d3</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="0" delta="new" >The specified part-type was not generated at build time. XST is loading the full part-type and will therefore consume more CPU and memory.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">d3/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">johnson</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">d2/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">johnson</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">d1/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">johnson</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">d0/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">johnson</arg>&gt;.
+</msg>
+
+</messages>
+

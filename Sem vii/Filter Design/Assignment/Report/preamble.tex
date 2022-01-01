@@ -1,0 +1,124 @@
+\newcommand\ddfrac[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+
+\newcommand{\lpbs}{
+   \begin{circuitikz}[american, scale = 0.8, transform shape]
+      \draw
+      (0,0) to[L,o-o,l=$L_i$] (2,0) 
+      (5,1) to [L,l=$\substack{\frac{BL_i}{{\Omega_0}^2}}$] (7,1) to [short]
+      (7,-1) to [C,l_=$\substack{\frac{1}{BL_i}}$] (5,-1) to [short] (5,1)
+      (5,0) to [short,*-o] (4,0)
+      (7,0) to [short,*-o] (8,0)
+      (0,-3) to[C,o-o,l=$C_i$] (2,-3) 
+      (4,-3) to [L,o-,l=$\substack{\frac{1}{BC_i}}$] (6,-3) to [C,-o, l=$\substack{\frac{BC_i}{{\Omega_0}^2}}$] (8,-3)
+      ;
+        \draw[->,thick](2.5,0) -- (3.5,0);
+        \draw[->,thick](2.5,-3) -- (3.5,-3);
+   \end{circuitikz}
+}
+\newcommand{\figd}{
+   \begin{circuitikz}[american]
+      \draw
+      (0,0) to[R,l=$\substack{4\text{ K}\Omega}$] (4,0) 
+      to [L,l=$\substack{1\text{ H}}$] (4,-2) to [C,-*,l=$\substack{0.625\text{ nF}}$] (4,-4) 
+      (8,0) to [L,l=$\substack{1\text{ H}}$] (8,-2) to [C,-*,l=$\substack{0.625\text{ nF}}$] (8,-4)
+      (5,1) to [C,l=$\substack{31.25\text{ nF}}$] (7,1) to [short]
+      (7,-1) to [L,l_=$\substack{20\text{ mH}}$] (5,-1) to [short] (5,1)
+      (7,0) to [short,*-*] (8,0) to [short] (12,0)
+      (4,0) to [short,*-*] (5,0)
+      (0,0) to [esource,v_=$V_1$] (0,-4)
+      (0,-4) to [short] (12,-4) to[R, l=$\substack{4\text{ K}\Omega}$, v<=$V_2$] (12,0)
+         ;
+      \end{circuitikz}
+}
+
+\newcommand{\figquestion}{
+   \begin{circuitikz}[american, scale = 0.7, transform shape]
+      \draw
+      (0,0) to[R,l=$1\Omega$] (4,0) to [C, *-*, l=$1.0\text{ F}$] (4,-4)
+      (4,0) to [L,l=$2.0\text{ H}$] (8,0) to [C, *-*, l=$1.0\text{ F}$] (8,-4)
+      (8,0) to [short] (12,0)
+      (0,0) to [esource,v_=$V_1$] (0,-4)
+      (0,-4) to [short] (12,-4) to[R, l=$1\Omega$, v<=$V_2$] (12,0)
+         ;
+      \end{circuitikz}
+}
+
+\newcommand{\fignoninverting}{
+   \begin{circuitikz}  [american]
+      \draw
+      (0,0) node [op amp] (opamp) {}
+      (-4,0.5) node [ground] {} to [generic, l=$Z_{in}$, -*]  (opamp.-) |- (-1,1.5) to [generic,l=$Z{f}$] (1,1.5)-| (opamp.out) to [short,*-o] (2,0) node [right] {$V_{2}$}
+      (-2,-0.5) node [left] {$V_{1}$} to [short,o-](opamp.+) 
+      ;
+      \end{circuitikz}
+}
+
+\newcommand{\fignoninvertingsolution}{
+   \begin{circuitikz}  [american]
+      \draw
+      (0,0) node [op amp] (opamp) {}
+      (-6,0.5) node [ground] {} to [R, l=$1 \text{ }\Omega$] (-4,0.5) to [C,l=$1\text{ mF}$,-*] (-2,0.5) to[short] (opamp.-) (-2,0.5) to[short] (-2,1.5) to [R,l=$3\text{ }\Omega$] (0,1.5) to [C,l=$66.67\text{ }\mu\text{F}$] (2,1.5) to [short,-*] (2,0) to [short] (3,0) node [right] {$V_{2}$}
+      (-2,-0.5) node [left] {$V_{1}$} to [short,o-](opamp.+) 
+      (opamp.out) to [short] (2,0)
+      ;
+      \end{circuitikz}
+}
+
+\newcommand{\figsummer}{
+    \begin{circuitikz}[american]
+    \draw
+    (0,0) node [op amp] (opamp) {}
+    (-4,1) node [left] {$V_0$} to [R, l=$R_0$, o-] (-2,1) to [short] (-2,0)
+    to [R, l_=$R_1$, -o] (-4,0) node [left] {$V_1$}
+    (-2,0.5) to [short,*-*] (opamp.-) |- (-0.75,1.5) to [C,l=$C_2$] (0.75,1.5) -| (opamp.out) to [short,*-o] (2,0) node [right] {$V_{2}$}
+    (opamp.+) node[ground] {}
+    ;
+        \end{circuitikz}
+}
+
+\newcommand{\figintegrator}{
+    \begin{circuitikz}[american]   
+    \draw
+    (0,0) node [op amp] (opamp) {}
+    (-4,0.5) node [left] {$V_{1}$} to [R, l=$R_1$, o-*]  (opamp.-) |- (-1,1.5) to [C,l=$C_2$] (1,1.5)-| (opamp.out) to [short,*-o] (2,0) node [right] {$V_{2}$}
+    (opamp.+) node[ground] {}
+    ;
+        \end{circuitikz}
+}
+
+\newcommand{\figlossyintegrator}{
+   \begin{circuitikz}[american]
+          \draw
+          (0,0) node [op amp] (opamp) {}
+          (-4,0.5) node [left] {$V_{1}$} to [R, l=$R_1$, o-*]  (opamp.-) |- (-0.75,2.25) to[short,*-] (-1.2,2.25)
+          (-0.75,3) to [R,l=$R_3$] (0.75,3) to (0.75, 1.75) to [C,l_=$C_2$] (-0.75, 1.75) to [short] (-0.75,3)
+          (0.75,2.25) to[short,*-] (1.2,2.25) -| (opamp.out) to [short,*-o] (2,0) node [right] {$V_{2}$}
+          (opamp.+) node[ground] {}
+          ;
+              \end{circuitikz}
+}
+
+\newcommand{\fignoninvintegrator}{
+    \begin{circuitikz}[american]   
+    \draw
+    (0,0) node [op amp, noinv input up] (opamp) {}
+    (-5,0.5) node [left] {$V_{1}$} to [R, l=$R$, o-*]  (-3,0.5) to [short](opamp.+) 
+    (-3,0.5) to [short] (-3,2) to [R,l=$R$] (1,2)-| (opamp.out) to [short,*-o] (2,0) node [right] {$V_{2}$}
+    (-3,0.5) to [C,l=$C$,*-] (-3,-1.5) node[ground]{}
+    (opamp.-) |- (-1,-1.5) to [R,l=$R_1$] (1,-1.5)-| (opamp.out) 
+    (-1.2, -1.5) to [R,l=$R_1$, *-] (-1.2,-3.5) node[ground]{}
+    ;
+        \end{circuitikz}
+}
+
+\newcommand{\figRLC}{
+   \begin{circuitikz}[american]
+      \draw
+      (0,0) to[R,l=$R$] (2,0) to [L, l=$L$] (6,0) 
+      (3,0)to [C,l=$C$,*-*] (3,-4) 
+      (0,-4) to [short] (6,-4)
+      (0,0) to [esource,v_=$V_1$] (0,-4)
+      (6,-4) to [esource,v_<=$V_2$]  (6,0)
+         ;
+      \end{circuitikz}
+}

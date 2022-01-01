@@ -1,0 +1,34 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+ENTITY q1 IS PORT (
+	A, B, C, D : IN STD_LOGIC;
+	F : OUT STD_LOGIC
+);
+END q1;
+
+ARCHITECTURE structural OF q1 IS
+	SIGNAL F1, F2 : STD_LOGIC;
+
+	COMPONENT and1 IS PORT (
+		i1, i2 : IN STD_LOGIC;
+		o1 : OUT STD_LOGIC
+		);
+	END COMPONENT;
+	COMPONENT andnot IS PORT (
+		i1, i2 : IN STD_LOGIC;
+		o1 : OUT STD_LOGIC
+		);
+	END COMPONENT;
+
+	COMPONENT or1 IS PORT (
+		i1, i2 : IN STD_LOGIC;
+		o1 : OUT STD_LOGIC
+		);
+	END COMPONENT;
+
+BEGIN
+	C1 : and1 PORT MAP(i1 => A, i2 => B, o1 => F1);
+	C2 : andnot PORT MAP(i1 => B, i2 => C, o1 => F2);
+	C3 : or1 PORT MAP(i1 => F1, i2 => F2, o1 => F);
+END structural;

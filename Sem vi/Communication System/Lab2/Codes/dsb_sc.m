@@ -1,0 +1,28 @@
+m = 1;
+t=linspace(0,0.10,10000);
+Am=5;
+fm=50;
+fc=1000;
+ym=Am*cos(2*pi*fm*t);
+Ac=Am/m;
+yc=Ac*cos(2*pi*fc*t);
+yam=yc.*ym;
+
+subplot(3,1,1);
+plot(t,ym);
+grid on;
+title('Modulating Signal');
+xlabel('Time (Sec)');
+ylabel ('Amplitude (Volt)');
+subplot(3,1,2);
+plot(t,yc);
+grid on;
+title('Carrier Signal');
+xlabel('Time (Sec)');
+ylabel('Amplitude (Volt)');
+subplot(3,1,3);
+plot(t,yam);
+grid on;
+title('Amplitude Modulated Signal');
+xlabel('Time(Sec)');
+ylabel('Amplitude (Volt)');

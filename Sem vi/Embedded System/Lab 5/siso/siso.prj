@@ -1,0 +1,4 @@
+vhdl work "../Codes/nand_3.vhd"
+vhdl work "../Codes/nand_2.vhd"
+vhdl work "../Codes/dff.vhd"
+vhdl work "../Codes/siso_st.vhd"

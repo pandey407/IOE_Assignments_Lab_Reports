@@ -1,0 +1,26 @@
+Usage:
+arp -s inet_addr eth_addr [if_addr]
+arp -d inet_addr [if_addr]
+arp -a [inet_addr] [-N if_addr] [-v]
+
+Options:
+  -a            Displays current ARP entries by interrogating the current
+                protocol data.  If inet_addr is specified, the IP and Physical
+                addresses for only the specified computer are displayed.  If
+                more than one network interface uses ARP, entries for each ARP
+                table are displayed.
+  -v            Displays current ARP entries in verbose mode.  All invalid 
+                entries and entries on the loop-back interface will be shown.
+  inet_addr     Specifies an internet address.
+  eth_addr      Specifies a physical address.
+  if_addr       If present, this specifies the Internet address of the
+                interface whose address translation table should be modified.
+                If not present, the first applicable interface will be used.
+  -N if_addr    Displays the ARP entries for the network interface specified
+                by if_addr.
+  -d            Deletes the host specified by inet_addr. inet_addr may be 
+                wildcarded with * to delete all hosts.
+  -s            Adds the host and associates the Internet address inet_addr
+                with the Physical address eth_addr.  The Physical address is
+                given as 6 hexadecimal bytes separated by hyphens. The entry
+                is permanent.

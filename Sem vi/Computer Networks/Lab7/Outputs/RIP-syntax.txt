@@ -1,0 +1,7 @@
+Router(config)# router rip
+Router(config-router)# network network-identifier
+
+Example:
+Router(config)# router rip
+Router(config-router)# network 202.60.0.0
+Router(config-router)# network 202.60.1.0

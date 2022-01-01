@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section*.2}{List\040of\040Figures}{}% 1
+\BOOKMARK [1][-]{section.1}{Objectives}{}% 2
+\BOOKMARK [1][-]{section.2}{Background\040Theory}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Design\040of\040higher\040order\040active\040filters}{section.2}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Cascade\040of\040biqaud\040circuits}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Active\040simulation\040of\040passive\040filters}{subsection.2.1}% 6
+\BOOKMARK [4][-]{subsubsubsection.2.1.2.1}{Ladder\040design\040with\040simulated\040inductor}{subsubsection.2.1.2}% 7
+\BOOKMARK [4][-]{subsubsubsection.2.1.2.2}{Ladder\040design\040with\040Frequency\040Dependent\040Negative\040Resistor\040\(FDNR\)}{subsubsection.2.1.2}% 8
+\BOOKMARK [4][-]{subsubsubsection.2.1.2.3}{Leapfrog\040simulation\040of\040ladders}{subsubsection.2.1.2}% 9
+\BOOKMARK [1][-]{section.3}{Exercises}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Design\040of\040higher\040order\040active\040filters\040using\040FDNR}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Design\040of\040higher\040order\040active\040filters\040using\040simulated\040inductor}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Design\040of\040higher\040order\040active\040filters\040using\040leapfrog\040simulation}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Discussion\040and\040Conclusion}{}% 14

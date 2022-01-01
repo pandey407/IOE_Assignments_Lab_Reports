@@ -1,0 +1,24 @@
+Usage:
+route [-f] [-p] [-4|-6] command [destination]
+      [MASK netmask]  [gateway] [METRIC metric]  [IF interface]
+
+Options:
+  -f           Clears the routing tables of all gateway entries.
+  -p           When used with the ADD command, makes a route persistent across
+               boots of the system. By default, routes are not preserved
+               when the system is restarted. Ignored for all other commands,
+               which always affect the appropriate persistent routes.
+  -4           Force system to use IPv4.
+  -6           Force system to use IPv6.
+  command      One of these:
+                 PRINT     Prints  a route
+                 ADD       Adds    a route
+                 DELETE    Deletes a route
+                 CHANGE    Modifies an existing route
+  destination  Specifies the host.
+  netmask      Specifies a subnet mask value for this route entry.
+               If not specified, it defaults to 255.255.255.255.
+  gateway      Specifies gateway.
+  interface    The interface number for the specified route.
+  METRIC       Specifies that the next parameter is the 'metric' value.
+  MASK         Specifies that the next parameter is the 'netmask' value.

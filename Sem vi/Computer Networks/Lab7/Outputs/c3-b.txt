@@ -1,0 +1,13 @@
+C:\>ping 200.100.50.99
+
+Pinging 200.100.50.99 with 32 bytes of data:
+
+Reply from 200.100.50.99: bytes=32 time=2ms TTL=125
+Reply from 200.100.50.99: bytes=32 time<1ms TTL=125
+Reply from 200.100.50.99: bytes=32 time=13ms TTL=125
+Reply from 200.100.50.99: bytes=32 time=11ms TTL=125
+
+Ping statistics for 200.100.50.99:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 13ms, Average = 6ms

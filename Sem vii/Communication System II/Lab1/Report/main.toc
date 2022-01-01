@@ -1,0 +1,15 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.3}%
+\contentsline {section}{\bfseries {Listings}}{iii}{section*.5}%
+\contentsline {section}{\numberline {1}Objective}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Double Side Band - Transmitted Carrier (DSB-TC)}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Double Side Band - Suppressed Carrier (DSB-SC)}{1}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Single Side Band (SSB)}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Demodulation of a modulated signal}{2}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Exercises}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}{Basic setup}}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}{DSB-TC modulation with different modulating conditions}}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}{DSB-SC modulation with time and frequency domain plots}}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}{SSB modulation with time and frequency domain plots}}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}{Demodulation of DSB-SC signal}}{7}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{8}{section.4}%

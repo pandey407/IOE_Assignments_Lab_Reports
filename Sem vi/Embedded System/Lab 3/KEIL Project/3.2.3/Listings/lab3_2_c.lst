@@ -1,0 +1,57 @@
+C51 COMPILER V9.60.0.0   LAB3_2_C                                                          11/13/2020 12:35:38 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LAB3_2_C
+OBJECT MODULE PLACED IN .\Objects\lab3_2_c.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\..\Codes\C\lab3_2_c.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRI
+                    -NT(.\Listings\lab3_2_c.lst) TABS(2) OBJECT(.\Objects\lab3_2_c.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          sbit select_bit=P0^0;
+   3          void delay(int factor)
+   4          {
+   5   1      int i;
+   6   1      for(i = 0; i < factor; i++)
+   7   1      {
+   8   2      TMOD=0x02;
+   9   2      TH0=0x1A;
+  10   2      TR0=1;
+  11   2      while (!TF0);
+  12   2      TR0=0;
+  13   2      TF0=0;
+  14   2      }
+  15   1      }
+  16          void main(void)
+  17          {
+  18   1      int i;
+  19   1      while (1)
+  20   1      {
+  21   2      select_bit = 1;
+  22   2      delay(192);
+  23   2      select_bit = 0;
+  24   2      delay(192);
+  25   2      for(i = 0; i < 5; i++)
+  26   2      {
+  27   3      select_bit = 1;
+  28   3      delay(38);
+  29   3      select_bit = 0;
+  30   3      delay(38);
+  31   3      }
+  32   2      };
+  33   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     76    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

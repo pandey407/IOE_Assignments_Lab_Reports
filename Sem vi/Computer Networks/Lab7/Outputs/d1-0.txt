@@ -1,0 +1,8 @@
+Ashlesh_4>enable
+Ashlesh_4#config terminal 
+Ashlesh_4(config)#router ospf 1
+Ashlesh_4(config-router)#network 200.100.50.0 0.0.0.63 area 0
+Ashlesh_4(config-router)#network 200.100.50.128 0.0.0.15 area 0
+Ashlesh_4(config-router)#exit
+Ashlesh_4(config)#exit
+Ashlesh_4#

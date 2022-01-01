@@ -1,0 +1,7 @@
+Ashlesh(config)# interface gigabitethernet 0/0
+Ashlesh(config-if)# ip address 200.10.8.1 255.255.255.0
+Ashlesh(config-if)# no shutdown
+
+Ashlesh(config)# interface gigabitethernet 0/1
+Ashlesh(config-if)# ip address 200.10.9.1 255.255.255.0
+Ashlesh(config-if)# no shutdown

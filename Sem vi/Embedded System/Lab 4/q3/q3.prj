@@ -1,0 +1,4 @@
+vhdl work "../Codes/q3_or.vhd"
+vhdl work "../Codes/q3_not.vhd"
+vhdl work "../Codes/q3_and.vhd"
+vhdl work "../Codes/q3_st.vhd"

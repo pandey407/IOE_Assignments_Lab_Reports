@@ -1,0 +1,10 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {List of Abbreviations}}{iii}{section*.4}%
+\contentsline {section}{\numberline {1}S3 Versioning}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Different scenarios in versioned bucket}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}PUT an object in versioning enabled bucket}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}DELETE an object from versioning enabled bucket}{3}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}GET an object from versioning enabled bucket}{3}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {1.1.4}Restoring a previous version of an object}{5}{subsubsection.1.1.4}%
+\contentsline {section}{\numberline {2}AWS Glacier}{6}{section.2}%
+\contentsline {section}{\numberline {3}Static Website Deployment on AWS S3}{8}{section.3}%

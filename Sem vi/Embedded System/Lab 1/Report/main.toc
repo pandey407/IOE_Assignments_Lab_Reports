@@ -1,0 +1,33 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Microcontroller}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}MCS-51 Family Microcontroller Chips}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.1}Memory Architecture}{1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.2}Registers}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.3}Programming}{2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {1.2.4}Instruction Sets}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Objectives}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Lab Experiment Environment}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Circuit Simulation}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Code Editor and Compiler}{3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Lab Problems}{4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Observations}{13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Discussion}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{23}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Additional References}{23}%

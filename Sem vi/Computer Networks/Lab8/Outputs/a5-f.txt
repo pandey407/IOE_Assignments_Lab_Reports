@@ -1,0 +1,11 @@
+C:\>ping 200.1.1.67
+
+Pinging 200.1.1.67 with 32 bytes of data:
+
+Request timed out.
+Request timed out.
+Request timed out.
+Request timed out.
+
+Ping statistics for 200.1.1.67:
+    Packets: Sent = 4, Received = 0, Lost = 4 (100% loss),

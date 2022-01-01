@@ -1,0 +1,11 @@
+User Access Verification
+Password: 
+Ashlesh_0>enable
+Password: 
+Ashlesh_0#configure terminal
+Ashlesh_0(config)#router ospf 1
+Ashlesh_0(config-router)#network 200.100.50.0 0.0.0.63 area 0
+Ashlesh_0(config-router)#network 200.100.50.144 0.0.0.3 area 0
+Ashlesh_0(config-router)#exit
+Ashlesh_0(config)#exit
+Ashlesh_0#

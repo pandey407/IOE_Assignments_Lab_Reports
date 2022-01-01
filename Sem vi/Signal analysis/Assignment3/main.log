@@ -1,0 +1,226 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2020.9.2)  12 SEP 2020 21:58
+entering extended mode
+**./main.tex
+(main.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-08-07>
+("D:\LaTeX installed\MikTex\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\LaTeX installed\MikTex\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("D:\LaTeX installed\MikTex\tex/latex/customDecorator\customDecorator.sty"
+Package: customDecorator 
+
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\extramarks.sty"
+Package: extramarks 2019/01/31 v3.10 Extra marks for LaTeX
+\@temptokenb=\toks15
+)
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrextend.sty"
+Package: scrextend 2020/07/22 v3.31 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrkbase.sty"
+Package: scrkbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrbase.sty"
+Package: scrbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("D:\LaTeX installed\MikTex\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrlfile.sty"
+Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+))))
+\c@homeworkProblemCounter=\count176
+)
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen135
+))
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen136
+)
+("D:\LaTeX installed\MikTex\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count177
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count178
+\leftroot@=\count179
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count180
+\DOTSCASE@=\count181
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box45
+\strutbox@=\box46
+\big@size=\dimen137
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count182
+\c@MaxMatrixCols=\count183
+\dotsspace@=\muskip16
+\c@parentequation=\count184
+\dspbrk@lvl=\count185
+\tag@help=\toks18
+\row@=\count186
+\column@=\count187
+\maxfields@=\count188
+\andhelp@=\toks19
+\eqnshift@=\dimen138
+\alignsep@=\dimen139
+\tagshift@=\dimen140
+\tagwidth@=\dimen141
+\totwidth@=\dimen142
+\lineht@=\dimen143
+\@envbody=\toks20
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("D:\LaTeX installed\MikTex\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-08-07 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count189
+\l__pdf_internal_box=\box47
+)
+(main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+ [1
+
+{C:/Users/hp/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--127
+
+ []
+
+[3] [4] (main.aux) ) 
+Here is how much of TeX's memory you used:
+ 1970 strings out of 481212
+ 28980 string characters out of 2914805
+ 306698 words of memory out of 3000000
+ 17574 multiletter control sequences out of 15000+200000
+ 544337 words of font info for 60 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,11n,49p,1837b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+<D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/c
+mbx10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmbx9.pfb><D:/LaTeX i
+nstalled/MikTex/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><D:/LaTeX installed
+/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/LaTeX installed/MikTex/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><D:/LaTeX installed/MikTex/fonts/type1/
+public/amsfonts/cm/cmmi12.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/ams
+fonts/cm/cmmi5.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cm
+mi6.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:
+/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/LaTeX inst
+alled/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/LaTeX installed/MikTe
+x/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/LaTeX installed/MikTex/fonts/typ
+e1/public/amsfonts/cm/cmr5.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/am
+sfonts/cm/cmr6.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cm
+r7.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/L
+aTeX installed/MikTex/fonts/type1/public/amsfonts/cm/cmr9.pfb><D:/LaTeX install
+ed/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/LaTeX installed/MikTex/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/LaTeX installed/MikTex/fonts/type1
+/public/amsfonts/cm/cmti10.pfb><D:/LaTeX installed/MikTex/fonts/type1/public/am
+sfonts/cm/cmti12.pfb>
+Output written on main.pdf (5 pages, 244615 bytes).
+PDF statistics:
+ 106 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

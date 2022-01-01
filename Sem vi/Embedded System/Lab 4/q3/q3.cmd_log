@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.xst" -ofn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.syr" 
+xst -intstyle ise -ifn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.xst" -ofn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.syr" 
+xst -intstyle ise -ifn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.xst" -ofn "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3.syr" 

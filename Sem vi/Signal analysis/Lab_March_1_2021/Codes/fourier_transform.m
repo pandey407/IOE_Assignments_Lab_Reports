@@ -1,0 +1,17 @@
+x=[0,1,2,3];
+y=fft(x,4);
+subplot(3,1,1);
+stem(x);
+xlabel('n');
+ylabel('x[n]');
+title('Discrete Signal x[n]');
+subplot(3,1,2);
+stem(real(y));
+xlabel('n');
+ylabel('Re(X(\omega))');
+title('Real part of DTFT for x[n]');
+subplot(3,1,3);
+stem(imag(y));
+xlabel('n');
+ylabel('Im(X(\omega))');
+title('Imaginary part of DTFT for x[n]');

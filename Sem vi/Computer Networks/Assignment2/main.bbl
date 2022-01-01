@@ -1,0 +1,247 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{coaxial}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c1a85aff50b8d1bfda1f39c7698f9c9d}{%
+           family={Computing},
+           familyi={C\bibinitperiod},
+           given={School},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \strng{fullhash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \strng{bibnamehash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \strng{authorbibnamehash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \strng{authornamehash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \strng{authorfullhash}{c1a85aff50b8d1bfda1f39c7698f9c9d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{Dublin City University. Coaxial Cable}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/2-04.jpg.
+      \endverb
+      \verb{url}
+      \verb https://www.computing.dcu.ie/~humphrys/Notes/Networks/tanenbaum/2-04.jpg.
+      \endverb
+    \endentry
+    \entry{msgswitching}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=f85db8e6e1cac98df748a0f0b6aeb324}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Lakshita},
+           giveni={L\bibinitperiod}}}%
+        {{hash=18a23c4de5183dbabf4a6d9bfc70a87a}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Himanshu},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {fr}%
+      }
+      \strng{namehash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \strng{fullhash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \strng{bibnamehash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \strng{authorbibnamehash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \strng{authornamehash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \strng{authorfullhash}{1ef886fbf1f01f34498c9ccae0df8ca1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{Message Switching Techniques}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://media.geeksforgeeks.org/wp-content/uploads/Capture-144.png.
+      \endverb
+      \verb{url}
+      \verb https://media.geeksforgeeks.org/wp-content/uploads/Capture-144.png.
+      \endverb
+    \endentry
+    \entry{twisted}{misc}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{The Computer Language Company Inc. Shielded And Unshielded Twisted Pairs}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://img.tfd.com/cde/STP.GIF.
+      \endverb
+      \verb{url}
+      \verb https://img.tfd.com/cde/STP.GIF.
+      \endverb
+    \endentry
+    \entry{optical}{article}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Optical Fiber}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{The Fiber Optic Association, Inc}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.thefoa.org/tech/ref/basic/ljar-fib.jpg.
+      \endverb
+      \verb{url}
+      \verb https://www.thefoa.org/tech/ref/basic/ljar-fib.jpg.
+      \endverb
+    \endentry
+    \entry{cktswitching}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=25324c7b3df80902c71c42c2e3a2bee6}{%
+           family={Weigle},
+           familyi={W\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{fullhash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{bibnamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authorbibnamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authornamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authorfullhash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{Circuit-Switching Example}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Michele_Weigle/publication/34985230/figure/fig1/AS:669546071470086@1536643631853/Circuit-Switching-Example_W640.jpg.
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Michele_Weigle/publication/34985230/figure/fig1/AS:669546071470086@1536643631853/Circuit-Switching-Example_W640.jpg.
+      \endverb
+    \endentry
+    \entry{pktswitching}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=25324c7b3df80902c71c42c2e3a2bee6}{%
+           family={Weigle},
+           familyi={W\bibinitperiod},
+           given={Michele},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{fullhash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{bibnamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authorbibnamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authornamehash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \strng{authorfullhash}{25324c7b3df80902c71c42c2e3a2bee6}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed 27 Sept 2020.}
+      \field{title}{Packet-Switching Example}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.researchgate.net/profile/Michele_Weigle/publication/34985230/figure/fig2/AS:669546071474190@1536643631884/Packet-Switching-Example_W640.jpg.
+      \endverb
+      \verb{url}
+      \verb https://www.researchgate.net/profile/Michele_Weigle/publication/34985230/figure/fig2/AS:669546071474190@1536643631884/Packet-Switching-Example_W640.jpg.
+      \endverb
+    \endentry
+    \entry{yang}{article}{}
+      \name{author}{5}{}{%
+        {{hash=7a7055ea3b473a1af84bcd004986800e}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Maosong},
+           giveni={M\bibinitperiod}}}%
+        {{hash=18c5ad9fca3c2c8a0539cf875c7ea30d}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yongwei},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=6e8f2003b752d0889a055f1363c0e680}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Xiaodong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=34459614af7ce1399c9a380675c548c1}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Haojiang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fcc799804c7f396d4c271ffc79256ee7}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xinfu},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{efcd3b02ab9e697cc9d995395d956a2f}
+      \strng{fullhash}{ef63f3f3d82877cd69f507ef6843c275}
+      \strng{bibnamehash}{efcd3b02ab9e697cc9d995395d956a2f}
+      \strng{authorbibnamehash}{efcd3b02ab9e697cc9d995395d956a2f}
+      \strng{authornamehash}{efcd3b02ab9e697cc9d995395d956a2f}
+      \strng{authorfullhash}{ef63f3f3d82877cd69f507ef6843c275}
+      \field{sortinit}{Y}
+      \field{sortinithash}{6ae2ff5458ff901249c2745238c951b7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IOP Conference Series: Earth and Environmental Science}
+      \field{month}{07}
+      \field{title}{Development and Prospect of Twisted Pair Cables}
+      \field{volume}{170}
+      \field{year}{2018}
+      \true{nocite}
+      \field{pages}{042126}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1755-1315/170/4/042126
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

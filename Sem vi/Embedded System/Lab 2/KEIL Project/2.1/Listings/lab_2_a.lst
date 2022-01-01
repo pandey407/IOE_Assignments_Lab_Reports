@@ -1,0 +1,53 @@
+C51 COMPILER V9.60.0.0   LAB_2_A                                                           11/01/2020 10:46:14 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LAB_2_A
+OBJECT MODULE PLACED IN .\Objects\lab_2_a.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\..\Codes\C\lab_2_a.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRIN
+                    -T(.\Listings\lab_2_a.lst) TABS(2) OBJECT(.\Objects\lab_2_a.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          unsigned char led_pattern[10] = { 0x3f, 0x06, 0x5b, 0x4f, 0x66, 0x6d, 0x7d, 0x07, 0x7f, 0x6f};
+   3            
+   4          void delay(int time)
+   5          {
+   6   1        unsigned int i,j;
+   7   1        for (i=0;i<time;i++)
+   8   1          for (j=0;j<125;j++);
+   9   1      }
+  10          
+  11          void display(int i)
+  12          {
+  13   1        P0 = led_pattern[i];
+  14   1        delay(1000);
+  15   1      }
+  16          
+  17          void main(void)
+  18          {
+  19   1        unsigned int i;
+  20   1        P2 = 0x01;
+  21   1      
+  22   1        while(1)
+  23   1        {
+  24   2          for(i=0; i<10; i++)
+  25   2            display(i);
+  26   2          for(i=8; i>0; i--)
+  27   2            display(i);
+  28   2        }
+  29   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     99    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     10    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

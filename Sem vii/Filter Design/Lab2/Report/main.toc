@@ -1,0 +1,12 @@
+\contentsline {section}{\bfseries {List of figures}}{ii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Scaling}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Impedance Scaling}{1}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Frequency Scaling}{2}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}Frequency Transformation}{4}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Low Pass to High Pass}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Low Pass to Band Pass}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Low Pass to Band Stop}{7}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Exercises}{9}{section.3}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{20}{section.4}%

@@ -1,0 +1,2 @@
+vhdl work "../Codes/q4pos_be.vhd"
+vhdl work "../Codes/q4pos_tb.vhd"

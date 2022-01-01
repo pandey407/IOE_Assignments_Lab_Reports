@@ -1,0 +1,59 @@
+C51 COMPILER V9.60.0.0   LAB_1_C                                                           10/07/2020 08:49:37 PAGE 1   
+
+
+C51 COMPILER V9.60.0.0, COMPILATION OF MODULE LAB_1_C
+OBJECT MODULE PLACED IN .\Objects\lab_1_c.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE ..\..\Codes\C\lab_1_c.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRIN
+                    -T(.\Listings\lab_1_c.lst) TABS(2) OBJECT(.\Objects\lab_1_c.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          unsigned char data multiplicand _at_ 0x22;
+   3          unsigned char data multiplier _at_ 0x15;
+   4          unsigned char data answer[2] _at_ 0x19;
+   5          
+   6          void delay(int time)
+   7          {
+   8   1        unsigned int i,j;
+   9   1        for (i=0;i<time;i++)
+  10   1          for (j=0;j<125;j++);
+  11   1      }
+  12          
+  13          void main(void)
+  14          {
+  15   1        unsigned int result = 0x0;
+  16   1        unsigned char i;
+  17   1      
+  18   1        multiplicand = 0xff;
+  19   1        multiplier = 0xde;
+  20   1      
+  21   1        for(i=0x0;i<multiplier;i++)
+  22   1          result += multiplicand;
+  23   1      
+  24   1        answer[0] = result%0x100;
+  25   1        result >>= 8;
+  26   1        answer[1] = result%0x100;
+  27   1      
+  28   1        while(1)
+  29   1        {
+  30   2          P0 = answer[0];
+  31   2          delay(1000);
+  32   2          P0 = answer[1];
+  33   2          delay(1000);
+  34   2        }
+  35   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     83    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

@@ -1,0 +1,21 @@
+Release 14.5 Map P.58f (nt64)
+Xilinx Map Application Log File for Design 'q6_mux4_1'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xa7a100t-csg324-2I -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o q6_mux4_1_map.ncd q6_mux4_1.ngd q6_mux4_1.pcf 
+Target Device  : xa7a100t
+Target Package : csg324
+Target Speed   : -2i
+Mapper Version : aartix7 -- $Revision: 1.55 $
+Mapped Date    : Mon Nov 30 18:55:58 2020
+
+WARNING:LIT:701 - PAD symbol "X1" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "X1" is not constrained (LOC) to a specific
+   location.
+Mapping design into LUTs...
+Running directed packing...
+Running delay-based LUT packing...
+Updating timing models...

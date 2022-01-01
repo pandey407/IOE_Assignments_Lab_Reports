@@ -1,0 +1,16 @@
+Switch#configure terminal
+Switch(config)#interface fastEthernet 0/11
+Switch(config-if)#switchport access vlan 2
+Switch(config-if)#exit
+
+Switch(config)#interface fastEthernet 0/12
+Switch(config-if)#switchport access vlan 2
+Switch(config-if)#exit
+
+Switch(config)#interface fastethernet 0/13
+Switch(config-if)#switchport access vlan 2
+Switch(config-if)#exit
+
+Switch(config)#interface fastethernet 0/14
+Switch(config-if)#switchport access vlan 2
+Switch(config-if)#end

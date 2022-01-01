@@ -1,0 +1,45 @@
+		ORG 00H
+;Digital drive pattern for E407		
+		MOV 40H,#79H
+		MOV 41H,#66H
+		MOV 42H,#3FH
+		MOV 43H,#07H
+
+REPEAT:	MOV R0,#40H
+		MOV A,@R0
+		SETB P2.0
+		MOV P0,A
+		ACALL DELAY
+		CLR P2.0
+		INC R0
+		
+		MOV A,@R0
+		SETB P2.1
+		MOV P0,A
+		ACALL DELAY
+		CLR P2.1
+		INC R0
+		
+		MOV A,@R0
+		SETB P2.2
+		MOV P0,A
+		ACALL DELAY
+		CLR P2.2
+		INC R0
+		
+		MOV A,@R0
+		SETB P2.3
+		MOV P0,A
+		ACALL DELAY
+		CLR P2.3
+		
+		AJMP REPEAT
+						
+DELAY:	MOV R3,#02H
+DEL1:	MOV R2,#0FAH
+DEL2:	DJNZ R2,DEL2
+		DJNZ R3,DEL1
+		RET
+				
+		END
+		

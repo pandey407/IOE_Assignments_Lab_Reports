@@ -1,0 +1,6 @@
+Switch>enable
+Switch#configure terminal
+Switch(config)#vlan 2
+Switch(config-vlan)#name vlan_2
+Switch(config-vlan)#end
+Switch#

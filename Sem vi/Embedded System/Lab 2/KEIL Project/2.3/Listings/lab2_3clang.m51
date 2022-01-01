@@ -1,0 +1,146 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/03/2020  16:50:32  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab_2_c.obj TO .\Objects\lab2_3clang PRINT (.\Listings\lab2_3clang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab_2_c.obj (LAB_2_C)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?COPY)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C?UIDIV)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  .\Objects\lab2_3clang (LAB_2_C)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0018H     UNIT         _DATA_GROUP_
+            DATA    0020H     000AH     UNIT         ?DT?LAB_2_C
+            IDATA   002AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     014BH     UNIT         ?C?LIB_CODE
+            CODE    094BH     008CH     UNIT         ?C_C51STARTUP
+            CODE    09D7H     0076H     UNIT         ?PR?MAIN?LAB_2_C
+            CODE    0A4DH     004BH     UNIT         ?PR?_DISPLAY?LAB_2_C
+            CODE    0A98H     0020H     UNIT         ?PR?_DELAY?LAB_2_C
+            CODE    0AB8H     0012H     UNIT         ?CO?LAB_2_C
+            CODE    0ACAH     000DH     UNIT         ?C_INITSEG
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab2_3clang (LAB_2_C)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?LAB_2_C
+  +--> ?C_INITSEG
+
+?PR?MAIN?LAB_2_C               0008H    0014H
+  +--> ?CO?LAB_2_C
+  +--> ?PR?_DISPLAY?LAB_2_C
+
+?PR?_DISPLAY?LAB_2_C           001CH    0004H
+  +--> ?PR?_DELAY?LAB_2_C
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/03/2020  16:50:32  PAGE 2
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab2_3clang (LAB_2_C)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB_2_C
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:00A0H         PUBLIC        P2
+  C:0A98H         PUBLIC        _delay
+  D:0020H         PUBLIC        led_pattern
+  C:09D7H         PUBLIC        main
+  C:0AB8H         SYMBOL        _?ix1000
+  C:0A4DH         PUBLIC        _display
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        time
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:0A98H         LINE#         5
+  C:0A98H         LINE#         6
+  C:0A98H         LINE#         8
+  C:0AA2H         LINE#         9
+  C:0AB7H         LINE#         10
+  -------         ENDPROC       _DELAY
+  -------         PROC          _DISPLAY
+  D:0002H         SYMBOL        i
+  -------         DO            
+  D:0082H         SYMBOL        j
+  D:001CH         SYMBOL        led1
+  D:001EH         SYMBOL        led2
+  -------         ENDDO         
+  C:0A4DH         LINE#         12
+  C:0A51H         LINE#         13
+  C:0A51H         LINE#         15
+  C:0A5CH         LINE#         16
+  C:0A6BH         LINE#         17
+  C:0A6EH         LINE#         18
+  C:0A6EH         LINE#         19
+  C:0A71H         LINE#         20
+  C:0A79H         LINE#         21
+  C:0A80H         LINE#         23
+  C:0A83H         LINE#         24
+  C:0A8BH         LINE#         25
+  C:0A8EH         LINE#         26
+  C:0A97H         LINE#         27
+  -------         ENDPROC       _DISPLAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0008H         SYMBOL        i
+  D:000AH         SYMBOL        fibo_seq
+  -------         ENDDO         
+  C:09D7H         LINE#         29
+  C:09D7H         LINE#         30
+  C:09D7H         LINE#         31
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/03/2020  16:50:32  PAGE 3
+
+
+  C:09EAH         LINE#         32
+  C:09F0H         LINE#         33
+  C:0A26H         LINE#         34
+  C:0A26H         LINE#         35
+  C:0A2BH         LINE#         36
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_2_C
+
+  -------         MODULE        ?C?COPY
+  C:08D0H         PUBLIC        ?C?COPY
+  -------         ENDMOD        ?C?COPY
+
+  -------         MODULE        ?C?UIDIV
+  C:08F6H         PUBLIC        ?C?UIDIV
+  -------         ENDMOD        ?C?UIDIV
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 00FFH BYTE (12%) *
+******************************************************************************
+
+Program Size: data=43.0 xdata=0 code=730
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

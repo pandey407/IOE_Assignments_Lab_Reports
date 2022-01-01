@@ -1,0 +1,10 @@
+Switch>enable
+Switch#configure terminal
+Switch(config)#vlan vlan_id
+Switch(config-vlan)#name vlan_name
+Switch(config-vlan)#end
+Switch#
+
+where,
+vlan_id: Tag for the VLAN,
+vlan_name: Name for the VLAN to be identified as.

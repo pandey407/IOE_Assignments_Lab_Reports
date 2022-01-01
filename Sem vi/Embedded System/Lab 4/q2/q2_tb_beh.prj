@@ -1,0 +1,3 @@
+vhdl work "../Codes/xor_nor.vhd"
+vhdl work "../Codes/q2_st.vhd"
+vhdl work "../Codes/q2_tb.vhd"

@@ -1,0 +1,18 @@
+C:\>telnet 202.60.0.1
+Trying 202.60.0.1 ...Open
+
+
+User Access Verification
+
+Password: 
+Pandey_0>enable
+Password: 
+Pandey_0#configure terminal 
+
+Pandey_0(config)#ip route 202.60.2.0 255.255.255.0 202.60.1.2
+Pandey_0(config)#ip route 202.60.3.0 255.255.255.0 202.60.1.2
+Pandey_0(config)#ip route 202.60.4.0 255.255.255.0 202.60.1.2
+Pandey_0(config)#ip route 202.60.5.0 255.255.255.0 202.60.1.2
+Pandey_0(config)#ip route 202.60.6.0 255.255.255.0 202.60.1.2
+Pandey_0(config)#exit
+Pandey_0#

@@ -1,0 +1,3 @@
+vhdl isim_temp "../Codes/xor_nor.vhd"
+vhdl isim_temp "../Codes/q2_st.vhd"
+vhdl isim_temp "../Codes/q2_tb.vhd"

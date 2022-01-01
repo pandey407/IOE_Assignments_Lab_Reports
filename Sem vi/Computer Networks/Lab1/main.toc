@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Objectives}{1}%
+\contentsline {section}{\numberline {2}Required Tools}{1}%
+\contentsline {subsection}{\numberline {2.1}Crimping tool}{1}%
+\contentsline {subsection}{\numberline {2.2}Network devices}{1}%
+\contentsline {subsection}{\numberline {2.3}Rj-45 connectors and patch panel}{1}%
+\contentsline {subsection}{\numberline {2.4}Pieces of UTP cable (CAT 5 or CAT 6)}{2}%
+\contentsline {subsection}{\numberline {2.5}LAN cable tester}{2}%
+\contentsline {section}{\numberline {3}Procedure}{2}%
+\contentsline {subsection}{\numberline {3.1}Testing a LAN cable using LAN cable tester}{3}%
+\contentsline {subsection}{\numberline {3.2}Crimping an RJ-45 connector on an UTP cable}{3}%
+\contentsline {section}{\numberline {4}Observation}{3}%
+\contentsline {section}{\numberline {5}Exercises}{3}%
+\contentsline {section}{\numberline {6}Conclusion}{11}%

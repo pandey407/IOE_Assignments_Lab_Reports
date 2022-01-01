@@ -1,0 +1,113 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/01/2020  10:46:15  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab_2_a.obj TO .\Objects\lab2_1clang PRINT (.\Listings\lab2_1clang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab_2_a.obj (LAB_2_A)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_INIT)
+
+
+LINK MAP OF MODULE:  .\Objects\lab2_1clang (LAB_2_A)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     000AH     UNIT         ?DT?LAB_2_A
+            IDATA   0012H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     008CH     UNIT         ?C_C51STARTUP
+            CODE    088CH     0035H     UNIT         ?PR?MAIN?LAB_2_A
+            CODE    08C1H     0020H     UNIT         ?PR?_DELAY?LAB_2_A
+            CODE    08E1H     000EH     UNIT         ?PR?_DISPLAY?LAB_2_A
+            CODE    08EFH     000DH     UNIT         ?C_INITSEG
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab2_1clang (LAB_2_A)
+
+
+SEGMENT
+  +--> CALLED SEGMENT
+---------------------
+?C_C51STARTUP
+  +--> ?PR?MAIN?LAB_2_A
+  +--> ?C_INITSEG
+
+?PR?MAIN?LAB_2_A
+  +--> ?PR?_DISPLAY?LAB_2_A
+
+?PR?_DISPLAY?LAB_2_A
+  +--> ?PR?_DELAY?LAB_2_A
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab2_1clang (LAB_2_A)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/01/2020  10:46:15  PAGE 2
+
+
+  -------         MODULE        LAB_2_A
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+  D:00A0H         PUBLIC        P2
+  C:08C1H         PUBLIC        _delay
+  D:0008H         PUBLIC        led_pattern
+  C:088CH         PUBLIC        main
+  C:08E1H         PUBLIC        _display
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        time
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:08C1H         LINE#         4
+  C:08C1H         LINE#         5
+  C:08C1H         LINE#         7
+  C:08CBH         LINE#         8
+  C:08E0H         LINE#         9
+  -------         ENDPROC       _DELAY
+  -------         PROC          _DISPLAY
+  D:0006H         SYMBOL        i
+  C:08E1H         LINE#         11
+  C:08E1H         LINE#         12
+  C:08E1H         LINE#         13
+  C:08E8H         LINE#         14
+  -------         ENDPROC       _DISPLAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0082H         SYMBOL        i
+  -------         ENDDO         
+  C:088CH         LINE#         17
+  C:088CH         LINE#         18
+  C:088CH         LINE#         20
+  C:088FH         LINE#         22
+  C:088FH         LINE#         23
+  C:088FH         LINE#         24
+  C:0892H         LINE#         25
+  C:08A2H         LINE#         26
+  C:08B0H         LINE#         27
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_2_A
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 006FH BYTE ( 5%) *
+******************************************************************************
+
+Program Size: data=19.0 xdata=0 code=255
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

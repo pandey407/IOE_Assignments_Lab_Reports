@@ -1,0 +1,39 @@
+
+Pinging 192.168.1.13 with 32 bytes of data:
+Reply from 192.168.1.13: bytes=32 time=25ms TTL=64
+Reply from 192.168.1.13: bytes=32 time=46ms TTL=64
+Reply from 192.168.1.13: bytes=32 time=78ms TTL=64
+Reply from 192.168.1.13: bytes=32 time=90ms TTL=64
+
+Ping statistics for 192.168.1.13:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 25ms, Maximum = 90ms, Average = 59ms
+
+Interface: 192.168.56.1 --- 0x6
+  Internet Address      Physical Address      Type
+  192.168.56.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.1.19 --- 0x9
+  Internet Address      Physical Address      Type
+  192.168.1.1           c8-50-e9-63-da-9a     dynamic   
+  192.168.1.13          94-7b-e7-f6-cc-c9     dynamic   
+  192.168.1.255         ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static    
+
+Interface: 192.168.99.1 --- 0xd
+  Internet Address      Physical Address      Type
+  192.168.99.255        ff-ff-ff-ff-ff-ff     static    
+  224.0.0.22            01-00-5e-00-00-16     static    
+  224.0.0.251           01-00-5e-00-00-fb     static    
+  224.0.0.252           01-00-5e-00-00-fc     static    
+  239.255.255.250       01-00-5e-7f-ff-fa     static    

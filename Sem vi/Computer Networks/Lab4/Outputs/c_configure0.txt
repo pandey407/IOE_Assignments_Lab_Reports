@@ -1,0 +1,15 @@
+Router(config)#hostname Ashlesh
+
+Ashlesh(config)#line console 0
+Ashlesh(config-line)#password ashlesh
+Ashlesh(config-line)#login
+Ashlesh(config-line)#exit
+
+Ashlesh(config)#enable password 407
+
+Ashlesh(config)#line vty 0 4
+Ashlesh(config-line)#password pandey
+Ashlesh(config-line)#login
+Ashlesh(config-line)#exit
+
+Ashlesh(config)#service password-encryption

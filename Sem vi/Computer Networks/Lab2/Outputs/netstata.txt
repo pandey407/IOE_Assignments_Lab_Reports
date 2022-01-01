@@ -1,0 +1,129 @@
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:445            LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:5040           LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:5357           LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:6800           LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49664          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49665          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49666          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49667          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49668          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49670          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    0.0.0.0:49671          LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    127.0.0.1:6463         LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    127.0.0.1:8092         LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    127.0.0.1:53394        LAPTOP-QLRVLCUC:53395  ESTABLISHED
+  TCP    127.0.0.1:53395        LAPTOP-QLRVLCUC:53394  ESTABLISHED
+  TCP    127.0.0.1:53665        LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    127.0.0.1:53666        LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    127.0.0.1:53666        LAPTOP-QLRVLCUC:53690  ESTABLISHED
+  TCP    127.0.0.1:53666        LAPTOP-QLRVLCUC:53888  TIME_WAIT
+  TCP    127.0.0.1:53690        LAPTOP-QLRVLCUC:53666  ESTABLISHED
+  TCP    127.0.0.1:53882        LAPTOP-QLRVLCUC:53883  ESTABLISHED
+  TCP    127.0.0.1:53883        LAPTOP-QLRVLCUC:53882  ESTABLISHED
+  TCP    127.0.0.1:53889        LAPTOP-QLRVLCUC:53666  TIME_WAIT
+  TCP    192.168.1.19:139       LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    192.168.1.19:53348     40.90.189.152:https    ESTABLISHED
+  TCP    192.168.1.19:53396     bom07s20-in-f10:https  ESTABLISHED
+  TCP    192.168.1.19:53634     162.159.134.234:https  ESTABLISHED
+  TCP    192.168.1.19:53758     edge-star-shv-02
+                                -sin6:https            TIME_WAIT
+  TCP    192.168.1.19:53832     11140-22491:458        ESTABLISHED
+  TCP    192.168.1.19:53857     199.232.193.7:https    ESTABLISHED
+  TCP    192.168.1.19:53866     edge-star-mini-shv-02
+                                -sin6:https            ESTABLISHED
+  TCP    192.168.1.19:53873     any-in-2015:https      ESTABLISHED
+  TCP    192.168.1.19:53874     199.232.254.109:https  ESTABLISHED
+  TCP    192.168.1.19:53875     server-99-86-154-
+                                15:https               ESTABLISHED
+  TCP    192.168.1.19:53877     any-in-2015:https      ESTABLISHED
+  TCP    192.168.1.19:53879     server-13-227-250
+                                -7:https               ESTABLISHED
+  TCP    192.168.1.19:53880     110.44.120.81:https    ESTABLISHED
+  TCP    192.168.1.19:53884     hkg12s10-in-f42:https  ESTABLISHED
+  TCP    192.168.1.19:53891     xx-fbcdn-shv-01
+                                -bom1:https            ESTABLISHED
+  TCP    192.168.1.19:53893     110.44.120.82:https    ESTABLISHED
+  TCP    192.168.1.19:53895     xx-fbcdn-shv-01
+                                -bom1:https            ESTABLISHED
+  TCP    192.168.56.1:139       LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    192.168.99.1:139       LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:135               LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:445               LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:5357              LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49664             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49665             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49666             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49667             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49668             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49670             LAPTOP-QLRVLCUC:0      LISTENING
+  TCP    [::]:49671             LAPTOP-QLRVLCUC:0      LISTENING
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:3702           *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:52403          *:*                    
+  UDP    0.0.0.0:54617          *:*                    
+  UDP    0.0.0.0:54702          *:*                    
+  UDP    0.0.0.0:57786          *:*                    
+  UDP    0.0.0.0:59668          *:*                    
+  UDP    0.0.0.0:61931          *:*                    
+  UDP    0.0.0.0:62813          *:*                    
+  UDP    0.0.0.0:62814          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:53319        *:*                    
+  UDP    127.0.0.1:59667        *:*                    
+  UDP    192.168.1.19:137       *:*                    
+  UDP    192.168.1.19:138       *:*                    
+  UDP    192.168.1.19:1900      *:*                    
+  UDP    192.168.1.19:2177      *:*                    
+  UDP    192.168.1.19:59666     *:*                    
+  UDP    192.168.56.1:137       *:*                    
+  UDP    192.168.56.1:138       *:*                    
+  UDP    192.168.56.1:1900      *:*                    
+  UDP    192.168.56.1:2177      *:*                    
+  UDP    192.168.56.1:59664     *:*                    
+  UDP    192.168.99.1:137       *:*                    
+  UDP    192.168.99.1:138       *:*                    
+  UDP    192.168.99.1:1900      *:*                    
+  UDP    192.168.99.1:2177      *:*                    
+  UDP    192.168.99.1:59665     *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:3702              *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::]:57787             *:*                    
+  UDP    [::]:59669             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:59663            *:*                    
+  UDP    [fe80::509d:f9df:2bd5:9ab%9]:1900  *:*                    
+  UDP    [fe80::509d:f9df:2bd5:9ab%9]:2177  *:*                    
+  UDP    [fe80::509d:f9df:2bd5:9ab%9]:59662  *:*                    
+  UDP    [fe80::c8fa:6525:b46c:39db%13]:1900  *:*                    
+  UDP    [fe80::c8fa:6525:b46c:39db%13]:2177  *:*                    
+  UDP    [fe80::c8fa:6525:b46c:39db%13]:59661  *:*                    
+  UDP    [fe80::d94a:5427:b7ca:594a%6]:1900  *:*                    
+  UDP    [fe80::d94a:5427:b7ca:594a%6]:2177  *:*                    
+  UDP    [fe80::d94a:5427:b7ca:594a%6]:59660  *:*                    

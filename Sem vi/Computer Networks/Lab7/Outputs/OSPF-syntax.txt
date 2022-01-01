@@ -1,0 +1,7 @@
+Router(config)# router ospf process-id
+Router(config-router)# network network-identifier wildcard-mask area area-id
+
+Example:
+Router(config)# router ospf 1
+Router(config-router)# network 200.100.50.0 0.0.0.63 area 0
+Router(config-router)# network 200.100.50.144 0.0.0.3 area 0

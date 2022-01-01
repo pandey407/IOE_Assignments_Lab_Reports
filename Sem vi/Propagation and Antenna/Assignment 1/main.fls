@@ -1,0 +1,155 @@
+PWD p:\LaTex Files\Propagation and Antenna\Assignment 1
+INPUT C:\Users\hp\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.tex
+OUTPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.log
+INPUT D:\LaTeX installed\MikTex\tex\latex\assignmentDecorator\home_assignment.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\assignmentDecorator\home_assignment.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\article.cls
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\base\size10.clo
+INPUT D:\LaTeX installed\MikTex\tex\latex\jknappen\mathrsfs.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\jknappen\mathrsfs.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\fancyhdr.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\fancyhdr\extramarks.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrextend.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrkbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrbase.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\keyval.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\koma-script\scrlfile.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\float\float.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsmath.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amstext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amstext.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsgen.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsgen.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsbsy.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsopn.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsmath\amsopn.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amssymb.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amssymb.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\amsfonts.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphicx.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\graphics.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics\trig.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-cfg\graphics.cfg
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\graphics-def\pdftex.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\tools\array.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT D:\LaTeX installed\MikTex\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.aux
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.aux
+OUTPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.aux
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\tex\context\base\mkii\supp-pdf.mkii
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\LaTeX installed\MikTex\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr17.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr9.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmti12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmmi6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmsy6.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmex10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\jknappen\ursfs.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\jknappen\ursfs.fd
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsa.fd
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\LaTeX installed\MikTex\tex\latex\amsfonts\umsb.fd
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+OUTPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.pdf
+INPUT C:\Users\hp\AppData\Local\MiKTeX\pdftex\config\pdftex.map
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmr12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx12.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmti10.tfm
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\switchedbeam.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\switchedbeam.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\switchedbeam.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\switchedbeam.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\switchedbeam.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\smart_antennas.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\smart_antennas.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\smart_antennas.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\smart_antennas.png
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\Figures\smart_antennas.png
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\cm\cmbx9.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs7.tfm
+INPUT C:\Users\hp\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs5.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
+INPUT D:\LaTeX installed\MikTex\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT p:\LaTex Files\Propagation and Antenna\Assignment 1\main.aux
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmbx9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmr9.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb
+INPUT D:\LaTeX installed\MikTex\fonts\type1\public\amsfonts\cm\cmti12.pfb

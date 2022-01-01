@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section*.2}{List\040of\040Figures}{}% 1
+\BOOKMARK [1][-]{section*.4}{List\040of\040Abbreviations}{}% 2
+\BOOKMARK [1][-]{section.1}{S3\040Versioning}{}% 3
+\BOOKMARK [2][-]{subsection.1.1}{Different\040scenarios\040in\040versioned\040bucket}{section.1}% 4
+\BOOKMARK [3][-]{subsubsection.1.1.1}{PUT\040an\040object\040in\040versioning\040enabled\040bucket}{subsection.1.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.1.2}{DELETE\040an\040object\040from\040versioning\040enabled\040bucket}{subsection.1.1}% 6
+\BOOKMARK [3][-]{subsubsection.1.1.3}{GET\040an\040object\040from\040versioning\040enabled\040bucket}{subsection.1.1}% 7
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Restoring\040a\040previous\040version\040of\040an\040object}{subsection.1.1}% 8
+\BOOKMARK [1][-]{section.2}{AWS\040Glacier}{}% 9
+\BOOKMARK [1][-]{section.3}{Static\040Website\040Deployment\040on\040AWS\040S3}{}% 10

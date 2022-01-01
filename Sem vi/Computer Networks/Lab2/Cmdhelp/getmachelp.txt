@@ -1,0 +1,21 @@
+Usage: 
+getmac [/S system [/U username [/P [password]]]] [/FO format] [/NH] [/V]
+
+Options: 
+    /S     system            Specifies the remote system to connect to.
+
+    /U     [domain\]user     Specifies the user context under 
+                             which the command should execute.
+
+    /P     [password]        Specifies the password for the given
+                             user context. Prompts for input if omitted.
+
+    /FO    format            Specifies the format in which the output
+                             is to be displayed.
+                             Valid values: "TABLE", "LIST", "CSV".
+
+    /NH                      Specifies that the "Column Header" should
+                             not be displayed in the output.
+                             Valid only for TABLE and CSV formats.
+
+    /V                       Specifies that verbose output is displayed.

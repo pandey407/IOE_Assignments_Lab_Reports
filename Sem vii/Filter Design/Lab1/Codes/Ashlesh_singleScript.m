@@ -1,0 +1,13 @@
+[R, L, C, R1, C1, R2, C2] = Ashlesh_componentValues();
+figure(1);
+Ashlesh_bodePlot([1],[R*C 1]);
+figure(2);
+Ashlesh_bodePlot([R*C 0], [R*C 1]);
+figure(3);
+Ashlesh_bodePlot([R*C 0],[L*C R*C 1]);
+figure(4);
+Ashlesh_bodePlot([L*C 0 1],[L*C R*C 1]);
+figure(5);
+Ashlesh_bodePlot([1],[L*C R*C 1]);
+figure(6);
+Ashlesh_bodePlot([R2*C2 0],[R1*R2*C1*C2 R1*C1+R1*C2+R2*C2 1]);

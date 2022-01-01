@@ -1,0 +1,15 @@
+Router(config)#hostname Pandey
+
+Pandey(config)#line console 0
+Pandey(config-line)#password ashlesh
+Pandey(config-line)#login
+Pandey(config-line)#exit
+
+Pandey(config)#enable password 407
+
+Pandey(config)#line vty 0 4
+Pandey(config-line)#password pandey
+Pandey(config-line)#login
+Pandey(config-line)#exit
+
+Pandey(config)#service password-encryption

@@ -1,0 +1,13 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.ignoreWords": [
+        "dptr",
+        "keil",
+        "leds",
+        "mcus",
+        "mdks",
+        "movc",
+        "movx",
+        "sfrs"
+    ]
+}

@@ -1,0 +1,29 @@
+Command line:
+   q7_add_sub_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  62731
+
+Wed Dec 02 15:58:48 2020
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 5155.07 Meg
+
+ Total Signals          : 57
+ Total Nets             : 21
+ Total Signal Drivers   : 14
+ Total Blocks           : 12
+ Total Primitive Blocks : 10
+ Total Processes        : 13
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 504
+Total Line Count : 17
+
+ Total Simulation Time: 0.015625 sec
+
+ Current Memory Usage: 5155.07 Meg
+
+Wed Dec 02 15:59:02 2020
+

@@ -1,0 +1,11 @@
+****To allow all VLANs via trunk port****
+Switch(config-if)#switchport trunk allowed all
+
+****To remove a particular VLAN from trunk port****
+Switch(config-if)#switchport trunk allowed vlan remove vlan_id
+
+****To add a particular VLAN in a trunk port****
+Switch(config-if)#switchport trunk allowed vlan add vlan_id
+
+where,
+vlan_id: Tag for the VLAN that is to be manipulated.

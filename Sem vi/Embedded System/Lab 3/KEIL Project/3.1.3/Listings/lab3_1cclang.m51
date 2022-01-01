@@ -1,0 +1,111 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    11/13/2020  11:16:09  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab3_1_c.obj TO .\Objects\lab3_1cclang PRINT (.\Listings\lab3_1cclang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab3_1_c.obj (LAB3_1_C)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\lab3_1cclang (LAB3_1_C)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+            DATA    0008H     0002H     UNIT         _DATA_GROUP_
+            IDATA   000AH     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     0022H     UNIT         ?PR?_DELAY?LAB3_1_C
+            CODE    0822H     001AH     UNIT         ?PR?MAIN?LAB3_1_C
+            CODE    083CH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab3_1cclang (LAB3_1_C)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?LAB3_1_C
+
+?PR?MAIN?LAB3_1_C              -----    -----
+  +--> ?PR?_DELAY?LAB3_1_C
+
+?PR?_DELAY?LAB3_1_C            0008H    0002H
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab3_1cclang (LAB3_1_C)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB3_1_C
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:00A0H         PUBLIC        P2
+  C:0800H         PUBLIC        _delay
+  B:00A0H.0       PUBLIC        select_bit
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  11/13/2020  11:16:09  PAGE 2
+
+
+  C:0822H         PUBLIC        main
+  D:0089H         PUBLIC        TMOD
+  B:0088H.7       PUBLIC        TF1
+  D:008DH         PUBLIC        TH1
+  B:0088H.6       PUBLIC        TR1
+  -------         PROC          _DELAY
+  D:0008H         SYMBOL        multiplier
+  -------         DO            
+  D:0006H         SYMBOL        i
+  -------         ENDDO         
+  C:0800H         LINE#         3
+  C:0804H         LINE#         4
+  C:0804H         LINE#         6
+  C:0807H         LINE#         7
+  C:080AH         LINE#         8
+  C:080AH         LINE#         9
+  C:080DH         LINE#         10
+  C:080FH         LINE#         11
+  C:0812H         LINE#         12
+  C:0814H         LINE#         13
+  C:0816H         LINE#         14
+  C:0821H         LINE#         15
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0004H         SYMBOL        i
+  -------         ENDDO         
+  C:0822H         LINE#         16
+  C:0822H         LINE#         17
+  C:0822H         LINE#         19
+  C:0822H         LINE#         20
+  C:0822H         LINE#         21
+  C:0824H         LINE#         22
+  C:0827H         LINE#         23
+  C:082AH         LINE#         24
+  C:082AH         LINE#         25
+  C:082CH         LINE#         26
+  C:082FH         LINE#         27
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB3_1_C
+
+******************************************************************************
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 003CH BYTE ( 2%) *
+******************************************************************************
+
+Program Size: data=11.0 xdata=0 code=75
+LINK/LOCATE RUN COMPLETE.  0 WARNING(S),  0 ERROR(S)

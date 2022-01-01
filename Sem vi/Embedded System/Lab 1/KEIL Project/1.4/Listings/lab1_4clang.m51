@@ -1,0 +1,129 @@
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                    10/07/2020  08:54:06  PAGE 1
+
+
+BL51 BANKED LINKER/LOCATER V6.22.2.0, INVOKED BY:
+C:\KEIL_V5\C51\BIN\BL51.EXE .\Objects\lab_1_d.obj TO .\Objects\lab1_4clang PRINT (.\Listings\lab1_4clang.m51)
+
+
+MEMORY MODEL: SMALL
+
+
+INPUT MODULES INCLUDED:
+  .\Objects\lab_1_d.obj (LAB_1_D)
+  C:\KEIL_V5\C51\LIB\C51S.LIB (?C_STARTUP)
+
+
+LINK MAP OF MODULE:  .\Objects\lab1_4clang (LAB_1_D)
+
+
+            TYPE    BASE      LENGTH    RELOCATION   SEGMENT NAME
+            -----------------------------------------------------
+
+            * * * * * * *   D A T A   M E M O R Y   * * * * * * *
+            REG     0000H     0008H     ABSOLUTE     "REG BANK 0"
+* OVERLAP * DATA    0004H     0001H     ABSOLUTE     
+* OVERLAP * DATA    0005H     0001H     ABSOLUTE     
+            DATA    0008H     0001H     UNIT         _DATA_GROUP_
+                    0009H     0035H                  *** GAP ***
+            DATA    003EH     0002H     ABSOLUTE     
+            IDATA   0040H     0001H     UNIT         ?STACK
+
+            * * * * * * *   C O D E   M E M O R Y   * * * * * * *
+            CODE    0000H     0003H     ABSOLUTE     
+                    0003H     07FDH                  *** GAP ***
+            CODE    0800H     003BH     UNIT         ?PR?MAIN?LAB_1_D
+            CODE    083BH     0020H     UNIT         ?PR?_DELAY?LAB_1_D
+            CODE    085BH     000CH     UNIT         ?C_C51STARTUP
+
+
+
+OVERLAY MAP OF MODULE:   .\Objects\lab1_4clang (LAB_1_D)
+
+
+SEGMENT                          DATA_GROUP 
+  +--> CALLED SEGMENT          START    LENGTH
+----------------------------------------------
+?C_C51STARTUP                  -----    -----
+  +--> ?PR?MAIN?LAB_1_D
+
+?PR?MAIN?LAB_1_D               0008H    0001H
+  +--> ?PR?_DELAY?LAB_1_D
+
+
+
+SYMBOL TABLE OF MODULE:  .\Objects\lab1_4clang (LAB_1_D)
+
+  VALUE           TYPE          NAME
+  ----------------------------------
+
+  -------         MODULE        LAB_1_D
+  C:0000H         SYMBOL        _ICE_DUMMY_
+  D:0080H         PUBLIC        P0
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  08:54:06  PAGE 2
+
+
+  C:083BH         PUBLIC        _delay
+  C:0800H         PUBLIC        main
+  D:003EH         PUBLIC        dividend
+  D:0004H         PUBLIC        reg4
+  D:0005H         PUBLIC        reg5
+  -------         PROC          _DELAY
+  D:0006H         SYMBOL        time
+  -------         DO            
+  D:0004H         SYMBOL        i
+  D:0002H         SYMBOL        j
+  -------         ENDDO         
+  C:083BH         LINE#         6
+  C:083BH         LINE#         7
+  C:083BH         LINE#         9
+  C:0845H         LINE#         10
+  C:085AH         LINE#         11
+  -------         ENDPROC       _DELAY
+  -------         PROC          MAIN
+  -------         DO            
+  D:0007H         SYMBOL        divisor
+  D:0001H         SYMBOL        quotient
+  D:0008H         SYMBOL        remainder
+  -------         ENDDO         
+  C:0800H         LINE#         13
+  C:0800H         LINE#         14
+  C:0800H         LINE#         15
+  C:0802H         LINE#         16
+  C:0804H         LINE#         18
+  C:0809H         LINE#         20
+  C:0809H         LINE#         21
+  C:0809H         LINE#         22
+  C:0817H         LINE#         23
+  C:081EH         LINE#         24
+  C:081EH         LINE#         25
+  C:081FH         LINE#         26
+  C:0821H         LINE#         27
+  C:0826H         LINE#         29
+  C:0828H         LINE#         30
+  C:082AH         LINE#         32
+  C:082AH         LINE#         33
+  C:082AH         LINE#         34
+  C:082CH         LINE#         35
+  C:0833H         LINE#         36
+  C:0836H         LINE#         37
+  C:0839H         LINE#         38
+  -------         ENDPROC       MAIN
+  -------         ENDMOD        LAB_1_D
+
+*** WARNING L4: DATA SPACE MEMORY OVERLAP
+    FROM:    0004H
+    TO:      0007H
+
+*** WARNING L4: DATA SPACE MEMORY OVERLAP
+    FROM:    0005H
+    TO:      0007H
+
+******************************************************************************
+BL51 BANKED LINKER/LOCATER V6.22.2.0                                                  10/07/2020  08:54:06  PAGE 3
+
+
+* RESTRICTED VERSION WITH 0800H BYTE CODE SIZE LIMIT; USED: 005BH BYTE ( 4%) *
+******************************************************************************
+
+Program Size: data=14.0 xdata=0 code=106
+LINK/LOCATE RUN COMPLETE.  2 WARNING(S),  0 ERROR(S)

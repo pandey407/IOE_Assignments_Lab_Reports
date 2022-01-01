@@ -1,0 +1,6 @@
+Pandey_1>ping 202.60.1.1
+
+Type escape sequence to abort.
+Sending 5, 100-byte ICMP Echos to 202.60.1.1, timeout is 2 seconds:
+!!!!!
+Success rate is 100 percent (5/5), round-trip min/avg/max = 0/0/1 ms

@@ -1,0 +1,19 @@
+Router>enable
+Router#configure terminal 
+Router(config)#hostname Pandey_0
+
+Pandey_0(config)#line console 0
+Pandey_0(config-line)#password ashlesh
+Pandey_0(config-line)#login
+Pandey_0(config-line)#exit
+
+Pandey_0(config)#enable password 407
+
+Pandey_0(config)#line vty 0 4
+Pandey_0(config-line)#password pandey
+Pandey_0(config-line)#login
+Pandey_0(config-line)#exit
+Pandey_0(config)#exit
+
+Pandey_0#disable
+Pandey_0>

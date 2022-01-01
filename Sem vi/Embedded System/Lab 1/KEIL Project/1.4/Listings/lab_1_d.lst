@@ -1,0 +1,62 @@
+A51 MACRO ASSEMBLER  LAB_1_D                                                              10/07/2020 08:58:15 PAGE     1
+
+
+MACRO ASSEMBLER A51 V8.2.7.0
+OBJECT MODULE PLACED IN .\Objects\lab_1_d.obj
+ASSEMBLER INVOKED BY: C:\Keil_v5\C51\BIN\A51.EXE ..\..\Codes\Assembly\lab_1_d.a SET(SMALL) DEBUG PRINT(.\Listings\lab_1_
+                      d.lst) OBJECT(.\Objects\lab_1_d.obj) EP
+
+LOC  OBJ            LINE     SOURCE
+
+0000                   1                     ORG 00H
+                       2                     
+0000 753EAF            3                     MOV 3EH,#0AFH
+                       4                     
+0003 E53E              5                     MOV A,3EH
+0005 7C00              6                     MOV R4,#0H
+                       7                     
+0007 9412              8     AGAIN:  SUBB A,#12H
+0009 4003              9                     JC DONE
+000B 0C               10                     INC R4
+000C 0107             11                     AJMP AGAIN
+000E 2412             12     DONE:   ADD A,#12H
+0010 FD               13                     MOV R5,A
+                      14                     
+0011 8C80             15     LOOP:   MOV P0,R4
+0013 111B             16                     ACALL DELAY
+0015 8D80             17                     MOV P0,R5
+0017 111B             18                     ACALL DELAY
+0019 0111             19                     AJMP LOOP
+                      20     
+001B 7907             21     DELAY:  MOV R1,#7
+001D 7AFF             22     LOOP1:  MOV R2,#255
+001F 7BFF             23     LOOP2:  MOV R3,#255
+0021 DBFE             24     LOOP3:  DJNZ R3,LOOP3
+0023 DAFA             25                     DJNZ R2,LOOP2
+0025 D9F6             26                     DJNZ R1,LOOP1
+0027 22               27                     RET
+                      28                     
+                      29                     END
+                                             
+A51 MACRO ASSEMBLER  LAB_1_D                                                              10/07/2020 08:58:15 PAGE     2
+
+SYMBOL TABLE LISTING
+------ ----- -------
+
+
+N A M E             T Y P E  V A L U E   ATTRIBUTES
+
+AGAIN. . . . . . .  C ADDR   0007H   A   
+DELAY. . . . . . .  C ADDR   001BH   A   
+DONE . . . . . . .  C ADDR   000EH   A   
+LOOP . . . . . . .  C ADDR   0011H   A   
+LOOP1. . . . . . .  C ADDR   001DH   A   
+LOOP2. . . . . . .  C ADDR   001FH   A   
+LOOP3. . . . . . .  C ADDR   0021H   A   
+P0 . . . . . . . .  D ADDR   0080H   A   
+
+
+REGISTER BANK(S) USED: 0 
+
+
+ASSEMBLY COMPLETE.  0 WARNING(S), 0 ERROR(S)

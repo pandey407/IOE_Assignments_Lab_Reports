@@ -1,0 +1,17 @@
+Router>enable
+Router#configure terminal
+
+Router(config)#interface subinterface_identifier
+Router(config-subif)#encapsulation dot1Q vlan_id
+Router(config-subif)#ip address ip_address subnet_mask
+Router(config-subif)#exit
+
+Router(config)#interface interface_identifier
+Router(config-if)#no shutdown
+Router(config-if)#end
+
+where,
+subinterface_identifier: Subinterface to be encapsulated,
+vlan_id: Tag for the VLAN connected to the subinterface,
+ip_address: IP for sub-interface,
+subnet_mask: Subnet mask for sub-interface.

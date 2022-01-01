@@ -1,0 +1,147 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{mackenzie}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a1efe6c057b5c81f2e1dd4f27f7c9550}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \strng{fullhash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \strng{bibnamehash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \strng{authorbibnamehash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \strng{authornamehash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \strng{authorfullhash}{a1efe6c057b5c81f2e1dd4f27f7c9550}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0137800088}
+      \field{month}{06}
+      \field{title}{The 8051 Microcontroller}
+      \field{year}{2009}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1007/978-1-4419-0606-9_3
+      \endverb
+    \endentry
+    \entry{instruction}{online}{}
+      \name{author}{1}{}{%
+        {{hash=db82d651b8d8279376587d2b9d64f34e}{%
+           family={Matějka},
+           familyi={M\bibinitperiod},
+           given={Štěpán},
+           giveni={Š\bibinitperiod}}}%
+      }
+      \strng{namehash}{db82d651b8d8279376587d2b9d64f34e}
+      \strng{fullhash}{db82d651b8d8279376587d2b9d64f34e}
+      \strng{bibnamehash}{db82d651b8d8279376587d2b9d64f34e}
+      \strng{authorbibnamehash}{db82d651b8d8279376587d2b9d64f34e}
+      \strng{authornamehash}{db82d651b8d8279376587d2b9d64f34e}
+      \strng{authorfullhash}{db82d651b8d8279376587d2b9d64f34e}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 14-09-2020}
+      \field{title}{8051 Instruction Set Summary}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://data.kemt.fei.tuke.sk/AppliedCryptography/_materialy/MCU/it8051.pdf
+      \endverb
+      \verb{url}
+      \verb https://data.kemt.fei.tuke.sk/AppliedCryptography/_materialy/MCU/it8051.pdf
+      \endverb
+    \endentry
+    \entry{javeed}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0b8be255bc8a77f8bcc430b5794bc9d3}{%
+           family={Md},
+           familyi={M\bibinitperiod},
+           given={Javeed},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \strng{fullhash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \strng{bibnamehash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \strng{authorbibnamehash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \strng{authornamehash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \strng{authorfullhash}{0b8be255bc8a77f8bcc430b5794bc9d3}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-93-5359-284-4}
+      \field{month}{03}
+      \field{title}{EMBEDDED C FOR 8051 MICRO CONTROLLER}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{CforMicro}{online}{}
+      \name{author}{4}{}{%
+        {{hash=c649544e897600d686582ce93aeed152}{%
+           family={S.\bibnamedelimi Parab},
+           familyi={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Jiban},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2f708851c3f3242002f69774ce272283}{%
+           family={G.\bibnamedelimi Shelake},
+           familyi={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Vinod},
+           giveni={V\bibinitperiod}}}%
+        {{hash=b4506732a1f52610e8a2753e319adbb9}{%
+           family={K.\bibnamedelimi Kamat},
+           familyi={K\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Rajanish},
+           giveni={R\bibinitperiod}}}%
+        {{hash=44f74e3142bad32659255b66d90860ef}{%
+           family={M.\bibnamedelimi Naik},
+           familyi={M\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Gourish},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac46da2c7396584aaf4eef6637f1e2ec}
+      \strng{fullhash}{26da2ab22e73b7feaf278dcdd2351512}
+      \strng{bibnamehash}{ac46da2c7396584aaf4eef6637f1e2ec}
+      \strng{authorbibnamehash}{ac46da2c7396584aaf4eef6637f1e2ec}
+      \strng{authornamehash}{ac46da2c7396584aaf4eef6637f1e2ec}
+      \strng{authorfullhash}{26da2ab22e73b7feaf278dcdd2351512}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Available Online], Accessed: 17-09-2020}
+      \field{title}{Exploring C for Microcontrollers}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://ee.sharif.edu/~sakhtar3/books/Exploring%20C%20for%20Microcontrollers.pdf
+      \endverb
+      \verb{url}
+      \verb http://ee.sharif.edu/~sakhtar3/books/Exploring%20C%20for%20Microcontrollers.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

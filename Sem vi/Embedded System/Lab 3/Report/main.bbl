@@ -1,0 +1,96 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{sharma2020a}{online}{}
+      \name{author}{1}{}{%
+        {{hash=45122ec44c8c06cdbf4183f8cb938bba}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Mumbai}%
+      }
+      \list{publisher}{1}{%
+        {I.I.T}%
+      }
+      \strng{namehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{fullhash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{bibnamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authorbibnamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authornamehash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \strng{authorfullhash}{45122ec44c8c06cdbf4183f8cb938bba}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available:}
+      \field{title}{8051 Timers}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.ee.iitb.ac.in/course/~dghosh/EE712/8051/Timers.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.ee.iitb.ac.in/course/~dghosh/EE712/8051/Timers.pdf
+      \endverb
+    \endentry
+    \entry{branislav}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b2f27aa9279d61498c8fc9bb4956b98d}{%
+           family={Vuksanovic},
+           familyi={V\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {University of Portsmouth}%
+      }
+      \strng{namehash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \strng{fullhash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \strng{bibnamehash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \strng{authorbibnamehash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \strng{authornamehash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \strng{authorfullhash}{b2f27aa9279d61498c8fc9bb4956b98d}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online]. Available:}
+      \field{title}{Programming Timers on 8051}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.8051projects.net/files/public/1252055169_5507_FT25871_l2_timers_and_counters.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.8051projects.net/files/public/1252055169_5507_FT25871_l2_timers_and_counters.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

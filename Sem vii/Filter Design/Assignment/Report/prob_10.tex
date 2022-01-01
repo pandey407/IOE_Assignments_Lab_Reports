@@ -1,0 +1,62 @@
+\problem{What are the advantages of active filter over passive filter? Design an active filter having a
+pole at 1000 and a zero at 4000 with a dc gain of 4 using non-inverting configuration.}
+The advantages of active filter over a passive filter are compared on the following basis:
+\begin{enumerate}
+    \item Loading effect: Active filters show no loading effect while passive filters have loading effect. A key advantage of no loading effect on active filters is that higher order filters can be obtained by cascading lower order active filters.
+    \item Gain: Unlike passive filters where the gain can be at most 1, active filters can have any value of gain.
+    \item Size and weight: Active filters have smaller size and weight since bulky inductors are not used and hence fabrication on smaller chips is possible.
+\end{enumerate}
+Here,
+\begin{fleqn}[\parindent]
+   \begin{equation*}
+      \begin{split}
+         &\text{Pole location } (p)=1000\\
+         &\text{Zero location } (z)=4000\\
+         &\text{DC gain } (K)=4
+         \end{split}
+      \end{equation*}
+\end{fleqn}
+The transfer function can be written as,
+\begin{equation*}
+    T(s)=K\left(\frac{s+z}{s+p}\right)
+\end{equation*}
+We have, for realization of $T(s)$ using non inverting configuration shown in Figure~\ref{fig:non-inv},
+\begin{equation}
+    1+\frac{Z_{f}}{Z_{in}}=K\left(\frac{s+z}{s+p}\right)
+    \label{eqn:non-inv}
+\end{equation}
+\begin{figure}[H]
+    \centering
+    \fignoninverting
+    \caption{Non-inverting configuration}
+    \label{fig:non-inv}
+\end{figure}
+Substituting values in Equation~\ref{eqn:non-inv}, we get,
+\begin{equation*}
+    \begin{aligned}
+        &1+\frac{Z_f}{Z_{in}}=4\left(\frac{s+4000}{s+1000}\right)\\
+        &\Rightarrow\frac{Z_f}{Z_{in}}=\frac{4s+16000}{s+1000}-1\\
+        &\Rightarrow\frac{Z_f}{Z_{in}}=\frac{4s+16000-s-1000}{s+1000}\\
+        &\Rightarrow\frac{Z_f}{Z_{in}}=\frac{3s+15000}{s+1000}\\
+        &\Rightarrow\frac{Z_f}{Z_{in}}=\ddfrac{3+\frac{15000}{s}}{1+\frac{1000}{s}}\\
+        &\Rightarrow\frac{Z_f}{Z_{in}}=\ddfrac{3+\frac{1}{66.67\times10^{-6}s}}{1+\frac{1}{1\times10^{-3}s}}\\
+    \end{aligned}
+\end{equation*}
+Comparing equivalent terms, we get,
+\begin{equation*}
+    Z_f=3+\frac{1}{66.67\times10^{-6}s} \quad \quad Z_{in}=1+\frac{1}{1\times10^{-3}s}
+\end{equation*}
+This can be realized with,
+\begin{equation*}
+\begin{aligned}
+   & R_f=3\text{ }\Omega\quad  &&C_f=66.67 \text{ }\mu \text{F} \\ 
+    &R_{in}=1\text{ }\Omega \quad &&C_{in}=1\text{ mF}
+\end{aligned}
+\end{equation*}
+\begin{figure}[H]
+    \centering
+    \fignoninvertingsolution
+    \caption{Designed active filter in non-inverting configuration}
+    \label{fig:non-inv-solution}
+\end{figure}
+These elements can be scaled to practically realizable values as per necessity.

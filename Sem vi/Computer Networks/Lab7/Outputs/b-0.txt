@@ -1,0 +1,8 @@
+Ashlesh_4>enable
+Ashlesh_4#config terminal 
+Ashlesh_4(config)#router rip
+Ashlesh_4(config-router)#network 202.60.0.0
+Ashlesh_4(config-router)#network 202.60.6.0
+Ashlesh_4(config-router)#exit
+Ashlesh_4(config)#exit
+Ashlesh_4#

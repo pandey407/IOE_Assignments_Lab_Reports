@@ -1,0 +1,5 @@
+Switch>enable
+Switch#configure terminal
+Switch(config)#interface fa0/21
+Switch(config-if)#switchport mode trunk
+Switch(config-if)#end

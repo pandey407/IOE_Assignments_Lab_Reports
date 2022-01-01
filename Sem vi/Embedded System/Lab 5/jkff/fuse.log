@@ -1,0 +1,28 @@
+Running: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/jkff_tb_isim_beh.exe -prj P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/jkff_tb_beh.prj work.jkff_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/nand_3.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/nand_2.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/dff.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/combinational.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/jkff_st.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/../Codes/jkff_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture dataflow of entity combinational_1 [combinational_1_default]
+Compiling architecture dataflow of entity nand_2 [nand_2_default]
+Compiling architecture dataflow of entity nand_3 [nand_3_default]
+Compiling architecture structural of entity dff [dff_default]
+Compiling architecture structural of entity jkff [jkff_default]
+Compiling architecture behavioral of entity jkff_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 14 VHDL Units
+Built simulation executable P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 5/jkff/jkff_tb_isim_beh.exe
+Fuse Memory Usage: 34672 KB
+Fuse CPU Usage: 593 ms

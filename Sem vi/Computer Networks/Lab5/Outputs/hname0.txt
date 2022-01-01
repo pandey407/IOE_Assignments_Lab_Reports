@@ -1,0 +1,6 @@
+Router>enable
+Router#configure terminal 
+Router(config)#hostname Ashlesh_0
+Ashlesh_0(config)#exit
+Ashlesh_0#disable
+Ashlesh_0>

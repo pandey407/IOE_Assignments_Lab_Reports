@@ -1,0 +1,197 @@
+\problem{Derive the expressions to calculate the order of given filters for lowpass specifications:\\
+a. Butterworth \quad b. Chebyshev \quad c. Inverse Chebyshev\\
+Using your expressions calculate the order for each of the filters for following lowpass
+specifications.}
+\begin{equation*}
+\begin{aligned}
+   & \alpha_{max}=1.5 \text{ dB} \quad && \alpha_{min}=16 \text{ dB}\\
+   & \omega_p=2000 \text{ rad/s} \quad && \omega_s=3000 \text{ rad/s}
+\end{aligned}
+\end{equation*}
+We'll derive the equations for order of different lowpass filters with specifications as,
+\begin{equation*}
+   \begin{cases}
+      \text{Passband}:\omega=0 \text{ to }\omega=\omega_p \text{ and } \alpha=\alpha_{max}\\
+      \text{Stopband}:\omega=\omega_s \text{ to }\infty \text{ and } \alpha=\alpha_{min}\\
+      \text{Transition band}: \omega_p \text{ to } \omega_s\\
+   \end{cases}
+\end{equation*}
+\subsubsection*{a. Butterworth}
+The transfer function of a butterworth filter is given as,
+\begin{equation}
+   |T(j\omega)|^2=\ddfrac{1}{1+\left(\frac{\omega}{\omega_o}\right)^{2n}}
+\end{equation}
+For attenuation $\alpha$, we have,
+\begin{equation}
+   \begin{aligned}[b]
+     &\alpha=10\log{\left(1+\left(\frac{\omega}{\omega_o}\right)^{2n}\right)}\\
+      &\Rightarrow 1+\left(\frac{\omega}{\omega_o}\right)^{2n}=10^{\alpha/10}\\
+      &\therefore \left(\frac{\omega}{\omega_o}\right)^{2n} = 10^{\alpha/10} -1 
+   \end{aligned}
+\end{equation}
+For passband, $\omega=\omega_p$ and $\alpha=\alpha_{max}$, so,
+\begin{equation}
+   \left(\frac{\omega_p}{\omega_o}\right)^{2n} = 10^{\alpha_{max}/10} -1 
+   \label{eqn:butter-max}
+\end{equation}
+For stopband, $\omega=\omega_s$ and $\alpha=\alpha_{min}$, so,
+\begin{equation}
+   \left(\frac{\omega_s}{\omega_o}\right)^{2n} = 10^{\alpha_{min}/10} -1 
+   \label{eqn:butter-min}
+\end{equation}
+Dividing Equation~\ref{eqn:butter-min} by Equation~\ref{eqn:butter-max}, we get,
+\begin{equation}
+   \left(\frac{\omega_s}{\omega_p}\right)^{2n}=\frac{10^{\alpha_{min}/10} -1}{10^{\alpha_{max}/10} -1 }
+   \label{eqn:butter-log}
+\end{equation}
+Taking $\log$ on both sides on Equation~\ref{eqn:butter-log}, we get,
+\begin{equation}
+   \begin{aligned}[b]
+      &\log{\left(\frac{\omega_s}{\omega_p}\right)^{2n}}=\log{\left(\frac{10^{\alpha_{min}/10} -1}{10^{\alpha_{max}/10} -1}\right)}\\
+     &\Rightarrow 2n\log{\left(\frac{\omega_s}{\omega_p}\right)}=\log{\left(\frac{10^{\alpha_{min}/10} -1}{10^{\alpha_{max}/10} -1}\right)}\\
+     &\therefore n=\ddfrac{\log{\left(\frac{10^{\alpha_{min}/10} -1}{10^{\alpha_{max}/10} -1}\right)}}{2\log{\left(\frac{\omega_s}{\omega_p}\right)}}
+   \end{aligned}
+   \label{eqn:butter-final}
+\end{equation}
+Equation~\ref{eqn:butter-final} is the required expression for the order of butterworth filter for lowpass specifications.
+Given,
+\begin{equation*}
+   \begin{aligned}
+      & \alpha_{max}=1.5 \text{ dB} \quad && \alpha_{min}=16 \text{ dB}\\
+      & \omega_p=2000 \text{ rad/s} \quad && \omega_s=3000 \text{ rad/s}
+   \end{aligned}
+\end{equation*}
+Order $n$ can be calculated using Equation~\ref{eqn:butter-final} as,
+\begin{equation*}
+   \begin{aligned}
+      n=\ddfrac{\log{\left(\frac{10^{16/10} -1}{10^{1.5/10} -1}\right)}}{2\log{\left(\frac{3000}{2000}\right)}}=\frac{1.9735}{2\times0.1761}=5.603\approx 6
+   \end{aligned}
+\end{equation*}
+Hence the order of the butterworth lowpass filter for given specifications is $n=6$.
+
+
+\subsubsection*{b. Chebyshev}
+The transfer function of a chebyshev filter is given as,
+\begin{equation}
+   |T(j\omega)|^2=\frac{1}{1+\epsilon^2C_n^2(\omega)}
+\end{equation}
+For attenuation $\alpha$, we have,
+\begin{equation}
+   \begin{aligned}[b]
+     &\alpha=10\log{\left(1+\epsilon^2C_n^2(\omega)\right)}\\
+     &\Rightarrow 1+\epsilon^2C_n^2(\omega)=10^{\alpha/10}\\
+     &\therefore\epsilon^2C_n^2(\omega)=10^{\alpha/10}-1
+   \end{aligned}
+\end{equation}
+For passband, $\alpha=\alpha_{max}$ occurs when $C_n^2(\omega)=1$ so,
+\begin{equation}
+  \begin{aligned}[b]
+   &\epsilon^2=10^{\alpha_{max}/10}-1
+  \end{aligned}
+   \label{eqn:chebyshev-max}
+\end{equation}
+For stopband, $\omega=\omega_s$ and $\alpha=\alpha_{min}$, so,
+\begin{equation}
+   \begin{aligned}[b]
+     & \epsilon^2 C_n^2(\omega_s)=10^{\alpha_{min}/10}-1\\
+     &\Rightarrow \epsilon^2 \left(\cosh \left(n \cosh^{-1}\omega_s\right)\right)^2=10^{\alpha_{min}/10}-1
+   \end{aligned}
+   \label{eqn:chebyshev-min}
+\end{equation}
+Substituting value of $\epsilon^2$ from Equation~\ref{eqn:chebyshev-max} into Equation~\ref{eqn:chebyshev-min}, we get,
+\begin{equation}
+   \begin{aligned}[b]
+      &\left(10^{\alpha_{max}/10}-1\right)\left(\cosh \left(n \cosh^{-1}\omega_s\right)\right)^2=10^{\alpha_{min}/10}-1\\
+      &\Rightarrow \cosh \left(n \cosh^{-1}\omega_s\right)=\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}\\
+      &\Rightarrow n \cosh^{-1}\omega_s=\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}\\
+      &\therefore n =\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1}\omega_s}\\
+   \end{aligned}
+   \label{eqn:chebyshev-f1}
+\end{equation}
+If $\omega_p$ is given, Equation~\ref{eqn:chebyshev-f1} becomes,
+\begin{equation}
+    n =\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1} \left(\frac{\omega_s}{\omega_p}\right)}
+    \label{eqn:chebyshev-f2}
+\end{equation}
+Equation~\ref{eqn:chebyshev-f2} is the required expression for the order of chebyshev filter for lowpass specifications.
+Given,
+\begin{equation*}
+   \begin{aligned}
+      & \alpha_{max}=1.5 \text{ dB} \quad && \alpha_{min}=16 \text{ dB}\\
+      & \omega_p=2000 \text{ rad/s} \quad && \omega_s=3000 \text{ rad/s}
+   \end{aligned}
+\end{equation*}
+Order $n$ can be calculated using Equation~\ref{eqn:chebyshev-f2} as,
+\begin{equation*}
+   \begin{aligned}
+      n=\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1} \left(\frac{\omega_s}{\omega_p}\right)}&=
+      \ddfrac{\cosh^{-1}\sqrt{\frac{10^{16/10}-1}{10^{1.5/10}-1}}}{\cosh^{-1} \left(\frac{3000}{2000}\right)}\\
+      &=\frac{\cosh^{-1}9.699}{\cosh^{-1}1.5}\\
+      &=3.078\approx4
+   \end{aligned}
+\end{equation*}
+Hence the order of the chebyshev lowpass filter for given specifications is $n=4$.
+
+
+
+\subsubsection*{c. Inverse Chebyshev}
+The transfer function of an inverse chebyshev filter is given as,
+\begin{equation}
+   |T(j\omega)|^2=\ddfrac{1}{1+\frac{1}{\epsilon^2C_n^2(1/\omega)}}
+\end{equation}
+For attenuation $\alpha$, we have,
+\begin{equation}
+   \begin{aligned}[b]
+     &\alpha=10\log{\left(1+\frac{1}{\epsilon^2C_n^2(1/\omega)}\right)}\\
+     &\Rightarrow 1+\frac{1}{\epsilon^2C_n^2(1/\omega)}=10^{\alpha/10}\\
+     &\therefore \epsilon^2C_n^2(1/\omega)=\frac{1}{10^{\alpha/10}-1}
+   \end{aligned}
+\end{equation}
+For passband, $\alpha=\alpha_{max}$ and $\omega=\omega_p$ so,
+\begin{equation}
+  \begin{aligned}[b]
+   &\epsilon^2C_n^2(1/\omega_p)=\frac{1}{10^{\alpha_{max}/10}-1}\\
+   & \Rightarrow \epsilon^2\left(\cosh \left(n \cosh^{-1}\left(1/\omega_p\right)\right)\right)^2=\frac{1}{10^{\alpha_{max}/10}-1}
+  \end{aligned}
+   \label{eqn:inv-chebyshev-max}
+\end{equation}
+For stopband, $\alpha=\alpha_{min}$ occurs when $C_n^2(1/\omega)=1$ so,
+\begin{equation}
+   \begin{aligned}[b]
+      &\epsilon^2=\frac{1}{10^{\alpha_{min}/10}-1}
+   \end{aligned}
+   \label{eqn:inv-chebyshev-min}
+\end{equation}
+Substituting value of $\epsilon^2$ from Equation~\ref{eqn:inv-chebyshev-min} into Equation~\ref{eqn:inv-chebyshev-max}, we get,
+\begin{equation}
+   \begin{aligned}[b]
+      & \frac{1}{10^{\alpha_{min}/10}-1}\left(\cosh \left(n \cosh^{-1}\left(1/\omega_p\right)\right)\right)^2=\frac{1}{10^{\alpha_{max}/10}-1}\\
+      & \Rightarrow\cosh \left(n \cosh^{-1}\left(1/\omega_p\right)\right)=\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}\\
+      & \Rightarrow n \cosh^{-1}\left(1/\omega_p\right)=\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}\\
+      & \Rightarrow n =\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1}\left(1/\omega_p\right)}
+   \end{aligned}
+   \label{eqn:inv-chebyshev-f1}
+\end{equation}
+If $\omega_s$ is given, Equation~\ref{eqn:inv-chebyshev-f1} becomes,
+\begin{equation}
+    n =\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1} \left(\frac{\omega_s}{\omega_p}\right)}
+    \label{eqn:inv-chebyshev-f2}
+\end{equation}
+Equation~\ref{eqn:inv-chebyshev-f2} is the required expression for the order of inverse chebyshev filter for lowpass specifications.
+Given,
+\begin{equation*}
+   \begin{aligned}
+      & \alpha_{max}=1.5 \text{ dB} \quad && \alpha_{min}=16 \text{ dB}\\
+      & \omega_p=2000 \text{ rad/s} \quad && \omega_s=3000 \text{ rad/s}
+   \end{aligned}
+\end{equation*}
+Order $n$ can be calculated using Equation~\ref{eqn:inv-chebyshev-f2} as,
+\begin{equation*}
+   \begin{aligned}
+      n=\ddfrac{\cosh^{-1}\sqrt{\frac{10^{\alpha_{min}/10}-1}{10^{\alpha_{max}/10}-1}}}{\cosh^{-1} \left(\frac{\omega_s}{\omega_p}\right)}&=
+      \ddfrac{\cosh^{-1}\sqrt{\frac{10^{16/10}-1}{10^{1.5/10}-1}}}{\cosh^{-1} \left(\frac{3000}{2000}\right)}\\
+      &=\frac{\cosh^{-1}9.699}{\cosh^{-1}1.5}
+      =3.078\approx4
+   \end{aligned}
+\end{equation*}
+Hence the order of the inverse chebyshev lowpass filter for given specifications is $n=4$.

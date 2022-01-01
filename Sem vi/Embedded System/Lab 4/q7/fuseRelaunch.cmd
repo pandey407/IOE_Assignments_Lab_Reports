@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q7/q7_add_sub_tb_isim_beh.exe" -prj "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q7/q7_add_sub_tb_beh.prj" "work.q7_add_sub_tb" 

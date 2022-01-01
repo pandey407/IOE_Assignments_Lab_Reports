@@ -1,0 +1,14 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {List of Tables}}{ii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Exercises}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}{Desgin of higher order active filters}}{1}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Cascade of biqaud circuits}{2}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Active simulation of passive filters}{3}{subsubsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.2}{Derivation of transfer function of Sallen-Key biquad circuit}}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}{Design of fourth order butterworth filter}}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}{Design of lowpass filter at required half power frequency}}{10}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}{Design of highpass filter using RC-CR transformation}}{12}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}{Design of highpass filter at required half power frequency}}{14}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Discussion and Conclusion}{16}{section.3}%
+\contentsfinish 

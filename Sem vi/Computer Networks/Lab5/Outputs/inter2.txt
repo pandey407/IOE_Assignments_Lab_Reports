@@ -1,0 +1,27 @@
+User Access Verification
+
+Password: 
+
+Pandey_2>enable
+Password: 
+Pandey_2#config terminal 
+
+Pandey_2(config)#interface gigabitEthernet 0/0
+Pandey_2(config-if)#ip address 202.60.3.2 255.255.255.0
+Pandey_2(config-if)#no shutdown
+Pandey_2(config-if)#exit
+
+
+Pandey_2(config)#interface gigabitEthernet 0/1
+Pandey_2(config-if)#ip address 202.60.5.1 255.255.255.0
+Pandey_2(config-if)#no shutdown
+Pandey_2(config-if)#exit
+
+Pandey_2(config)#interface gigabitEthernet 0/2
+Pandey_2(config-if)#ip address 202.60.4.1 255.255.255.0
+Pandey_2(config-if)#no shutdown
+Pandey_2(config-if)#exit
+
+Pandey_2(config)#exit
+Pandey_2#disable
+Pandey_2>

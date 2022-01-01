@@ -1,0 +1,26 @@
+Running: D:\Xilinx\14.5\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3_tb_isim_beh.exe -prj P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3_tb_beh.prj work.q3_tb 
+ISim P.58f (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/../Codes/q3_or.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/../Codes/q3_not.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/../Codes/q3_and.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/../Codes/q3_st.vhd" into library work
+Parsing VHDL file "P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/../Codes/q3_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavorial of entity q3_not [q3_not_default]
+Compiling architecture behavorial of entity q3_and [q3_and_default]
+Compiling architecture behavorial of entity q3_or [q3_or_default]
+Compiling architecture structural of entity q3 [q3_default]
+Compiling architecture behavioral of entity q3_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 12 VHDL Units
+Built simulation executable P:/Assignments_Lab_Reports_LaTeX/Embedded System/Lab 4/q3/q3_tb_isim_beh.exe
+Fuse Memory Usage: 34632 KB
+Fuse CPU Usage: 546 ms

@@ -1,0 +1,2 @@
+Router(config)# hostname Ashlesh
+Ashlesh(config)#

@@ -1,0 +1,12 @@
+Ashlesh_0>show ip route
+Gateway of last resort is not set
+
+     200.100.50.0/24 is variably subnetted, 8 subnets, 5 masks
+C       200.100.50.0/26 is directly connected, GigabitEthernet0/1
+L       200.100.50.1/32 is directly connected, GigabitEthernet0/1
+O       200.100.50.64/27 [110/2] via 200.100.50.146, 01:01:43, GigabitEthernet0/0
+O       200.100.50.96/27 [110/3] via 200.100.50.146, 00:51:55, GigabitEthernet0/0
+O       200.100.50.128/28 [110/2] via 200.100.50.62, 01:20:35, GigabitEthernet0/1
+C       200.100.50.144/30 is directly connected, GigabitEthernet0/0
+L       200.100.50.145/32 is directly connected, GigabitEthernet0/0
+O       200.100.50.148/30 [110/2] via 200.100.50.146, 00:51:55, GigabitEthernet0/0

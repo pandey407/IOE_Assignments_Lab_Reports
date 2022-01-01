@@ -1,0 +1,10 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Single server versus divided components\relax }}{2}{figure.caption.9}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Basic setup with a single \acrshort {ec2} instance\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Faster content delivery\relax }}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Separate database sevice\relax }}{9}{figure.caption.12}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Redundancy across availability zones\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Resource utilization as per demand\relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Placing instances in private subnets\relax }}{12}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Caching for faster response time\relax }}{13}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Shared file system\relax }}{14}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Final architecture for library e-Portal\relax }}{15}{figure.caption.18}%

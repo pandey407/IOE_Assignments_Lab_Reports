@@ -1,0 +1,5 @@
+vhdl work "../Codes/q4_or.vhd"
+vhdl work "../Codes/q4_not.vhd"
+vhdl work "../Codes/q4_and.vhd"
+vhdl work "../Codes/q4sop_st.vhd"
+vhdl work "../Codes/q4sop_tb.vhd"

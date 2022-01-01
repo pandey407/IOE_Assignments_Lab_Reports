@@ -1,0 +1,8 @@
+Switch#configure terminal
+Switch(config)#interface interface_identifier
+Switch(config-if)#switchport access vlan vlan_id
+Switch(config-if)#exit
+
+where,
+interface_identifier: Interface to be assigned to a VLAN,
+vlan_id: Tag for the VLAN the interface is beign assigned to.

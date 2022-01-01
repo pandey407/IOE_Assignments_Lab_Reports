@@ -1,0 +1,163 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{rathod2020a}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9959aa27faa4c393895cd5cb90bb6ea7}{%
+           family={Rathod},
+           familyi={R\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=2e64f6bbe431d33b85eddbbad9244df8}{%
+           family={Nayak},
+           familyi={N\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=7ed81799bd7ca43841f528263ff64b5a}{%
+           family={Vishwakarma},
+           familyi={V\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0f1f764571a5805e7176a7486629a662}{%
+           family={Luste},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d307b2d94efc830b63477bfed4b9abfb}
+      \strng{fullhash}{1471b97c41ced8f20cecc621d7ecac01}
+      \strng{bibnamehash}{d307b2d94efc830b63477bfed4b9abfb}
+      \strng{authorbibnamehash}{d307b2d94efc830b63477bfed4b9abfb}
+      \strng{authornamehash}{d307b2d94efc830b63477bfed4b9abfb}
+      \strng{authorfullhash}{1471b97c41ced8f20cecc621d7ecac01}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IJERT}
+      \field{note}{[Online]. Available:}
+      \field{title}{Interfacing Multi-Digit 7-Segment with 8051 Microcontroller}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.irjet.net/archives/V7/i3/IRJET-V7I3997.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.irjet.net/archives/V7/i3/IRJET-V7I3997.pdf
+      \endverb
+    \endentry
+    \entry{choudhary2020a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dac507ebdb2ac0581eca9c7ad44b5468}{%
+           family={Choudhary},
+           familyi={C\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \strng{fullhash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \strng{bibnamehash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \strng{authorbibnamehash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \strng{authornamehash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \strng{authorfullhash}{dac507ebdb2ac0581eca9c7ad44b5468}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engineers Garage}
+      \field{note}{[Online]. Available:}
+      \field{title}{Seven segment multiplexing using 8051 microcontroller (AT89C51)- (Part 4/45)"}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.engineersgarage.com/8051-microcontroller/seven-segment-multiplexing-using-8051-microcontroller-at89c51-part-4-45/.
+      \endverb
+      \verb{url}
+      \verb https://www.engineersgarage.com/8051-microcontroller/seven-segment-multiplexing-using-8051-microcontroller-at89c51-part-4-45/.
+      \endverb
+    \endentry
+    \entry{instru2020a}{article}{}
+      \list{language}{1}{%
+        {en}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Instructables}
+      \field{note}{[Online]. Available:}
+      \field{title}{How to Count From 0 to 99 Using 8051 Microcontroller With 7 Segment Display"}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.instructables.com/How-to-Count-From-0-to-99-Using-8051-Microcontroll/.
+      \endverb
+      \verb{url}
+      \verb https://www.instructables.com/How-to-Count-From-0-to-99-Using-8051-Microcontroll/.
+      \endverb
+    \endentry
+    \entry{akanle}{article}{}
+      \name{author}{2}{}{%
+        {{hash=1794550c99719b3382adfcbab42b075e}{%
+           family={Akanle},
+           familyi={A\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e72c65f29a1f32af3e4b6eee1f810abc}{%
+           family={Oguntosin},
+           familyi={O\bibinitperiod},
+           given={Victoria},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{2604567de8802fa2871477fb6187da36}
+      \strng{fullhash}{2604567de8802fa2871477fb6187da36}
+      \strng{bibnamehash}{2604567de8802fa2871477fb6187da36}
+      \strng{authorbibnamehash}{2604567de8802fa2871477fb6187da36}
+      \strng{authornamehash}{2604567de8802fa2871477fb6187da36}
+      \strng{authorfullhash}{2604567de8802fa2871477fb6187da36}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{08}
+      \field{title}{A digital indicator system with 7-segment display}
+      \field{volume}{1299}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{012139}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/1299/1/012139
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

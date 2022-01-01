@@ -1,0 +1,26 @@
+\contentsline {section}{\bfseries {List of Figures}}{iii}{section*.2}%
+\contentsline {section}{\bfseries {List of Abbreviations}}{iv}{section*.4}%
+\contentsline {section}{\numberline {1}Cloud Computing}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Types of Cloud Computing Model}{1}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Infrastructure as a Service (IaaS)}{1}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Platform as a Service (PaaS)}{1}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.3}Software as a Service (SaaS)}{2}{subsubsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.2}Benefits of Cloud Computing}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Variable Expense}{2}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}On-demand Scaling of Resources}{2}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Increased Speed of Deployment}{2}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Economies of Scale}{3}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}Global Reach without much Hassle}{3}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}No Maintenance Cost}{3}{subsubsection.1.2.6}%
+\contentsline {section}{\numberline {2}AWS Global Infrastructure}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}AWS Regions}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Availability Zones}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Data Centers}{4}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Amazon Elastic Compute Cloud (EC2)}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Choose an Amazon Machine Image}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Choose an Instance Type}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Configure Instance Details}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Add Storage}{8}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Add Tags}{9}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Configure Security Groups}{10}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Review and Launch}{11}{subsection.3.7}%

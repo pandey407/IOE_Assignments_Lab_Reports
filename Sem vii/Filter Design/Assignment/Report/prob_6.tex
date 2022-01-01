@@ -1,0 +1,106 @@
+\problem{What is frequency transformation? What is its importance in filter design? How can you
+obtain a bandstop filter from a given lowpass normalized filter? Explain with a suitable
+example.}
+Frequency transformation is a tool used to rearrange points on the j-axis to achieve different filtering characteristics. It is extensively used for obtaining different filters (highpass, bandpass, bandstop) from lowpass filter designed at normalized condition. Since direct design of such filter characteristics is not an easy task, filters are initially prototyped in lowpass nature at normalized frequency of $1$ rad/s. But in reality we require filters with different characteristics with different bandwidth, and central frequency which is where frequency transformation is essential.
+\\
+For a normalized lowpass filter with pass band $0<\omega<\omega_p$, where $\omega_p=1$ and network function is noted as $H_{LP}(\tilde{s})$. For frequency transformation to bandstop filter with bandwidth $B$, we use the relation,
+$$
+\tilde{s}=\frac{Bs}{s^2+{\Omega_0}^2}
+$$
+The bandstop network function can then be written as,
+\begin{equation}
+   H_{BS}(s)=H_{LP}\left(\frac{Bs}{s^2+{\Omega_0}^2}\right)
+   \label{eqn:bs}
+\end{equation}
+Here, $B=\Omega_2-\Omega_1$ and ${\Omega_0}^2=\Omega_2\Omega_1$.\\
+The transformation for the different circuit elements can be calculated as:
+\subsubsection*{Inductor}
+The impedance of an inductor in the normalized lowpass filter is given as, 
+$$
+|Z_L|_{LP}=\tilde{s}.L_{i}
+$$
+For easier solution, using the relation for admittance of inductor as,
+$$
+|Y_L|_{LP}=\frac{1}{\tilde{s}.L_{i}}
+$$
+After transformation, the admittance becomes,
+\begin{equation}
+   \begin{aligned}[b]
+      |Y_L|_{BS}&=\frac{1}{\left(\frac{Bs}{s^2+{\Omega_0}^2}\right)L_{i}} =\frac{s^2+{\Omega_0}^2}{BsL_i}\\
+       \therefore |Y_L|_{BS}&=s\left(\frac{1}{BL_i}\right)+\frac{1}{s\left(\frac{BL_i}{{\Omega_0}^2}\right)}
+   \end{aligned}
+   \label{eqn:l_bs}
+\end{equation}
+
+\subsubsection*{Capacitor}
+The impedance of a capacitor in the normalized lowpass filter is given as, 
+$$
+|Z_C|_{LP}=\frac{1}{\tilde{s}.C_{i}}
+$$
+After transformation, the impedance becomes,
+\begin{equation}
+   \begin{aligned}[b]
+      |Z_C|_{BS}&=\frac{1}{\left(\frac{Bs}{s^2+{\Omega_0}^2}\right)C_{i}}=\frac{s^2+{\Omega_0}^2}{BsC_i}\\
+      \therefore |Z_C|_{BS}&=s\left(\frac{1}{BC_i}\right)+\frac{1}{s\left(\frac{BC_i}{{\Omega_0}^2}\right)}
+   \end{aligned}
+   \label{eqn:c_bs}
+\end{equation}
+
+\begin{figure}[H]
+   \centering
+   \lpbs
+   \caption{Lowpass to bandstop transformation}
+   \label{fig:lpbs}
+\end{figure}
+
+\subsubsection*{Example}
+\begin{figure}[H]
+    \centering
+    \figquestion
+    \caption{Normalized lowpass filter}
+    \label{fig:figd}
+ \end{figure}
+Here,
+\begin{fleqn}[\parindent]
+   \begin{equation*}
+      \begin{split}
+         &\text{Half power frequency of given normalized filter } (\omega)=1 \text{ rad/s}\\
+         &\text{Required center frequency for bandstop filter }(\Omega_0)=40000 \text{ rad/s} \\
+         &\text{Required bandwidth for bandstop filter }(B)=4000 \text{ rad/s}
+         \end{split}
+      \end{equation*}
+\end{fleqn}
+While using frequency transformation to design a bandstop filter from a normalized lowpass filter, the inductor in the original circuit is converted to a parallel LC combination and a capacitor is converted to a series LC combination. The relation is given in Equation~\ref{eqn:l_bs} and \ref{eqn:c_bs}.
+\begin{fleqn}[\parindent]
+   \begin{equation*}
+      \begin{split}
+         &\text{Inductance in given normalized filter } (L_{LP})=2 \text{ H}\\
+         &\text{Capacitance in given normalized filter } (C_{LP})=1 \text{ F}\\
+         &\text{For mapped elements in bandstop filter arising due to inductance in normalized filter:}\\
+         &\text{Parallel inductance }(L_{BS}^p)=\frac{BL_{LP}}{{\Omega_0}^2}=\frac{4000\times2}{40000^2}=5\times10^{-6}\text{ H}\\
+         &\text{Parallel capacitance }(C_{BS}^p)=\frac{1}{BL_{LP}}=\frac{1}{4000\times2}=1.25\times10^{-4}\text{ F}\\
+         &\text{For mapped elements in bandstop filter arising due to capacitance in normalized filter:}\\
+         &\text{Series inductance }(L_{BS}^s)=\frac{1}{BC_{LP}}=\frac{1}{4000\times1}=2.5\times10^{-4}\text{ H}\\
+         &\text{Series capacitance }(C_{BS}^s)=\frac{BC_{LP}}{{\Omega_0}^2}=\frac{4000\times1}{40000^2}=2.5\times10^{-6}\text{ F}\\
+         \end{split}
+      \end{equation*}
+\end{fleqn}
+Since the elemental values are not practically realizable, using the impedance scaling factor $K_m=4000$, we get,
+\begin{fleqn}[\parindent]
+   \begin{equation*}
+      \begin{split}
+         &R_{new}=K_m.R_{old}=4000\times1=4000 \text{ }\Omega=4\text{ K}\Omega\\
+         &L_{new}^s=K_m.L_{old}^s=4000\times2.5\times10^{-4}=5\times10^{-3} \text{ H}=1\text{ H}\\
+         &L_{new}^p=K_m.L_{old}^p=4000\times5\times10^{-6}=5\times10^{-3} \text{ H}=20\text{ mH}\\
+         &C_{new}^s=\frac{C_{old}^s}{K_m}=\frac{2.5\times10^{-6}}{4000}=0.625 \text{ nF}\\
+         &C_{new}^p=\frac{C_{old}^p}{K_m}=\frac{1.25\times10^{-4}}{4000}=31.25 \text{ nF}\\
+      \end{split}
+      \end{equation*}
+\end{fleqn}
+
+\begin{figure}[H]
+   \centering
+   \figd
+   \caption{Final circuit for bandstop filter designed from normalized lowpass filter}
+   \label{fig:figd}
+\end{figure}

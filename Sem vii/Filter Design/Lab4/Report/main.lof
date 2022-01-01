@@ -1,0 +1,18 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Tow Thomas biquad circuit\relax }}{1}{figure.caption.8}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Lossy integrator (summer)\relax }}{2}{figure.caption.11}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Inverting integration\relax }}{2}{figure.caption.13}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Unit gain inverter\relax }}{3}{figure.caption.15}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Four op-amp biquad circuit for bandstop and allpass filters\relax }}{7}{figure.caption.23}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Four op-amp biquad circuit for highpass filter\relax }}{9}{figure.caption.26}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Proteus circuit for Tow Thomas biquad circuit with output taken at $V_2$\relax }}{11}{figure.caption.30}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Observation for lowpass filter designed in Problem 2\relax }}{11}{figure.caption.31}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Proteus circuit for Tow Thomas biquad circuit with output taken at $V_{O1}$\relax }}{12}{figure.caption.34}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Observation for bandpass filter designed in Problem 2\relax }}{12}{figure.caption.35}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Proteus circuit for highpass filter using 4-opamp biquad circuit\relax }}{14}{figure.caption.39}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Observation for highpass filter designed in Problem 2\relax }}{14}{figure.caption.40}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Proteus circuit for bandstop filter using 4-opamp biquad circuit\relax }}{16}{figure.caption.43}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Observation for bandstop filter designed in Problem 2\relax }}{16}{figure.caption.44}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Proteus circuit for allpass filter using 4-opamp biquad circuit\relax }}{18}{figure.caption.47}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Observation for allpass filter designed in Problem 2\relax }}{18}{figure.caption.48}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Proteus circuit for lowpass filter using Tow Thomas biquad circuit\relax }}{20}{figure.caption.51}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Observation for lowpass filter designed in Problem 3\relax }}{20}{figure.caption.52}%

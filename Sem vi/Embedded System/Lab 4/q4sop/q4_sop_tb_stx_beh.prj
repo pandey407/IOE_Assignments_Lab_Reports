@@ -1,0 +1,2 @@
+vhdl isim_temp "../Codes/q4_sop_df.vhd"
+vhdl isim_temp "../Codes/q4_sop_tb.vhd"
