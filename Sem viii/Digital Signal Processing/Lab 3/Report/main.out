@@ -1,0 +1,14 @@
+\BOOKMARK [1][-]{section*.2}{List\040of\040Figures}{}% 1
+\BOOKMARK [1][-]{section*.3}{Listings}{}% 2
+\BOOKMARK [1][-]{section.1}{Objectives}{}% 3
+\BOOKMARK [1][-]{section.2}{Functions\040Used}{}% 4
+\BOOKMARK [1][-]{section.3}{Packages\040Used}{}% 5
+\BOOKMARK [1][-]{section.4}{Background\040Theory}{}% 6
+\BOOKMARK [1][-]{section.5}{Lab\040Exercises}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Convolution\040using\040basic\040convolution\040formula}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Convolution\040using\040conv\040and\040convolve\040function}{section.5}% 9
+\BOOKMARK [3][-]{subsubsection.5.2.1}{DT\040convolution}{subsection.5.2}% 10
+\BOOKMARK [3][-]{subsubsection.5.2.2}{CT\040convolution}{subsection.5.2}% 11
+\BOOKMARK [2][-]{subsection.5.3}{LTI\040system\040response\040in\040DT}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.4}{LTI\040system\040response\040in\040CT\040with\040impulse\040response\040as\040sinc\040functions}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Discussion\040and\040Conclusion}{}% 14

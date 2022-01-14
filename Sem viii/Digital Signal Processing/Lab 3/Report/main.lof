@@ -1,0 +1,12 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Example convolution using graphical, tabular and conv\relax }}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Observation of convolution using basic convolution formula (Matlab)\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Observation of convolution using basic convolution formula (Python)\relax }}{6}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Observation of DT convolution using conv function (Matlab)\relax }}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Observation of DT convolution using convolve function (Python)\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Observation of CT convolution using conv function (Matlab)\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Observation of CT convolution using convolve function (Python)\relax }}{11}{figure.caption.14}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Observation of response of LTI system (Matlab)\relax }}{12}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Observation of response of LTI system (Python)\relax }}{13}{figure.caption.17}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Observation of response of LTI system with sinc function as impulse response (Matlab)\relax }}{14}{figure.caption.19}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Observation of response of LTI system with sinc function as impulse response (Python)\relax }}{15}{figure.caption.20}%
+\contentsfinish 

@@ -1,0 +1,15 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {Listings}}{iii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Functions Used}{1}{section.2}%
+\contentsline {section}{\numberline {3}Packages Used}{1}{section.3}%
+\contentsline {section}{\numberline {4}Background Theory}{1}{section.4}%
+\contentsline {section}{\numberline {5}Lab Exercises}{4}{section.5}%
+\contentsline {subsection}{\numberline {5.1}{Convolution using basic convolution formula}}{4}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}{Convolution using \texttt {conv} and \texttt {convolve} function}}{6}{subsection.5.2}%
+\contentsline {subsubsection}{\numberline {5.2.1}{DT convolution}}{7}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.2}{CT convolution}}{9}{subsubsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.3}{LTI system response in DT}}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}{LTI system response in CT with impulse response as \texttt {sinc} functions}}{13}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Discussion and Conclusion}{16}{section.6}%
+\contentsfinish 
