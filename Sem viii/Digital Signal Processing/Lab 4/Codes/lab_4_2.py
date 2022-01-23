@@ -2,16 +2,18 @@ import numpy as np
 from scipy import signal
 from plot_zplane import zplane
 from matplotlib import pyplot as plt
-b = np.array([0.0018,0.0073,0.011,0.007,0.008])
-a = np.array([1,-3.0544,3.8291,-2.2925,0.55072])
+b = np.array([0.0018,0.0073,0.011,
+              0.007,0.008])
+a = np.array([1,-3.0544,3.8291,
+              -2.2925,0.55072])
 zeros, poles, gain= signal.tf2zpk(b,a)
 sos=signal.tf2sos(b,a)
+print(sos)
 z1,p1,g1=signal.tf2zpk(sos[0,0:3],sos[0,3:6])
 z2,p2,g2=signal.tf2zpk(sos[1,0:3],sos[1,3:6])
-print(z1, p1)
 w, h = signal.freqz(b, a)
-fig=plt.figure(constrained_layout=True,figsize=(11.69,8.27))
-(subfig1, subfig2)=fig.subfigures(1,2,wspace=0.05,width_ratios=[1,4])
+fig=plt.figure(constrained_layout=True)
+(subfig1, subfig2)=fig.subfigures(1,2,width_ratios=[1,3])
 subfig1.suptitle('Pole and zero plot')
 (axleft1,axleft2,axleft3)=subfig1.subplots(3,1)
 zplane(zeros,poles,axleft1)
@@ -32,6 +34,7 @@ axRight.grid()
 axRight.set_title('Linearized form')
 axRight.set_ylabel('Gain')
 axRight.set_xlabel('Normalized Frequency ($\\times \pi$ rad/sample)')
-fig.suptitle('Frequency Response of the system\n(PUL074BEX007)',fontsize='xx-large')
+fig.suptitle('Zero-pole plot and frequency response of the system\n(PUL074BEX007)')
+plt.savefig('../Figures/lab_4_2_py.pdf', format='pdf')
 plt.show()
 

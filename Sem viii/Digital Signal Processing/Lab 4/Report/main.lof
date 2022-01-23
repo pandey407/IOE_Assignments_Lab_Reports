@@ -1,0 +1,9 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces LTI system with transfer function $H(z)$\relax }}{1}{figure.caption.4}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Observation of frequency response and linearized form for given coefficients\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Observation of zero-pole plot and linearized form for given transfer function\relax }}{7}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces LTI system represented as cascade of two SOS\relax }}{8}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Signal flow graph to represent the cascade structure in Figure\nobreakspace {}\ref {fig:cascade_sos_system}\relax }}{8}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Observation of zero-pole plot for given SOS cascade\relax }}{10}{figure.caption.13}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Direct form I to represent the determined transfer function in Equation\nobreakspace {}\ref {eqn:tf-eqn}\relax }}{11}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Direct form II to represent the determined transfer function in Equation\nobreakspace {}\ref {eqn:tf-eqn}\relax }}{12}{figure.caption.16}%
+\contentsfinish 

@@ -1,0 +1,14 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {Listings}}{iii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Linear Time Invariant (LTI) System}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Linear Systems Transformation}{2}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Lab Exercises}{3}{section.3}%
+\contentsline {subsection}{\numberline {3.1}{LTI system with given coefficients}}{3}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}{LTI system with given transfer function}}{5}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}{Cascade representation from determined SOS}}{8}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}{LTI system with given SOS cascade}}{8}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}{Direct form representations from determined transfer function}}{10}{subsubsection.3.3.1}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{12}{section.4}%
+\contentsfinish 
