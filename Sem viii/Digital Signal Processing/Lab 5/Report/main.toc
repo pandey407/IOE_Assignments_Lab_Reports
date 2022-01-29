@@ -1,0 +1,20 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {Listings}}{iii}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Impulse Invariance Method}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Bi-Linear Transformation}{1}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Functions Used}{2}{section.3}%
+\contentsline {section}{\numberline {4}Lab Exercises}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}{Conversion of analog to digital filter}}{4}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}{Using impulse invariance method}}{5}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}{Using bilinear transformation}}{8}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}{Comparison between the two methods}}{10}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.2}{Design of IIR digital lowpass filter for given specifications}}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}{Butterworth approximation}}{13}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}{Chebyshev I approximation}}{13}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}{Chebyshev II approximation}}{14}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}{Elliptic approximation}}{15}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}{Comparison between the filter types}}{16}{subsubsection.4.2.5}%
+\contentsline {section}{\numberline {5}Discussion and Conclusion}{17}{section.5}%
+\contentsfinish 
