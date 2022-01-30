@@ -157,55 +157,74 @@ Similarly, from the observations in Figure~\ref{fig:5_1_e} and Figure~\ref{fig:5
 \pagebreak
 \mysubsub{Butterworth approximation}
 \begin{verbatim}
-    >>lab_5_b         
+    >> lab_5_b
     Enter the filter type: butterworth
     Order of butterworth filter=9
+    Numerator coeff=
+        0.0004    0.0032    0.0129    0.0302    0.0453    
+        0.0453    0.0302    0.0129    0.0032    0.0004
+
+    Denominator coeff=
+        1.0000   -2.7996    4.4582   -4.5412    3.2404   
+        -1.6330    0.5780   -0.1370    0.0197   -0.0013
 \end{verbatim}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{../Figures/butterworth.eps}
+    \includegraphics[width=0.8\linewidth]{../Figures/butterworth.eps}
     \caption{Plot for frequency response of butterworth filter}
     \label{fig:5_2_butter}
 \end{figure}
 From the observations in Figure~\ref{fig:5_2_butter}, the nature of the filter is lowpass. There is no ripple in the passband or the stopband of the filter, i.e. it is maximally flat. The cut-off frequency is 0.34 ($\times \pi$ rad/sample), which coincides with the plot at $-3$ dB. The order of the filter is 9.  
-\pagebreak
 \mysubsub{Chebyshev I approximation}
 \begin{verbatim}
     >> lab_5_b
     Enter the filter type: chebyshev I
     Order of chebyshev I filter=5
+    Numerator coeff=
+        0.0026    0.0132    0.0264    0.0264    0.0132    0.0026
+
+    Denominator coeff=
+        1.0000   -2.9775    4.2932   -3.5124    1.6145   -0.3334
 \end{verbatim}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{../Figures/chebyshev I.eps}
+    \includegraphics[width=0.8\linewidth]{../Figures/chebyshev I.eps}
     \caption{Plot for frequency response of chebyshev I filter}
     \label{fig:5_2_cheby1}
 \end{figure}
 From the observations in Figure~\ref{fig:5_2_cheby1}, the nature of the filter is lowpass. There is visible ripple in the passband but no ripple is seen in the stopband of the filter. The passband ripple is $\leq0.5$ dB. The cut-off frequency is 0.30 ($\times \pi$ rad/sample), which is actually the passband edge in normalized form. The order of the filter is 5.  
-\pagebreak
 \mysubsub{Chebyshev II approximation}
 \begin{verbatim}
     >> lab_5_b
     Enter the filter type: chebyshev II
     Order of chebyshev II filter=5
+    Numerator coeff=
+        0.0524    0.1086    0.1661    0.1661    0.1086    0.0524
+
+    Denominator coeff=
+        1.0000   -1.2056    1.2136   -0.4984    0.1583   -0.0136
 \end{verbatim}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{../Figures/chebyshev II.eps}
+    \includegraphics[width=0.8\linewidth]{../Figures/chebyshev II.eps}
     \caption{Plot for frequency response of chebyshev II filter}
     \label{fig:5_2_cheby2}
 \end{figure}
 From the observations in Figure~\ref{fig:5_2_cheby2}, the nature of the filter is lowpass. There is visible ripple in the stopband but no ripple is seen in the passband of the filter. The stopband attenuation is $\geq40$ dB. The cut-off frequency is 0.50 ($\times \pi$ rad/sample), which is actually the stopband edge in normalized form. The order of the filter is 5. 
-\pagebreak
 \mysubsub{Elliptic approximation}
 \begin{verbatim}
     >> lab_5_b
     Enter the filter type: elliptic
     Order of elliptic filter=4
+    Numerator coeff=
+        0.0389    0.0363    0.0665    0.0363    0.0389
+    
+    Denominator coeff=
+        1.0000   -2.1444    2.3658   -1.3250    0.3332
 \end{verbatim}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.9\linewidth]{../Figures/elliptic.eps}
+    \includegraphics[width=0.8\linewidth]{../Figures/elliptic.eps}
     \caption{Plot for frequency response of elliptic filter}
     \label{fig:5_2_ellip}
 \end{figure}

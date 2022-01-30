@@ -13,8 +13,8 @@ phase = angle(H_digital) * 180 / pi;
 fprintf('Order of %s filter=%d\n',selected_filter,N)
 disp('Numerator coeff=')
 disp(b_digital)
-disp('Denominator coeff=')
-disp(a_digital)
+disp('Numerator coeff=')
+disp(0b_digital)
 l = tiledlayout(2, 2);
 nexttile([1 1])
 plot(w_digital / pi, magdB, 'LineWidth', 1.5)
