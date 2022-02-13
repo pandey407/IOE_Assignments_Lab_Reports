@@ -1,0 +1,14 @@
+\contentsline {section}{\bfseries {List of Figures}}{ii}{section*.2}%
+\contentsline {section}{\bfseries {Listings}}{iv}{section*.3}%
+\contentsline {section}{\numberline {1}Objectives}{1}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{1}{section.2}%
+\contentsline {section}{\numberline {3}Lab Exercises}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}{Design of FIR filter with window functions}}{2}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}{Hamming Window (M=31)}}{5}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}{Hanning Window}}{7}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}{Blackman Window}}{9}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}{Bartlett Window}}{11}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}{Comparison of effects of different windowing functions on frequency response of FIR filter}}{21}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}{Design of FIR filter using Kaiser and Hamming with given specifications}}{21}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Discussion and Conclusion}{26}{section.4}%
+\contentsfinish 

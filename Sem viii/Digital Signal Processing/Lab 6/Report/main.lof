@@ -1,0 +1,29 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Plot for 31-point symmetric hamming window\relax }}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Plot for frequency response for hamming window function with M=31\relax }}{5}{figure.caption.7}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Plot for frequency response for FIR filter using hamming window for M=31\relax }}{6}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Plot for 31-point symmetric hanning window\relax }}{7}{figure.caption.10}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Plot for frequency response for hanning window function with M=31\relax }}{7}{figure.caption.11}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Plot for frequency response for FIR filter using hanning window for M=31\relax }}{8}{figure.caption.12}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Plot for 31-point symmetric blackman window\relax }}{9}{figure.caption.14}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Plot for frequency response for blackman window function with M=31\relax }}{9}{figure.caption.15}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Plot for frequency response for FIR filter using blackman window for M=31\relax }}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Plot for 31-point symmetric bartlett window\relax }}{11}{figure.caption.18}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Plot for frequency response for bartlett window function with M=31\relax }}{11}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Plot for frequency response for FIR filter using bartlett window for M=31\relax }}{12}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Plot for 61-point symmetric hamming window\relax }}{13}{figure.caption.21}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Plot for frequency response for hamming window function with M=61\relax }}{13}{figure.caption.22}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Plot for frequency response for FIR filter using hamming window for M=61\relax }}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Plot for 61-point symmetric hanning window\relax }}{15}{figure.caption.24}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Plot for frequency response for hanning window function with M=61\relax }}{15}{figure.caption.25}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Plot for frequency response for FIR filter using hanning window for M=61\relax }}{16}{figure.caption.26}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Plot for 61-point symmetric blackman window\relax }}{17}{figure.caption.27}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Plot for frequency response for blackman window function with M=61\relax }}{17}{figure.caption.28}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Plot for frequency response for FIR filter using blackman window for M=61\relax }}{18}{figure.caption.29}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Plot for 61-point symmetric bartlett window\relax }}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Plot for frequency response for bartlett window function with M=61\relax }}{19}{figure.caption.31}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Plot for frequency response for FIR filter using bartlett window for M=61\relax }}{20}{figure.caption.32}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Plot for frequency response for FIR filter using kaiser window for M=47\relax }}{24}{figure.caption.36}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Plot for impulse response for FIR filter using kaiser window for M=47\relax }}{24}{figure.caption.37}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Plot for frequency response for FIR filter using hamming window for M=61\relax }}{25}{figure.caption.38}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Plot for impulse response for FIR filter using hamming window for M=61\relax }}{26}{figure.caption.39}%
+\contentsfinish 
