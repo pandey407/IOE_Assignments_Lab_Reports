@@ -1,0 +1,123 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (MiKTeX 20.6.29) (preloaded format=xelatex 2021.12.31)  6 MAR 2022 23:11
+entering extended mode
+**./Lab_2.tex
+(Lab_2.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-06-18>
+("D:\LaTeX installed\MikTex\tex/latex/labDecorator\lab_sheet.cls"
+("D:\LaTeX installed\MikTex\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("D:\LaTeX installed\MikTex\tex/latex/base\size12.clo"
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+Document Class: lab_sheet 2020/09/24 My custom Lab Sheet class
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+("D:\LaTeX installed\MikTex\tex/latex/fancyhdr\extramarks.sty"
+Package: extramarks 2019/01/31 v3.10 Extra marks for LaTeX
+\@temptokenb=\toks15
+)
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrextend.sty"
+Package: scrextend 2020/07/22 v3.31 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrkbase.sty"
+Package: scrkbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrbase.sty"
+Package: scrbase 2020/07/22 v3.31 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("D:\LaTeX installed\MikTex\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("D:\LaTeX installed\MikTex\tex/latex/koma-script\scrlfile.sty"
+Package: scrlfile 2020/07/22 v3.31 KOMA-Script package (loading files)
+))))
+("D:\LaTeX installed\MikTex\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count171
+\float@exts=\toks17
+\float@box=\box45
+\@float@everytoks=\toks18
+\@floatcapt=\box46
+)
+("D:\LaTeX installed\MikTex\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\LaTeX installed\MikTex\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\LaTeX installed\MikTex\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("D:\LaTeX installed\MikTex\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+
+("D:\LaTeX installed\MikTex\tex/latex/graphics-def\xetex.def"
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
+("D:\LaTeX installed\MikTex\tex/latex/listings\listings.sty"
+\lst@mode=\count172
+\lst@gtempboxa=\box47
+\lst@token=\toks19
+\lst@length=\count173
+\lst@currlwidth=\dimen137
+\lst@column=\count174
+\lst@pos=\count175
+\lst@lostspace=\dimen138
+\lst@width=\dimen139
+\lst@newlines=\count176
+\lst@lineno=\count177
+\lst@maxwidth=\dimen140
+
+("D:\LaTeX installed\MikTex\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count178
+\lst@skipnumbers=\count179
+\lst@framebox=\box48
+)
+("D:\LaTeX installed\MikTex\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+("D:\LaTeX installed\MikTex\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count180
+\mult@box=\box49
+\multicol@leftmargin=\dimen141
+\c@unbalance=\count181
+\c@collectmore=\count182
+\doublecol@number=\count183
+\multicoltol

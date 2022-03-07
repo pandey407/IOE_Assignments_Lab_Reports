@@ -1,0 +1,36 @@
+\newcommand*{\widthFigure}[3][0.8]{
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=#1\linewidth]{../Figures/#2.pdf}
+    \label{fig:#2}
+    \caption{#3}
+    \end{figure}
+}
+
+\newcommand{\simulationPlotsLabI}[1]{
+    \foreach \i in {11, 12}{
+        \widthFigure{lab_1_#1_\i_mag}{Magnitude (dB) of S\textsubscript{\i} vs Frequency}
+        \widthFigure{lab_1_#1_\i_phase}{Phase (deg) of S\textsubscript{\i} vs Frequency}
+    }
+
+    \widthFigure[0.6]{lab_1_#1_11_smith}{Smith chart of S\textsubscript{11} vs Frequency}
+    \widthFigure[0.6]{lab_1_#1_12_smith}{Smith chart of S\textsubscript{12} vs Frequency}
+    \widthFigure[0.9]{lab_1_#1_list}{List plot of S-parameters vs Frequency}
+    \widthFigure{lab_1_#1_impedance}{Magnitude (dB) of impedance vs Frequency}
+}
+
+\newcommand{\simulationPlotsLabII}[1]{
+    \widthFigure{lab_2_#1_mag}{Magnitude of S-parameters vs Frequency}
+    \widthFigure{lab_2_#1_phase}{Phase (deg) of S-parameters vs Frequency}
+    \widthFigure[0.9]{lab_2_#1_list}{List plot of S-parameters vs Frequency}
+}
+
+
+% ALTERNATIVE (FOR ALL INDIVIDUAL FIGURES)
+% \newcommand{\simulationPlotsLabII}[1]{
+%     \foreach \i in {11, 12, 21, 22}{
+%         \widthFigure{lab_2_#1_\i_mag}{Magnitude (dB) of S\textsubscript{\i} vs Frequency}
+%         \widthFigure{lab_2_#1_\i_phase}{Phase (deg) of S\textsubscript{\i} vs Frequency}
+%     }
+%     \widthFigure[0.9]{lab_2_#1_list}{List plot of S-parameters vs Frequency}
+% }

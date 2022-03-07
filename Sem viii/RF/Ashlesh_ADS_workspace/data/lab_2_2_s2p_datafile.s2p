@@ -1,0 +1,5 @@
+# 	GHz	 S 	RI	 R	 50
+! freq	realS11	imagS11	realS21	imagS21	realS12	imagS12	realS22	imagS22
+! freq	0.3		0.7		0		0.6		0		0.6		0.3		-0.7
+1.0	0.3		0.7		0		0.6		0		0.6		0.3		-0.7
+2.0	0.3		0.7		0		0.6		0		0.6		0.3		-0.7
